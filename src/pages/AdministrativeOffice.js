@@ -7,6 +7,8 @@ import raviSG from './images/Ravi - Ravi Ghalimath.jpg';
 import keerthiK from './images/Keerthi Kumar.jpeg';
 import GRamesh from './images/Ramesh - Ramesh G.png';
 import amoldiwate from './images/amoldiwate.jpg';
+import Arun from "../Img/Arun_Verma.jpg";
+import Avinash from "../Img/IMG_20240115_154113 - AVINASH B.jpg";
 import RameshKumar from './images/RameshKumar.png';
 import { motion } from 'framer-motion';
 export default function AdministrativeOffice() {
@@ -22,7 +24,7 @@ export default function AdministrativeOffice() {
                         <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "50px" }}>
                             {/* <div style={{ display: "flex", gap: "30px", flexWrap: "wrap" }} > */}
                             <div className='adm-r'>
-                                <img style={{ height: "100px", width: "100px", borderRadius: "50%" }} alt='loading'></img>
+                                <img style={{ height: "100px", width: "100px", borderRadius: "50%" }} src={Arun} alt='loading'></img>
                                 <div style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: "1.5px" }}>
                                     <div style={{ color: "#4338ca", display: "flex", justifyContent: "center", flexWrap: "wrap", gap: "5px", fontWeight: "600" }}>    <p className='name-e' style={{}}>Mr. Arun Verma</p><p className='name-e'></p></div>
                                     <p className='des' style={{ marginTop: "5px" }}>Assistant Registrar</p>
@@ -31,7 +33,7 @@ export default function AdministrativeOffice() {
                                 </div>
                             </div>
                             <div className='adm-r-r-r'>
-                                <img alt='loading' style={{ height: "100px", width: "100px", borderRadius: "50%" }}></img>
+                                <img alt='loading' style={{ height: "100px", width: "100px", borderRadius: "50%" }} src ={Avinash}></img>
                                 <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "1.5px" }}>
                                     <p className='name' style={{ color: "#4338ca" }}>Mr. Avinash B</p>
                                     <p className='des' style={{ marginTop: "5px" }}>Junior Assistant</p>

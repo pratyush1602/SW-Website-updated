@@ -7,6 +7,9 @@ import GopalSP from './images/Gopal Parashari Pic - Gopal Sharan Parashari.jpg';
 import prahladJoshi from './images/Dr. Prahlad Joshi.jpg';
 import vcprakash from './images/vs prakash.jpg';
 import { NavLink } from 'react-router-dom';
+import Ramesh from '../Img/DSC_4417 copy - Surya Prakash Ramesh.jpg';
+import Rajesh from "../Img/rajesh.jpg"
+import Surya from "../Img/IMG_5363 - Surya Pratap Singh.jpeg";
 import sudheer from './images/sudheer_bio - Prof. Sudheer.jpg';
 import ramjee from './images/r1.jpeg';
 import { motion } from 'framer-motion';
@@ -26,7 +29,7 @@ export default function SWDivisionOffice() {
                         </div>
                         <div className='dean'>
                             <div className='first-info' style={{ display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column", padding: "15px" }}>
-                                <img alt='loading'></img>
+                                <img src={Ramesh} alt='loading'></img>
                                 <a href='#'> <p className='name' style={{ color: "#4338ca" }}>Prof. Surya Prakash Ramesh</p></a>
                                 <p className='designation' style={{ color: "rgb(51, 72, 120)", fontWeight: "600", marginBottom: "70px" }}>Associate Dean, Socio-cultural activities</p>
                                 <p></p>
@@ -52,7 +55,7 @@ export default function SWDivisionOffice() {
                     <div className='wrapper' style={{ display: "flex", gap: "20px", alignItems: "center", justifyContent: 'center', flexWrap: "wrap" }}>
                         <div className='dean'>
                             <div className='first-info' style={{ display: "flex", alignItems: "center", flexDirection: "column", padding: "15px" }}>
-                                <img alt='loading'></img>
+                                <img src ={Surya} alt='loading'></img>
                                 <p style={{ color: "#4338ca" }} className='name'>Prof. Surya Pratap Singh</p>
                                 <p style={{ color: "rgb(51, 72, 120)", fontWeight: "600" }} className='designation'>Associate Dean - Hostel and Mess</p>
                                 <p style={{ textAlign: "center" }} className='about-des'>Hostel management & Maintenance; Allocation, Rules &amp; Regulation, Chair Of HWC;</p>
@@ -60,7 +63,7 @@ export default function SWDivisionOffice() {
                         </div>
                         <div className='dean'>
                             <div className='first-info' style={{ display: "flex", alignItems: "center", flexDirection: "column", padding: "15px" }}>
-                                <img alt='loading'></img>
+                                <img src ={Rajesh} alt='loading'></img>
                                 <p style={{ color: "#4338ca" }} className='name'>Prof. Rajeshwara Rao M</p>
                                 <p style={{ color: "rgb(51, 72, 120)", fontWeight: "600" }} className='designation'>Associate Dean - Gymkhana and Sports</p>
                                 <p style={{ textAlign: "center" }} className='about-des'>Students Technical &amp; Culture Boards; Gymkhana Facilities; Sports, NSS,NSO,NCC</p>

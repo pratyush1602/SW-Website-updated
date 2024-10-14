@@ -10,6 +10,10 @@ import raviM from './images/RaviM.jpg';
 import raviSG from './images/Ravi - Ravi Ghalimath.jpg';
 import keerthiK from './images/Keerthi Kumar.jpeg';
 import GRamesh from './images/Ramesh - Ramesh G.png';
+import Ramesh from "../Img/DSC_4417 copy - Surya Prakash Ramesh.jpg"
+import Arun from "../Img/Arun_Verma.jpg";
+import Rajesh from "../Img/rajesh.jpg";
+import Avinash from "../Img/IMG_20240115_154113 - AVINASH B.jpg";
 import amoldiwate from './images/amoldiwate.jpg';
 import vcprakash from './images/vs prakash.jpg';
 import ridhima from './images/Ridhima_Photo - Ridhima Tewari.jpg'
@@ -62,7 +66,7 @@ export default function StudentDivisionOrgano() {
 
                     <motion.div variants={{ hidden: { opacity: 0, y: 75 }, visible: { opacity: "1", y: 0 } }} initial="hidden" animate="visible" transition={{ duration: 0.5, delay: 0.25 }} className='associate-deans'>
                         <div className='associate-dean-1'>
-                            <img alt='loading'></img>
+                            <img src ={Rajesh} alt='loading'></img>
                             <div className='name-fs'>  <div style={{ display: "flex", gap: "3px", justifyContent: "center", flexWrap: "wrap" }}><p><span style={{ fontWeight: "600", color: "#4338ca" }}>Prof. Rajeshwara</span></p></div>  </div>
                             <p><span style={{ fontWeight: "600", color: "#4338ca" }}>Rao</span></p>
                             <div className='des-fs'>    <div style={{ display: "flex", gap: "3px", justifyContent: "center", flexWrap: "wrap" }}> <h4 style={{ fontWeight: "600", color: "#313132" }} className='designation'>Associate Dean</h4>
@@ -72,7 +76,7 @@ export default function StudentDivisionOrgano() {
                             </div></div>
                         </div>
                         <div className='associate-dean-1'>
-                            <img alt='loading'></img>
+                            <img src ={Ramesh} alt='loading'></img>
                             <div className='name-fs'>    <div style={{ display: "flex", gap: "3px", justifyContent: "center", flexWrap: "wrap" }}> <p><span style={{ fontWeight: "600", color: "#4338ca" }}>Prof. Suryaprakash</span></p>
                                 <p><span style={{ fontWeight: "600", color: "#4338ca" }}>Ramesh</span></p></div></div>
                             <div className='des-fs'>    <div style={{ display: "flex", gap: "3px", justifyContent: "center", flexWrap: "wrap" }}> <h4 style={{ fontWeight: "600", color: "#313132" }} className='designation'>Associate Dean</h4>
@@ -116,7 +120,7 @@ export default function StudentDivisionOrgano() {
                         </div>
                         <div className='information' style={{ marginTop: "30px", display: "flex", gap: "50px", flexWrap: "wrap" }}>
                             <div style={{ display: "flex", alignItems: "center", gap: "20px" }}>
-                                <img style={{ height: "100px", width: "100px", borderRadius: "50%" }} alt='loading'></img>
+                                <img style={{ height: "100px", width: "100px", borderRadius: "50%" }} src ={Arun} alt='loading'></img>
                                 <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "1.5px" }}>
                                     <div className='name-fs'>    <p style={{ fontWeight: "600", color: "#4338ca" }} className='name'>Arun Verma</p></div>
                                     <div className='designation-fs' style={{ display: "flex", gap: "3px", justifyContent: "center", flexWrap: "wrap" }}><h4 style={{ marginTop: "5px" }}>Assistant Registrar</h4>
@@ -138,7 +142,7 @@ export default function StudentDivisionOrgano() {
                                 </div>
                             </div>
                             <div style={{ display: "flex", alignItems: "center", gap: "20px" }}>
-                                <img alt='loading' style={{ height: "100px", width: "100px", borderRadius: "50%" }}></img>
+                                <img alt='loading' style={{ height: "100px", width: "100px", borderRadius: "50%" }} src ={Avinash}></img>
                                 <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "1.5px" }}>
                                     <div className='name-fs'>    <p style={{ fontWeight: "600", color: "#4338ca" }}>Avinash B</p></div>
                                     <h4 style={{ marginTop: "5px" }}>Junior Assistant</h4>
