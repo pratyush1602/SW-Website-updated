@@ -133,11 +133,11 @@ ul li::before {
     object-position: center;
 }
 
-.footer {
+/* .footer {
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
-}
+} */
 .home-h p{
     font-size: 1.5rem;
 }
@@ -302,7 +302,7 @@ width: 100vw;
         margin-left: 0px;
         margin-right: 0px;
     }
-
+/* 
     .footer {
         gap: 10px;
         width: 100px;
@@ -310,7 +310,7 @@ width: 100vw;
         flex-direction: column;
         flex-wrap: wrap;
 
-    }
+    } */
 
     .location-sw {
         display: flex;

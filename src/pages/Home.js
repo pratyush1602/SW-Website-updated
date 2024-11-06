@@ -146,7 +146,7 @@ function Home() {
 
       </div>
       <div className='f-b-I'>
-        <FootBar />
+        {/* <FootBar /> */}
       </div>
     </motion.div>
   );

@@ -4,6 +4,7 @@ import { FaBars } from "react-icons/fa";
 import { RxCross2 } from "react-icons/rx";
 import { NavLink } from 'react-router-dom';
 import logo from '../pages/images/logo-iit.jpg'
+import Footer from './footer';
 
 const Sidebar = ({ children }) => {
     const [isOpen, setIsOpen] = useState(false);
@@ -13,7 +14,7 @@ const Sidebar = ({ children }) => {
             <div className="container">
                 {/* SIDEBAR */}
                 <div className="sidebar" >
-                    <div className='sidebar-wrap'>
+                    {/* <div className='sidebar-wrap'> */}
                         <div className='logo'>
                         <NavLink to="/" className="logo-in">
                         <img src={logo} alt='logo' style={{ height: "40px", width: "40px", borderRadius: "50%", cursor: "pointer" }}></img>
@@ -90,7 +91,7 @@ const Sidebar = ({ children }) => {
 
                             </ul>
                         </div>
-                    </div>
+                    {/* </div> */}
                 </div>
                 <div className="oldsidebar" style={{ display: isOpen ? "block" : "" }}>
                     
@@ -196,21 +197,23 @@ const Sidebar = ({ children }) => {
 
                     </div>
 
-                    <div className='footer-bar'>
-                        {/* style={{ height: "30px" }} */}
-                        {/* <div className='footbar-1'> <p>You are in Internet Website.</p></div> */}
+                    {/* <div className='footer-bar'>
+                        style={{ height: "30px" }}
+                        <div className='footbar-1'> <p>You are in Internet Website.</p></div>
                         <div className='footbar-1'> <p>For IIT Dharwad faculty and students</p></div>
                         <div className='footbar-1'>
                             <p><a href='https://intranet.iitdh.ac.in:444/' style={{ color: "#0969DA" }}>click here</a> to access intranet.</p>
-                            {/* <div><Count/></div> */}
+                            <div><Count/></div>
                         </div>
 
 
-                        {/* , marginRight: "25%" */}
-                    </div>
-
+                        , marginRight: "25%"
+                    </div> */}
+                    {/* <div className='footer-bar'> */}
+                    {/* </div> */}
                 </div>
             </div>
+                        <Footer/>
         </>
     );
 };
