@@ -1,8 +1,10 @@
 .wellness-section {
-    margin-top: 110px;
-    margin-left: 280px;
+  
+
+     margin-top: 110px;
+    /* margin-left: 280px; */
+    margin-bottom: 10%; 
     color: #333;
-    margin-bottom: 10%;
 }
 
 .wellness-centre {

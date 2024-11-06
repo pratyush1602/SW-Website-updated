@@ -1,10 +1,23 @@
 .hostels-main {
-    margin-left: 290px;
+    /* margin-left: 290px;
     margin-right: 20px;
-    margin-top: 90px;
+    margin-top: 90px;*/
     margin-bottom: 10%;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
     animation: fade-up 0.5s;
+}
+.hostels {
+    width: 50%;
+    /* margin-top: 20px;
+    padding: 30px 50px;
+    border-radius: 10px;
+    background-color: #fae8ff;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; */
 }
 @keyframes fade-down {
     0%{

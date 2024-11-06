@@ -1,7 +1,13 @@
 .home {
     color: #4c5157;
-    margin-top: 100px;
+    /* margin-top: 100px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
     margin-bottom: 15%;
+    
 }
 .f-b-I{
     display: none;
@@ -89,8 +95,7 @@
 }
 
 .home {
-    margin-left: 290px;
-
+    /* margin-left: 290px; */
 
 }
 

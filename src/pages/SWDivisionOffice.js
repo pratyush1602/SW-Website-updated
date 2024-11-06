@@ -27,32 +27,32 @@ export default function SWDivisionOffice() {
                                 <p className='about-des' style={{ textAlign: "center" }}>The Dean of<span style={{ fontWeight: "600" }}> Student Welfare</span>  is responsible to the Director on all maters related to Students Welfare. The Dean is assisted by a team of Associate Deans & Officers.</p>
                             </div>
                         </div>
-                        <div className='dean'>
-                            <div className='first-info' style={{ display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column", padding: "15px" }}>
-                                <img src={Ramesh} alt='loading'></img>
-                                <a href='#'> <p className='name' style={{ color: "#4338ca" }}>Prof. Surya Prakash Ramesh</p></a>
-                                <p className='designation' style={{ color: "rgb(51, 72, 120)", fontWeight: "600", marginBottom: "70px" }}>Associate Dean, Socio-cultural activities</p>
-                                <p></p>
-                            </div>
-                        </div>
                         {/* width: "280px",height:"150px", */}
-                        <div className='dean'>
+                        {/* <div className='dean'>
                             <div className='first-info' style={{ display: "flex", flex: "1", alignItems: "center", flexDirection: "column", padding: "15px" }}>
-                                <div className='sw-organo-division' style={{ display: "flex", flexDirection: "column", padding: "30px", gap: "5px", alignItems: "center", justifyContent: "center" }}>
-                                    <NavLink to="/sw_division_organogram" className="link-class" style={{ backgroundColor: "#f5f5f5", padding: "30px", width: "50px", height: "50px", borderRadius: "50%", textAlign: "center", border: "1px solid #a21caf" }} >
-                                        <p style={{ color: "#a21caf", marginTop: "10px", fontSize: "1.1rem", fontWeight: "600" }} className='click-here'>Click</p>
+                            <div className='sw-organo-division' style={{ display: "flex", flexDirection: "column", padding: "30px", gap: "5px", alignItems: "center", justifyContent: "center" }}>
+                            <NavLink to="/sw_division_organogram" className="link-class" style={{ backgroundColor: "#f5f5f5", padding: "30px", width: "50px", height: "50px", borderRadius: "50%", textAlign: "center", border: "1px solid #a21caf" }} >
+                            <p style={{ color: "#a21caf", marginTop: "10px", fontSize: "1.1rem", fontWeight: "600" }} className='click-here'>Click</p>
                                         <p style={{ color: "#a21caf", marginTop: "10px", fontSize: "1.1rem", fontWeight: "600" }} className='click-here'>Here</p>
                                     </NavLink>
                                     <p className='designation' style={{ fontSize: "20px", display: "flex", justifyContent: "center", flexWrap: "wrap", gap: "3px" }}>Student Welfare <p>Team</p></p>
                                     <p style={{ fontSize: "1.5rem", fontWeight: "600", marginBottom: "20px" }} className='designation'> Organogram</p>
-
-                                </div>
-                            </div>
-                        </div>
+                                    
+                                    </div>
+                                    </div>
+                                    </div> */}
 
                     </div>
 
                     <div className='wrapper' style={{ display: "flex", gap: "20px", alignItems: "center", justifyContent: 'center', flexWrap: "wrap" }}>
+                                    <div className='dean'>
+                                        <div className='first-info' style={{ display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column", padding: "15px" }}>
+                                            <img src={Ramesh} alt='loading'></img>
+                                            <a href='#'> <p className='name' style={{ color: "#4338ca" }}>Prof. Surya Prakash Ramesh</p></a>
+                                            <p className='designation' style={{ color: "rgb(51, 72, 120)", fontWeight: "600", marginBottom: "70px" }}>Associate Dean, Socio-cultural activities</p>
+                                            <p></p>
+                                        </div>
+                                    </div>
                         <div className='dean'>
                             <div className='first-info' style={{ display: "flex", alignItems: "center", flexDirection: "column", padding: "15px" }}>
                                 <img src ={Surya} alt='loading'></img>
@@ -69,8 +69,6 @@ export default function SWDivisionOffice() {
                                 <p style={{ textAlign: "center" }} className='about-des'>Students Technical &amp; Culture Boards; Gymkhana Facilities; Sports, NSS,NSO,NCC</p>
                             </div>
                         </div>
-                    </div>
-                    <div className='wrapper' style={{ display: "flex", gap: "20px", alignItems: "center", justifyContent: 'center', flexWrap: "wrap" }}>
                         <div className='dean'>
                             <div className='first-info' style={{ display: "flex", alignItems: "center", flexDirection: "column", padding: "15px" }}>
                                 <img src={ridhima} alt='loading'></img>
@@ -79,9 +77,11 @@ export default function SWDivisionOffice() {
                                 <p style={{ textAlign: "center" }} className='about-des'>Wellness Centre, Health and Counselling facilities, Female Students Welfare.</p>
                             </div>
                         </div>
-
                     </div>
-                    <div className='wrapper' style={{ display: "flex", gap: "20px", alignItems: "center", justifyContent: 'center', flexWrap: "wrap" }}>
+                    {/* <div className='wrapper' style={{ display: "flex", gap: "20px", alignItems: "center", justifyContent: 'center', flexWrap: "wrap" }}>
+
+                    </div> */}
+                    {/* <div className='wrapper' style={{ display: "flex", gap: "20px", alignItems: "center", justifyContent: 'center', flexWrap: "wrap" }}> */}
                         {/* <div className='dean'>
                             <div className='first-info' style={{ display: "flex", gap: "10px", alignItems: "center", flexDirection: "column", padding: "15px" }}>
                                 <img src={prahladJoshi} alt='loading'></img>
@@ -96,7 +96,7 @@ export default function SWDivisionOffice() {
                                 <p style={{ color: "rgb(51, 72, 120)", fontWeight: "600" }} className='about-des'>Students Welfare, Advisor</p>
                             </div>
                         </div> */}
-                    </div>
+                    {/* </div> */}
                 </div>
             </motion.div>
         </>

@@ -1,10 +1,16 @@
 .student-campus-life{
-    margin-left: 290px;
+    /* margin-left: 290px;
     margin-top: 110px;
     margin-bottom: 10%;
     
         padding-left: 30px;
-        padding-right: 20px;
+        padding-right: 20px; */
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
         animation: fade-up 0.5s;
 }
 @keyframes fade-down {
@@ -29,9 +35,9 @@
   }
 
 .student-campus-life{
-    margin-left: 290px;
+    /* margin-left: 290px; */
     background-color: white;
-    margin-top: 120px;
+    /* margin-top: 120px; */
     margin-bottom: 10%;
 }
 .hostel-imagee{

@@ -6,6 +6,8 @@ import raviM from './images/RaviM.jpg';
 import raviSG from './images/Ravi - Ravi Ghalimath.jpg';
 import keerthiK from './images/Keerthi Kumar.jpeg';
 import GRamesh from './images/Ramesh - Ramesh G.png';
+// import ramjee from './images/ramjee.png';
+import Ramjee from './images/Ramjee_Image.jpeg';
 import amoldiwate from './images/amoldiwate.jpg';
 import Arun from "../Img/Arun_Verma.jpg";
 import Avinash from "../Img/IMG_20240115_154113 - AVINASH B.jpg";
@@ -21,19 +23,57 @@ export default function AdministrativeOffice() {
                     </div>
 
                     <div style={{ margin: "auto", display: "flex", margin: "50px 0px", flexWrap: "wrap" }} className='admin-office-main'>
-                        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "50px" }}>
+                        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: "50px" }}>
                             {/* <div style={{ display: "flex", gap: "30px", flexWrap: "wrap" }} > */}
+                            <div>
+                                
+                            </div>
                             <div className='adm-r'>
-                                <img style={{ height: "100px", width: "100px", borderRadius: "50%" }} src={Arun} alt='loading'></img>
+                                <div className='img-wrap'>
+                                <img src={Ramjee} alt='loading' style={{ height: "100px", width: "100px", borderRadius: "50%",backgroundColor:"white" }}></img>
+                                </div>
+                                <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "1.5px" }}>
+                                    <div style={{ display: "flex", gap: "5px", flexWrap: "wrap" }}><p className='name' style={{ color: "#4338ca", display: "flex", justifyContent: "center", flexWrap: "wrap" }}>Prof. Ramjee Repaka <p></p></p><p className='name' style={{ color: "#4338ca" }}> Reddy</p></div>
+                                    <p className='des' style={{ marginTop: "5px" }}>Dean Student Welfare</p>
+                                </div>
+                            </div>
+                            <div>
+
+                            </div>
+                            <div>
+
+                            </div>
+                            <div className='adm-r'>
+                                <div className='img-wrap'>
+                                <img style={{ height: "100px", width: "100px", borderRadius: "50%"}} src={Arun} alt='loading'></img>
+                                </div>
+                                    
                                 <div style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: "1.5px" }}>
-                                    <div style={{ color: "#4338ca", display: "flex", justifyContent: "center", flexWrap: "wrap", gap: "5px", fontWeight: "600" }}>    <p className='name-e' style={{}}>Mr. Arun Verma</p><p className='name-e'></p></div>
+                                    <div style={{ color: "#4338ca", display: "flex", justifyContent: "center", flexWrap: "wrap", gap: "3px", fontWeight: "600" }}>    <p className='name-e' style={{}}>Mr. Arun Verma</p><p className='name-e'></p></div>
                                     <p className='des' style={{ marginTop: "5px" }}>Assistant Registrar</p>
                                     <p className='des' style={{ marginTop: "5px" }}>Student Welfare</p>
 
                                 </div>
                             </div>
+                            <div>
+
+                            </div>
+                            <div className='adm-r-r'>
+                                <div className="img-wrap">
+                                    <img src={amoldiwate} style={{ height: "100px", width: "100px", borderRadius: "50%" }} alt='loading'></img>
+                                </div>
+                                <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "1.5px" }}>
+                                    <p className='name' style={{ color: "#4338ca" }}>Mr. Amol Diwate</p>
+                                    <div style={{ marginTop: "5px", display: "flex", justifyContent: "center", flexWrap: "wrap", gap: "3px" }}> <p className='des'>Junior</p><p className='des'>Superintendent</p></div>
+                                    {/* <p className='des' style={{ marginTop: "5px" }}>Member Of HCU</p> */}
+
+                                </div>
+                            </div>
                             <div className='adm-r-r-r'>
+                                <div className="img-wrap">
+
                                 <img alt='loading' style={{ height: "100px", width: "100px", borderRadius: "50%" }} src ={Avinash}></img>
+                                </div>
                                 <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "1.5px" }}>
                                     <p className='name' style={{ color: "#4338ca" }}>Mr. Avinash B</p>
                                     <p className='des' style={{ marginTop: "5px" }}>Junior Assistant</p>
@@ -43,16 +83,10 @@ export default function AdministrativeOffice() {
                             {/* </div> */}
                             {/* <div style={{ display: "flex", gap: "30px", flexWrap: "wrap" }} > */}
                             <div className='adm-r-r'>
-                                <img src={amoldiwate} style={{ height: "100px", width: "100px", borderRadius: "50%" }} alt='loading'></img>
-                                <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "1.5px" }}>
-                                    <p className='name' style={{ color: "#4338ca" }}>Mr. Amol Diwate</p>
-                                    <div style={{ marginTop: "5px", display: "flex", justifyContent: "center", flexWrap: "wrap", gap: "3px" }}> <p className='des'>Junior</p><p className='des'>Superintendent</p></div>
-                                    {/* <p className='des' style={{ marginTop: "5px" }}>Member Of HCU</p> */}
+                                <div className="img-wrap">
 
-                                </div>
-                            </div>
-                            <div className='adm-r-r'>
                                 <img src={janardanReddy} alt='loading' style={{ height: "100px", width: "100px", borderRadius: "50%" }}></img>
+                                </div>
                                 <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "1.5px" }}>
                                     <div style={{ display: "flex", gap: "5px", flexWrap: "wrap" }}><p className='name' style={{ color: "#4338ca", display: "flex", justifyContent: "center", flexWrap: "wrap" }}>Mr. Janardhan Reddy S <p></p></p><p className='name' style={{ color: "#4338ca" }}> Reddy</p></div>
                                     <p className='des' style={{ marginTop: "5px" }}>Junior Assistant</p>
@@ -60,8 +94,10 @@ export default function AdministrativeOffice() {
                                         <p className='des'>Member Of HCU</p> */}
                                 </div>
                             </div>
+          
+                            
                             {/* </div> */}
-                            <div style={{ display: "flex", flexWrap: "wrap", gap: "30px" }}>
+                            {/* <div style={{ display: "flex", flexWrap: "wrap", gap: "30px" }}> */}
                                 {/* 
                                 <div className='adm-r-r'>
                                     <img src={raviM} alt='loading' style={{ height: "100px", width: "100px", borderRadius: "50%" }}></img>
@@ -71,7 +107,7 @@ export default function AdministrativeOffice() {
                                         <p className='des'>Member Of HCU</p>
                                     </div>
                                 </div> */}
-                            </div>
+                            {/* </div> */}
                         </div>
 
                         {/* <div style={{ display: "flex", gap: "25px", flexDirection: "column" }} className='officers'>

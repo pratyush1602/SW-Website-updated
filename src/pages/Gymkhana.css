@@ -1,7 +1,12 @@
 .main-gymkhana {
-    margin-left: 290px;
-    margin-right: 20px;
-    margin-top: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+    /* margin-left: 290px; */
+    /* margin-right: 20px; */
     margin-bottom: 10%;
     animation: fade-up 0.5s;
 }

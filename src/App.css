@@ -10,91 +10,171 @@
   --mainheading:2.5rem;
   --subweight:600;
 }
-html, body {overflow-x: hidden !important;width: 100vw !important;}
+html, body {overflow-x: hidden !important;width: 100vw !important;
+  /* font-family: "Roboto Condensed"; */
+  font-family:"Itim",serif;
+
+}
 *{
   margin:0;
   padding:0;
+  font-family:"Itim",serif;
+
   text-decoration: none;
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
   scroll-behavior: smooth;
+  /* font-weight: 300; */
+  /* font-family: '', sans-serif; */
+  /* font-family: "Roboto Condensed", sans-serif; */
+  /* font-style: normal; */
+}
+.ubuntu-light {
+  font-family: 'Ubuntu', sans-serif;
+  font-style: normal;
 }
 .link-li{
-  margin: 40px 15px;
-  padding-bottom: 20px;
-  border-bottom: 1px solid #f2f3f4;
+  /* margin: 40px 15px; */
+  /* padding-bottom: 20px; */
+  /* display: flex; */
+  /* justify-content: center;  */
+  /* align-items: center; */
+  /* border: 2px solid red;  */
+  /* padding-bottom: 25px; */
+  margin: 9px;
 }
 .footbar-I-I{
   margin-left: 100px;
 }
 .link-li-p p{
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
-.link-li-li{
-  padding-bottom: 80px;
-  margin: 40px 15px;
-}
-.logo-1{
-  font-size: 2.1rem;
-}
-.info1{
+.logo {
   display: flex;
   align-items: center;
-  gap: 15px;
+  /* border: 2px solid red;  */
 }
-.info2{
-  display: flex;
-  align-items: center;
-  gap: 15px;
-}
-.topbar{
-  width: 100%;
-  height: 60px;
-  background-color:var(--purple);
-  position: fixed;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 10px 10px;
-  z-index: 99;
-  font-size: var(--heading);
-}
-.sub-header{
-  font-size: var(--subheading);
-  font-weight: var(--subweight);
-}
-.top_section{
-  display: flex;
-  align-items: center;
-}
-.top-info{
+.logo-in{
+  /* display: flex; 
+  align-items: center; */
+   /* border: 2px solid red;  */
+   padding: 6px;
+  }
+  img{
+    /* border: 2px solid red; */
+    /* margin-top: auto; */
+    /* height:100px; */
+    
+  }
+  .logo-1{
+    font-size: 2.1rem;
+  }
+  .web-links {
+    /* border: 2px solid ghostwhite; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .web-links{
+    /* border: 2px solid cyan; */
+    margin-right: 10px;
+  }
+  .info1{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  .info2{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  .topbar{
+    width: 100%;
+    height: 60px;
+    background-color:var(--purple);
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px;
+    z-index: 99;
+    font-size: var(--heading);
+    display: none;
+  }
+  .sub-header{
+    font-size: var(--subheading);
+    font-weight: var(--subweight);
+  }
+  .top_section{
+    display: flex;
+    align-items: center;
+  }
+  .top-info{
   display: flex;
   gap: 15px;
   align-items: center;
 }
 .container{
   display:flex;
+  flex-direction: column;
   width: 100%;
+}
+.main-data{
+  display: flex;
+  justify-content: center;
 }
 main{
-  margin-top: 80px;
-  width: 100%;
+  /* margin-top: 80px; */
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  /* border: 2px solid red; */
 }
-.web-links ul li p{
-  font-size: var(--bodytext1);
+.web-links ul li {
+  /* font-size: 2rem; */
+  /* padding: 5px; */
+  /* margin-right: 100px; */
 }
-.sidebar{
+.oldsidebar{
   background:#86198f;
   color:#e1e6ec;
   height: 100vh;
   width: 270px;
   transition: all 0.5s;
+  
   overflow-y:auto;
   position: fixed;
   padding-top: 100px;
   padding-bottom: 250px;
+  display: flex;
+  justify-content: center;
   overflow-wrap: normal;
   z-index: 88;
+  display:none;
 }
+.sidebar{
+  background:#86198f;
+  color:#e1e6ec;
+  /* height: 100vh;
+  width: 270px; */
+  transition: all 0.5s;
+  
+  /* overflow-y:auto;
+  position: fixed;
+  padding-top: 100px;
+  padding-bottom: 250px;
+  display: flex;
+  justify-content: center;
+  overflow-wrap: normal;
+  z-index: 88; */
+  
+}
+.sidebar-wrap{
+  display: grid;
+  grid-template-columns: 1fr auto;
+  
+}
+
 .sidebar::-webkit-scrollbar{
   width: 10px;
 }
@@ -114,52 +194,56 @@ main{
   gap: 10px;
 }
 .footer-bar{
-   background-color: #fecaca;
-   position: fixed; 
-   top: 94%;
+  background-color: #fecaca;
+  position: fixed; 
+  top: 94%;
     margin-left: 270px;
     width: 100vw;
     padding: 15px 0px; 
     display: flex;
-  
+    
     padding-left: 200px;
     gap: 5px;
-   
-}
-.footbar-1 p{
-  font-size: 1.2rem;
-}
-.info1 img{
-  width: 70px;
-  height: 70px;
-}
-@media screen and (max-width:1024px){
- 
-  .bars{
-    display: block;
-    left: 10px;
-    top: 28px;
-    font-size: 15px;
+    
   }
-  .link-li{
-    margin: 10px 15px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-
+  .footbar-1 p{
+    font-size: 1.2rem;
   }
-  .link-li-p p{
-    font-size: 1rem;
+  .info1 img{
+    width: 70px;
+    height: 70px;
+  }
+  @media screen and (max-width:1024px){
+    .topbar{
+      display: block;
+    }
+    .bars{
+      display: block;
+      left: 10px;
+      top: 28px;
+      font-size: 15px;
+    }
+    
+    .link-li{
+      margin: 10px 15px;
+      padding-bottom: 10px;
+      padding-top: 10px;
+      border-bottom: 1px solid #f2f3f4;
+      
+    }
+    .link-li-p p{
+    font-size: 1.25rem;
   }
   .info1 img{
     
     margin-left: 20px;
   }
-  .web-links ul li p{
-    font-size: 1.2rem;
-   padding-bottom: 10px;
+  .web-links ul li{
+    font-size: 1.15rem;
+   padding: 15px;
   }
-  .sidebar{
-    width: 200px;
+  .oldsidebar{
+    width: 30%;
   }
   .info1{
     gap: 5px;
@@ -253,6 +337,19 @@ main{
   padding-left: 10px;
   padding-right: 10px;
 }
+
+@media only screen and (max-width:1350px){
+  .link-li-p p{
+    font-size: 1.05rem;
+  }
+}
+@media only screen and (max-width:1200px){
+  .link-li-p p{
+    font-size: 0.85rem;
+  }
+}
+
+
 @media only screen and (min-width: 1700px) {
   .logo-1{
     font-size: 2.4rem;
@@ -269,19 +366,19 @@ main{
     padding: 15px 0px;
   }
   main{
-    margin-top: 150px;
-    margin-left: 5%;
-    margin-right: 5%;
+    /* margin-top: 150px; */
+    /* margin-left: 5%; */
+    /* margin-right: 5%; */
   }
   .div-contact{
     font-size: 1.7rem;
   }
-  .sidebar{
+  /* .sidebar{
     width: 18%;
-  }
+  } */
   .web-links ul li p{
-    font-size: 2rem;
-    padding-bottom: 20px;
+    font-size: 1.5rem;
+    /* padding-bottom: 20px; */
   }
   .footer-bar{
     top: 95%;

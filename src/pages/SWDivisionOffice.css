@@ -5,9 +5,14 @@
   scroll-behavior: smooth;
 }
 .sw-division-office{
-  margin-left: 280px;
-  margin-top: 110px;
-  margin-bottom: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  /* margin-left: 280px;
+  margin-top: 110px;*/
+  margin-bottom: 10%; 
 }
 
 @keyframes fade-down {
@@ -43,8 +48,12 @@
     font-weight: 600;
     width: 280px;
 }
-
+/* .wrapper{
+  display: flex;
+  justify-content: space-around;
+} */
 .wrapper>div {
+  /* width: 25%; */
   border: 2px solid  #fae8ff;
   border-radius: 5px;
   background-color: #fae8ff;

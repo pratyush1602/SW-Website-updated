@@ -12,76 +12,159 @@ const Sidebar = ({ children }) => {
         <>
             <div className="container">
                 {/* SIDEBAR */}
-                <div className="sidebar" style={{ display: isOpen ? "block" : "" }}>
+                <div className="sidebar" >
+                    <div className='sidebar-wrap'>
+                        <div className='logo'>
+                        <NavLink to="/" className="logo-in">
+                        <img src={logo} alt='logo' style={{ height: "40px", width: "40px", borderRadius: "50%", cursor: "pointer" }}></img>
+                        </NavLink>
 
-                    <div style={{ color: "white" }} className='web-links'>
-                        <ul style={{ listStyleType: "none" }}>
-                            <li className='link-li'>
-                                <NavLink to="/" style={{ display: "flex", color: "white", justifyContent: "space-between", alignItems: "center" }}>
-                                    <div > <p >Home</p> </div>
-                                    <LiaGreaterThanSolid />
-                                </NavLink>
-                            </li>
-                            <li className='link-li'>
-                                <NavLink to="/dean_associate_deans" style={{ display: "flex", color: "white", justifyContent: "space-between", alignItems: "center" }}>
-                                    <div className='link-li-p'> <p >Dean and Associate Deans</p></div>
-                                    <LiaGreaterThanSolid />
-                                </NavLink>
-                            </li>
-                            <li className='link-li'>
-                                <NavLink to="/admnistrative_office" style={{ display: "flex", color: "white", justifyContent: "space-between", alignItems: "center" }}>
-                                    <div className='link-li-p'> <p >Admnistartive Office</p> </div>
-                                    <LiaGreaterThanSolid />
-                                </NavLink>
-                            </li>
-                            <li className='link-li'>
-                                <NavLink to="/student_life" style={{ display: "flex", color: "white", justifyContent: "space-between", alignItems: "center" }}>
-                                    <div className='link-li-p'> <p >Students Campus Life</p> </div>
-                                    <LiaGreaterThanSolid />
-                                </NavLink>
-                            </li>
-                            <li className='link-li'>
-                                <NavLink to="/hostels" style={{ display: "flex", color: "white", justifyContent: "space-between", alignItems: "center" }}>
-                                    <div className='link-li-p'> <p >Hostels</p> </div>
-                                    <LiaGreaterThanSolid />
-                                </NavLink>
-                            </li>
-                            <li className='link-li'>
-                                <NavLink to="/mess_canteen" style={{ display: "flex", color: "white", justifyContent: "space-between", alignItems: "center" }}>
-                                    <div className='link-li-p'> <p >Mess & Canteen</p> </div>
-                                    <LiaGreaterThanSolid />
-                                </NavLink>
-                            </li>
-                            <li className='link-li'>
-                                <NavLink to="/gymkhana" style={{ display: "flex", color: "white", justifyContent: "space-between", alignItems: "center" }}>
-                                    <div className='link-li-p'> <p style={{ marginBottom: "10px" }}>Gymhkana</p><p style={{ fontSize: "1.1rem" }}>(Club, Sports, NSS/NCC)</p>
-                                    </div>
-                                    <LiaGreaterThanSolid />
-                                </NavLink>
-                            </li>
-                            <li className='link-li'>
-                                <NavLink to="/wellness" style={{ display: "flex", color: "white", justifyContent: "space-between", alignItems: "center" }}>
-                                    <div className='link-li-p'> <p style={{ marginBottom: "10px" }} >Wellness</p>
-                                        <p style={{ fontSize: "1.1rem" }}>(Health & Counselling Centre)</p>
-                                    </div>
-                                    <LiaGreaterThanSolid />
-                                </NavLink>
-                            </li>
-                            <li className='link-li'>
-                                <NavLink to="https://www.iitdh.ac.in/details" style={{ display: "flex", justifyContent: "space-between", color: "white", alignItems: "center" }}>
-                                    <div className='link-li-p'> <p >Alumni Association</p> </div>
-                                    <LiaGreaterThanSolid />
-                                </NavLink>
-                            </li>
-                            <li className='link-li-li'>
-                                <NavLink to="/others" style={{ display: "flex", justifyContent: "space-between", color: "white", alignItems: "center" }}>
-                                    <div className='link-li-p'> <p >Others</p> </div>
-                                    <LiaGreaterThanSolid />
-                                </NavLink>
-                            </li>
+                        </div>
 
-                        </ul>
+                        <div style={{ color: "white" }} className='web-links'>
+                            <ul style={{ listStyleType: "none", display: "flex" }}>
+                                {/* <li className='link-li'> */}
+                                    {/* <NavLink to="/" style={{ display: "flex", color: "white", justifyContent: "space-between", alignItems: "center" }}> */}
+                                        {/* <div > <p >Home</p> </div> */}
+                                        {/* <LiaGreaterThanSolid /> */}
+                                    {/* </NavLink> */}
+                                {/* </li> */}
+                                <li className='link-li'>
+                                    <NavLink to="/dean_associate_deans" style={{ display: "flex", color: "white", justifyContent: "space-between", alignItems: "center" }}>
+                                        <div className='link-li-p'> <p >Dean and Associate Deans</p></div>
+                                        {/* <LiaGreaterThanSolid /> */}
+                                    </NavLink>
+                                </li>
+                                <li className='link-li'>
+                                    <NavLink to="/admnistrative_office" style={{ display: "flex", color: "white", justifyContent: "space-between", alignItems: "center" }}>
+                                        <div className='link-li-p'> <p >Admnistartive Office</p> </div>
+                                        {/* <LiaGreaterThanSolid /> */}
+                                    </NavLink>
+                                </li>
+                                <li className='link-li'>
+                                    <NavLink to="/student_life" style={{ display: "flex", color: "white", justifyContent: "space-between", alignItems: "center" }}>
+                                        <div className='link-li-p'> <p >Students Campus Life</p> </div>
+                                        {/* <LiaGreaterThanSolid /> */}
+                                    </NavLink>
+                                </li>
+                                <li className='link-li'>
+                                    <NavLink to="/hostels" style={{ display: "flex", color: "white", justifyContent: "space-between", alignItems: "center" }}>
+                                        <div className='link-li-p'> <p >Hostels</p> </div>
+                                        {/* <LiaGreaterThanSolid /> */}
+                                    </NavLink>
+                                </li>
+                                <li className='link-li'>
+                                    <NavLink to="/mess_canteen" style={{ display: "flex", color: "white", justifyContent: "space-between", alignItems: "center" }}>
+                                        <div className='link-li-p'> <p >Mess & Canteen</p> </div>
+                                        {/* <LiaGreaterThanSolid /> */}
+                                    </NavLink>
+                                </li>
+                                <li className='link-li'>
+                                    <NavLink to="/gymkhana" style={{ display: "flex", color: "white", justifyContent: "space-between", alignItems: "center" }}>
+                                        <div className='link-li-p'> <p >Gymhkana</p>
+                                            {/* <p style={{ fontSize: "1.1rem" }}>(Club, Sports, NSS/NCC)</p> */}
+                                        </div>
+                                        {/* <LiaGreaterThanSolid /> */}
+                                    </NavLink>
+                                </li>
+                                <li className='link-li'>
+                                    <NavLink to="/wellness" style={{ display: "flex", color: "white", justifyContent: "space-between", alignItems: "center" }}>
+                                        <div className='link-li-p'> <p  >Wellness</p>
+                                            {/* <p style={{ fontSize: "1.1rem" }}>(Health & Counselling Centre)</p> */}
+                                        </div>
+                                        {/* <LiaGreaterThanSolid /> */}
+                                    </NavLink>
+                                </li>
+                                <li className='link-li'>
+                                    <NavLink to="https://www.iitdh.ac.in/details" style={{ display: "flex", justifyContent: "space-between", color: "white", alignItems: "center" }}>
+                                        <div className='link-li-p'> <p >Alumni Association</p> </div>
+                                        {/* <LiaGreaterThanSolid /> */}
+                                    </NavLink>
+                                </li>
+                                {/* <li className='link-li-li'> */}
+                                {/* <NavLink to="/others" style={{ display: "flex", justifyContent: "space-between", color: "white", alignItems: "center" }}> */}
+                                {/* <div className='link-li-p'> <p >Others</p> </div> */}
+                                {/* <LiaGreaterThanSolid /> */}
+                                {/* </NavLink> */}
+                                {/* </li> */}
+
+                            </ul>
+                        </div>
                     </div>
+                </div>
+                <div className="oldsidebar" style={{ display: isOpen ? "block" : "" }}>
+                    
+
+                        <div style={{ color: "white" }} className='web-links'>
+                            <ul style={{ listStyleType: "none" }}>
+                                <li className='link-li'>
+                                    <NavLink to="/" style={{ display: "flex", color: "white", justifyContent: "space-between", alignItems: "center" }}>
+                                        <div className='link-li-p'> <p >Home</p> </div>
+                                        <LiaGreaterThanSolid />
+                                    </NavLink>
+                                </li>
+                                <li className='link-li'>
+                                    <NavLink to="/dean_associate_deans" style={{ display: "flex", color: "white", justifyContent: "space-between", alignItems: "center" }}>
+                                        <div className='link-li-p'> <p >Dean and Associate Deans</p></div>
+                                        <LiaGreaterThanSolid />
+                                    </NavLink>
+                                </li>
+                                <li className='link-li'>
+                                    <NavLink to="/admnistrative_office" style={{ display: "flex", color: "white", justifyContent: "space-between", alignItems: "center" }}>
+                                        <div className='link-li-p'> <p >Admnistartive Office</p> </div>
+                                        <LiaGreaterThanSolid />
+                                    </NavLink>
+                                </li>
+                                <li className='link-li'>
+                                    <NavLink to="/student_life" style={{ display: "flex", color: "white", justifyContent: "space-between", alignItems: "center" }}>
+                                        <div className='link-li-p'> <p >Students Campus Life</p> </div>
+                                        <LiaGreaterThanSolid />
+                                    </NavLink>
+                                </li>
+                                <li className='link-li'>
+                                    <NavLink to="/hostels" style={{ display: "flex", color: "white", justifyContent: "space-between", alignItems: "center" }}>
+                                        <div className='link-li-p'> <p >Hostels</p> </div>
+                                        <LiaGreaterThanSolid />
+                                    </NavLink>
+                                </li>
+                                <li className='link-li'>
+                                    <NavLink to="/mess_canteen" style={{ display: "flex", color: "white", justifyContent: "space-between", alignItems: "center" }}>
+                                        <div className='link-li-p'> <p >Mess & Canteen</p> </div>
+                                        <LiaGreaterThanSolid />
+                                    </NavLink>
+                                </li>
+                                <li className='link-li'>
+                                    <NavLink to="/gymkhana" style={{ display: "flex", color: "white", justifyContent: "space-between", alignItems: "center" }}>
+                                        <div className='link-li-p'> <p >Gymhkana</p>
+                                            {/* <p style={{ fontSize: "1.1rem" }}>(Club, Sports, NSS/NCC)</p> */}
+                                        </div>
+                                        <LiaGreaterThanSolid />
+                                    </NavLink>
+                                </li>
+                                <li className='link-li'>
+                                    <NavLink to="/wellness" style={{ display: "flex", color: "white", justifyContent: "space-between", alignItems: "center" }}>
+                                        <div className='link-li-p'> <p  >Wellness</p>
+                                            {/* <p style={{ fontSize: "1.1rem" }}>(Health & Counselling Centre)</p> */}
+                                        </div>
+                                        <LiaGreaterThanSolid />
+                                    </NavLink>
+                                </li>
+                                <li className='link-li'>
+                                    <NavLink to="https://www.iitdh.ac.in/details" style={{ display: "flex", justifyContent: "space-between", color: "white", alignItems: "center" }}>
+                                        <div className='link-li-p'> <p >Alumni Association</p> </div>
+                                        <LiaGreaterThanSolid />
+                                    </NavLink>
+                                </li>
+                                {/* <li className='link-li-li'> */}
+                                {/* <NavLink to="/others" style={{ display: "flex", justifyContent: "space-between", color: "white", alignItems: "center" }}> */}
+                                {/* <div className='link-li-p'> <p >Others</p> </div> */}
+                                {/* <LiaGreaterThanSolid /> */}
+                                {/* </NavLink> */}
+                                {/* </li> */}
+
+                            </ul>
+                        </div>
+                    
                 </div>
 
                 <div className='side-data'>
