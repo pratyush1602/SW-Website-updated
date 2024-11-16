@@ -18,7 +18,7 @@ body{
 	max-width: 1370px;
 	margin:auto;
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     /* border: 2px solid green; */
 }
 .row{
@@ -33,6 +33,12 @@ body{
     list-style: none;
     color: #ffffff;
 
+}
+.footer ul li a{
+	color: white;
+}
+footer ul li a:hover{
+	color: rgb(55, 55, 228);
 }
 .footer{
 	background-color: #86198f;
@@ -82,7 +88,17 @@ body{
 @media(max-width: 1024px){
     .footer{
         width: 100%;
+		/* padding: 0px 10px 0px 0px; */
+		/* margin-left: 5px; */
     }
+	.footer-container{
+		margin-left: 10px;
+	}
+}
+@media(max-width:1348px){
+	.footer-container{
+		margin-left: 10px;
+	}
 }
 @media(max-width: 767px){
   .footer-col{

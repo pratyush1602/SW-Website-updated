@@ -18,6 +18,9 @@ import { Power3 } from 'gsap';
 import Others from "./Others.js";
 import { AnimatePresence } from 'framer-motion';
 
+import StudentActivities from '../components/StudentActivities.js';
+import Rti from '../components/Rti.js';
+
 
 export default function AnimatedRoutes() {
     const location = useLocation();
@@ -44,9 +47,12 @@ export default function AnimatedRoutes() {
                        
                        
                         <Route path="/others" element={<Others />} />
+                        <Route path="/student-activities" element={<StudentActivities />} />
+                        <Route path="/rti" element={<Rti/>}/>
                     </Routes>
                 </AnimatePresence>
             </Sidebar>
+
         </div>
     )
 }
