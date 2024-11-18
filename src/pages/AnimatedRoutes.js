@@ -32,7 +32,7 @@ export default function AnimatedRoutes() {
             <GoToTop />
 
             <Sidebar>
-                <AnimatePresence>
+                {/* <AnimatePresence> */}
                     <Routes location={location} key={location.pathname}>
                         <Route path="/"  element={<Home />} />
                         <Route path="/dean_associate_deans" element={<SWDivisionOffice />} />
@@ -50,7 +50,7 @@ export default function AnimatedRoutes() {
                         <Route path="/student-activities" element={<StudentActivities />} />
                         <Route path="/rti" element={<Rti/>}/>
                     </Routes>
-                </AnimatePresence>
+                {/* </AnimatePresence> */}
             </Sidebar>
 
         </div>
