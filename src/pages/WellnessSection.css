@@ -7,10 +7,26 @@
     color: #333;
 }
 
+.health{
+    display: flex;
+}
+.event{
+    border:2px solid red;
+    width: 100vh;
+    height: 300px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
+
 .wellness-centre {
     margin-right: 10px;
 }
 .fs-font p{
+    font-size: 1.5rem;
+    line-height: 27px;
+}
+.fs-font li{
     font-size: 1.2rem;
     line-height: 27px;
 }
@@ -28,15 +44,20 @@
 .wellness-text{
     padding: 0px 30px;
     animation: fade-up 0.5s;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #4c5157;
 }
 .wellness-text p {
     font-size: 1.3rem;
     line-height: 27px;
 }
-
+.wellness{
+    margin-top: 60px;
+}
 .well-coun {
-    justify-content: space-around;
-    flex-wrap: wrap;
+    /* justify-content: space-around;
+    flex-wrap: wrap; */
 }
 
 .hostel-imagee-2 {
@@ -51,10 +72,10 @@
 .wellness-link {
     font-size: 1.2rem;
 }
-
+/* 
 .counselling:hover {
     border: 1px solid #f43f5e;
-}
+} */
 
 .wellness-centre img {
     width: 45vw;
@@ -68,13 +89,19 @@
 .ambulance-no {
     animation: shad 1.5s linear infinite;
     animation: fade-up 0.5s;
+    padding: 100px;
+    background-color:#fae8ff ;
+
 }
-.ambulance-no{
-    padding: 50px;
+.p1{
+ font-size: 30px;
+ font-weight: 700;
 }
-.ambulance-no p{
-    font-size: 1.7rem;
+.p2{
+    font-size: 25px;
+
 }
+
 
 @keyframes fade-down {
     0%{

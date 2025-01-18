@@ -59,6 +59,7 @@
 .adm-r-r{
     /* display: flex; */
     gap: 30px;
+    /* border: 2px solid red; */
 }
 .adm-r-r-r{
     /* display: flex; */
@@ -105,7 +106,7 @@
 .sub-header{
     margin-bottom: 7px;
 }
-@media screen and (max-width:1024px){
+@media screen and (min-width:1024px){
     .admin-office{
         margin-left: 0px;
         margin-right: 0px;

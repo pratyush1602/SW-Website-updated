@@ -21,6 +21,8 @@ import { AnimatePresence } from 'framer-motion';
 import StudentActivities from '../components/StudentActivities.js';
 import Rti from '../components/Rti.js';
 
+import  Counselling from "./Counselling.js";
+
 
 export default function AnimatedRoutes() {
     const location = useLocation();
@@ -49,6 +51,7 @@ export default function AnimatedRoutes() {
                         <Route path="/others" element={<Others />} />
                         <Route path="/student-activities" element={<StudentActivities />} />
                         <Route path="/rti" element={<Rti/>}/>
+                        <Route path="/counselling" element={<Counselling/>}/>
                     </Routes>
                 {/* </AnimatePresence> */}
             </Sidebar>

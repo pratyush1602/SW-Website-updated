@@ -6,6 +6,8 @@ import { NavLink } from 'react-router-dom';
 import logo from '../pages/images/logo-iit.jpg'
 import Footer from './footer';
 
+
+
 const Sidebar = ({ children }) => {
     const [isOpen, setIsOpen] = useState(false);
     const toggle = () => setIsOpen(!isOpen);
@@ -70,7 +72,15 @@ const Sidebar = ({ children }) => {
                                 </li>
                                 <li className='link-li'>
                                     <NavLink to="/wellness" style={{ display: "flex", color: "white", justifyContent: "space-between", alignItems: "center" }}>
-                                        <div className='link-li-p'> <p  >Wellness</p>
+                                        <div className='link-li-p'> <p  >Health</p>
+                                            {/* <p style={{ fontSize: "1.1rem" }}>(Health & Counselling Centre)</p> */}
+                                        </div>
+                                        {/* <LiaGreaterThanSolid /> */}
+                                    </NavLink>
+                                </li>
+                                <li className='link-li'>
+                                    <NavLink to="/counselling" style={{ display: "flex", color: "white", justifyContent: "space-between", alignItems: "center" }}>
+                                        <div className='link-li-p'> <p  >Counselling</p>
                                             {/* <p style={{ fontSize: "1.1rem" }}>(Health & Counselling Centre)</p> */}
                                         </div>
                                         {/* <LiaGreaterThanSolid /> */}
@@ -144,7 +154,16 @@ const Sidebar = ({ children }) => {
                                 </li>
                                 <li className='link-li'>
                                     <NavLink to="/wellness" style={{ display: "flex", color: "white", justifyContent: "space-between", alignItems: "center" }}>
-                                        <div className='link-li-p'> <p  >Wellness</p>
+                                        <div className='link-li-p'> <p  >Health</p>
+                                            {/* <p style={{ fontSize: "1.1rem" }}>(Health & Counselling Centre)</p> */}
+                                        </div>
+                                        <LiaGreaterThanSolid />
+                                    </NavLink>
+                                </li>
+
+                                <li className='link-li'>
+                                    <NavLink to="/counselling" style={{ display: "flex", color: "white", justifyContent: "space-between", alignItems: "center" }}>
+                                        <div className='link-li-p'> <p  >Counselling</p>
                                             {/* <p style={{ fontSize: "1.1rem" }}>(Health & Counselling Centre)</p> */}
                                         </div>
                                         <LiaGreaterThanSolid />
@@ -175,9 +194,14 @@ const Sidebar = ({ children }) => {
                         <div className="top_section">
                             <div className='top-info'>
                                 <div className='info1'>
+                                    
+
                                     <img src={logo} alt='logo' style={{ borderRadius: "50%", objectFit: "cover", marginRight: "20px", cursor: "pointer" }}></img>
-                                    <h1 className='logo-1' style={{ color: "white", letterSpacing: "2.5px", fontWeight: "600", textAlign: "center" }}>IIT</h1>
+                                    
+
+                                    <h1 className='logo-1' style={{ color: "white", letterSpacing: "2.5px", fontWeight: "600", textAlign: "center" }}>IIT </h1>
                                     <h1 className='logo-1' style={{ color: "white", letterSpacing: "2.5px", fontWeight: "600", textAlign: "center" }}>DHARWAD  </h1>
+                                 
                                 </div>
                                 <div className='info2'>
                                     <h1 className='logo-1' style={{ color: "white", letterSpacing: "2.5px", fontWeight: "600", textAlign: "center" }}>STUDENT</h1>
