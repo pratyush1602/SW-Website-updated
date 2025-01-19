@@ -36,11 +36,16 @@ export default function WellnessSection() {
             <motion.div className='wellness-section' initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
                 <motion.div variants={{ hidden: { opacity: 0, y: 75 }, visible: { opacity: "1", y: 0 } }} initial="hidden" animate="visible" transition={{ duration: 0.5, delay: 0.25 }} className='wellness-header'><p style={{ borderLeft: "5px solid #312e81", paddingLeft: "10px" }} >Health</p></motion.div>
                 <div className='hostel-imagee'>
-                    <div className='hosetl-imagee-1' style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: "19px", fontSize: "1.3rem" }}>
+                    <div className='hosetl-imagee-1' style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: "20px", fontSize: "1.3rem" }}>
                         <motion.div variants={{ hidden: { opacity: 0, y: 75 }, visible: { opacity: "1", y: 0 } }} initial="hidden" animate="visible" transition={{ duration: 0.5, delay: 0.25 }}>  <img src={wellnesscentre} alt='adminblock' className='hostel-imagee-2'></img></motion.div>
-                        <div className='ambulance-no' >
+                        <div  >
+                            <div className='ambulance-no'>
                             <p className='p1'  >Ambulance No:</p>
                             <p className='p2'>8105405107</p>
+                            </div>
+                            <div className='map'>
+                                <a href="https://maps.app.goo.gl/vLfZWxkLpektRyc16">View in Map</a>
+                            </div>
                         </div>
                     </div>
                 </div>

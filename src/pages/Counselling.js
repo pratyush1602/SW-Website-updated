@@ -287,7 +287,7 @@ function Counselling() {
                             <div className="mentorsdata">
 
                                 <div className="mentorimg">
-                                    <img src={te} alt="" />
+                                    <img src="" alt="" />
                                 </div>
                                 <div className="names">
                                     <div className="name">Neeli Deekshith </div>
