@@ -79,11 +79,11 @@ function Home() {
       <div style={{ display: "flex", gap: "20px", fontSize: "1.2rem", flexWrap: "wrap" }} className='wrapper-about'>
         <div className='about-page' >
           <ul>
-            <p style={{ marginBottom: "20px", fontWeight: "600" }} >About Us</p>
-            <li>  <p>The office of the Dean Student Welfare at IIT Dharwad administers  all aspects of Students Welfare including Hostels, Health and Wellness,  Cocurricular activities, Sports, Social Service, Cultural events, Technical clubs, NSO and Social outreach activities of Students.</p></li>
+            <p style={{ marginBottom: "50px", fontWeight: "600" }} >About Us</p>
+            <li>  <p>The office of the Dean Students Welfare at IIT Dharwad administers  all aspects of Students Welfare including Hostels, Health and Wellness,  Cocurricular activities, Sports, Social Service, Cultural events, Technical clubs, NSO and Social outreach activities of Students.</p></li>
             <li>  <p style={{ marginTop: "10px" }}>It is  responsible for implementing students' code of conduct.
-              The Student Welfare Team at IIT Dharwad believes in all round development of holistic personality  of  its students. IIT Dharwad practices gender equality, respects  neurodivergence and is socially all inclusive  residential campus.</p></li>
-            <li> <p style={{ marginTop: "20px" }}>The Student Welfare team administers Hostels, Mess, Canteens, Sports, NSO/NSS and other infrastructure facilities extensively used by Students as well as  Campus residents.
+              The Students Welfare Team at IIT Dharwad believes in all round development of holistic personality  of  its students. IIT Dharwad practices gender equality, respects  neurodivergence and is socially all inclusive  residential campus.</p></li>
+            <li> <p style={{ marginTop: "20px" }}>The Students Welfare team administers Hostels, Mess, Canteens, Sports, NSO/NSS and other infrastructure facilities extensively used by Students as well as  Campus residents.
             </p></li> <li><p style={{ marginTop: "15px" }}>It also manages the Wellness Centre which hosts Health and Counselling services.
 
             </p></li>
@@ -95,7 +95,7 @@ function Home() {
 
 
         <div style={{ border: "2px solid #d1d5db", backgroundColor: "#fdf4ff" }} className='charter' >
-          <p className='location-header' style={{ textAlign: "center", marginBottom: "20px", marginTop: "15px" }}>Student Welfare Charter</p>
+          <p className='location-header' style={{ textAlign: "center", marginBottom: "20px", marginTop: "15px" }}>Students Welfare Charter</p>
           <p className='location-header' style={{ textAlign: "center", marginBottom: "23px", borderBottom: "1px solid #f8fafc" }}>Ten key values that are foundational to everything we do:</p>
           <div className='marqueee' style={{ backgroundColor: "#fae8ff", lineHeight: "10px" }}>
             <p><ul><li style={{ lineHeight: "25px", marginBottom: "19px" }}><li style={{ marginBottom: "15px" }}>1. Students and their welfare is our first priority.</li>
@@ -124,14 +124,14 @@ function Home() {
               <div style={{ display: "flex", gap: "10px" }}>
                 <p className='fs' style={{ color: "#86198f" }}><FaLocationDot /></p>
                 <div style={{ display: "flex", flexDirection: "column", gap: "4px" }} className='location-sw'>
-                  <p >Student Welfare Division -IIT Dharwad</p>
-                  <p >Administration Block, Ground Floor, Right Wing</p>
+                  <p >Students Welfare Office - IIT Dharwad</p>
+                  <p >Administration Block, NE 015</p>
                   <p >Belur Industrial Area, Chikkamalligawad,</p>
-                  <p >Off Pune-Bengaluru Highway,</p>
-                  <p>Dharwad, Karnataka, India - 580007</p>
+                  <p >Dharwad - 580 011,</p>
+                  <p >Karnataka, India</p>
                 </div>
               </div>
-              <div className='div-contact'>For more information contact us-</div>
+              <div className='div-contact'>For more information, contact us-</div>
               <div style={{ display: "flex", gap: "10px", alignItems: "center" }} className='email-contact'>
                 <p style={{ color: "#86198f" }}><AiOutlineMail /></p>
                 <p>studentswelfare.office@iitdh.ac.in</p>

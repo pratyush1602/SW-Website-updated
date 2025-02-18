@@ -19,13 +19,13 @@ const Sidebar = ({ children }) => {
                     {/* <div className='sidebar-wrap'> */}
                         <div className='logo'>
                         <NavLink to="/" className="logo-in">
-                        <img src={logo} alt='logo' style={{ height: "40px", width: "40px", borderRadius: "50%", cursor: "pointer" }}></img>
+                        <img src={logo} alt='logo' style={{ height: "70px", width: "70px", borderRadius: "50%", margin: "10px", cursor: "pointer" }}></img>
                         </NavLink>
 
                         </div>
 
                         <div style={{ color: "white" }} className='web-links'>
-                            <ul style={{ listStyleType: "none", display: "flex" }}>
+                            <ul style={{ listStyleType: "none", display: "flex", fontSize: "10px"}}>
                                 {/* <li className='link-li'> */}
                                     {/* <NavLink to="/" style={{ display: "flex", color: "white", justifyContent: "space-between", alignItems: "center" }}> */}
                                         {/* <div > <p >Home</p> </div> */}
@@ -39,8 +39,8 @@ const Sidebar = ({ children }) => {
                                     </NavLink>
                                 </li>
                                 <li className='link-li'>
-                                    <NavLink to="/admnistrative_office" style={{ display: "flex", color: "white", justifyContent: "space-between", alignItems: "center" }}>
-                                        <div className='link-li-p'> <p >Admnistartive Office</p> </div>
+                                    <NavLink to="/administrative_office" style={{ display: "flex", color: "white", justifyContent: "space-between", alignItems: "center" }}>
+                                        <div className='link-li-p'> <p >Administrative Office</p> </div>
                                         {/* <LiaGreaterThanSolid /> */}
                                     </NavLink>
                                 </li>
@@ -104,7 +104,7 @@ const Sidebar = ({ children }) => {
                     {/* </div> */}
                 </div>
                 <div className="oldsidebar" style={{ display: isOpen ? "block" : "" }}>
-                    
+
 
                         <div style={{ color: "white" }} className='web-links'>
                             <ul style={{ listStyleType: "none" }}>
@@ -121,8 +121,8 @@ const Sidebar = ({ children }) => {
                                     </NavLink>
                                 </li>
                                 <li className='link-li'>
-                                    <NavLink to="/admnistrative_office" style={{ display: "flex", color: "white", justifyContent: "space-between", alignItems: "center" }}>
-                                        <div className='link-li-p'> <p >Admnistartive Office</p> </div>
+                                    <NavLink to="/administrative_office" style={{ display: "flex", color: "white", justifyContent: "space-between", alignItems: "center" }}>
+                                        <div className='link-li-p'> <p >Administrative Office</p> </div>
                                         <LiaGreaterThanSolid />
                                     </NavLink>
                                 </li>
@@ -184,7 +184,7 @@ const Sidebar = ({ children }) => {
 
                             </ul>
                         </div>
-                    
+
                 </div>
 
                 <div className='side-data'>
@@ -194,14 +194,14 @@ const Sidebar = ({ children }) => {
                         <div className="top_section">
                             <div className='top-info'>
                                 <div className='info1'>
-                                    
+
 
                                     <img src={logo} alt='logo' style={{ borderRadius: "50%", objectFit: "cover", marginRight: "20px", cursor: "pointer" }}></img>
-                                    
+
 
                                     <h1 className='logo-1' style={{ color: "white", letterSpacing: "2.5px", fontWeight: "600", textAlign: "center" }}>IIT </h1>
                                     <h1 className='logo-1' style={{ color: "white", letterSpacing: "2.5px", fontWeight: "600", textAlign: "center" }}>DHARWAD  </h1>
-                                 
+
                                 </div>
                                 <div className='info2'>
                                     <h1 className='logo-1' style={{ color: "white", letterSpacing: "2.5px", fontWeight: "600", textAlign: "center" }}>STUDENT</h1>

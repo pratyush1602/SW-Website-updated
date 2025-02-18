@@ -39,15 +39,15 @@ export default function AnimatedRoutes() {
                         <Route path="/"  element={<Home />} />
                         <Route path="/dean_associate_deans" element={<SWDivisionOffice />} />
                         <Route path="/sw_division_organogram" element={<StudentDivisionOrgano />} />
-                       
-                        <Route path="/admnistrative_office" element={<AdministrativeOffice />} />
+
+                        <Route path="/administrative_office" element={<AdministrativeOffice />} />
                         <Route path="/hostels" element={<Hostels />} />
                         <Route path="/mess_canteen" element={<MessAndCanteen />} />
                         <Route path="/gymkhana" element={<Gymkhana />} />
                         <Route path="/student_life" element={<StudentCampusLife />} />
                         <Route path="/wellness" timeline={t1} ease={ease} element={<WellnessSection />} />
-                       
-                       
+
+
                         <Route path="/others" element={<Others />} />
                         <Route path="/student-activities" element={<StudentActivities />} />
                         <Route path="/rti" element={<Rti/>}/>

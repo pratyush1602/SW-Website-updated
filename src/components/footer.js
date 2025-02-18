@@ -18,7 +18,7 @@ const Footer = () => {
                         <li> INDIAN INSTITUTE OF TECHNOLOGY DHARWAD</li>
                         <li>PERMANENT CAMPUS</li>
                         <li>CHIKKAMALLIGAWAD</li>
-                        <li>DHARWAD - 580 007</li>
+                        <li>DHARWAD - 580 011</li>
                         <li>KARNATAKA</li>
                         <li>BHARATA (INDIA)</li>
                     </ul>
@@ -37,7 +37,7 @@ const Footer = () => {
                             <Link to="/student-activities" >
                             Student Activities
                             </Link>{" "}
-                         
+
                         </p>
                         </li>
                         <li>
@@ -45,7 +45,6 @@ const Footer = () => {
                             <Link to="/rti" >
                             RTI
                             </Link>{" "}
-                         
                         </p>
                         </li>
 

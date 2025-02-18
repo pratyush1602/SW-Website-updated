@@ -13,7 +13,7 @@
   margin-top: 50px;
   /* margin-left: 280px;
   margin-top: 110px;*/
-  margin-bottom: 10%; 
+  margin-bottom: 10%;
 }
 
 @keyframes fade-down {
@@ -43,9 +43,9 @@
 .sw-organo{
   position: absolute;
    right: 100px;
-    padding: 10px; 
-    border: 2px solid #86198f; 
-    font-size: 1.3rem; 
+    padding: 10px;
+    border: 2px solid #86198f;
+    font-size: 1.3rem;
     font-weight: 600;
     width: 280px;
 }
@@ -67,10 +67,11 @@
   align-items: center;
   gap: 10px;
   padding: 20px;
-  
+
   height: 250px;
   animation: fade-up 0.5s;
 }
+
 .first-info img {
   height: 100px;
   width: 100px;
@@ -122,14 +123,14 @@
 .sw-organo{animation: shadd 1.5s linear infinite;}
 @keyframes shadd{
   0%{
-    
+
     border-bottom: 11px solid #86198f;
   }
   50%{
-   
+
   }
   100%{
-    
+
   }
 }
 
@@ -141,9 +142,9 @@
     padding-left: 20px;
     padding-right: 20px;
     margin-top: 110px;
-   
+
   }
-  
+
 
   .designation{
     font-size: 1rem;
@@ -158,7 +159,7 @@
   }
   .wrapper{
     flex-wrap: wrap;
-   
+
     gap: 40px;
   }
   .first-info{
@@ -168,12 +169,12 @@
   }
   .sw-division-office{
     margin-top: 110px;
-    
+
   }
   .sw-division-office-1{
     display: flex;
     flex-direction: column;
- 
+
   }
   .about-info{
     font-size: 1.2rem;
@@ -182,7 +183,7 @@
   width: 350px;
 }
 
-  
+
   .sw-organo{
     position: relative;
     top: 130px;
@@ -194,7 +195,7 @@
     flex-direction: row;
     margin-left: 20px;
   }
-  
+
 }
 @media (min-width:1700px){
   .sw-division-office{
@@ -217,7 +218,7 @@
   .sw-division-office{
     margin-left: 330px;
     margin-right: 10px;
-   
+
   }
   .first-info{
 width: 420px;
