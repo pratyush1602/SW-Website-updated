@@ -58,19 +58,19 @@ export default function Hostels() {
                                 <h4>Warden, Hostel-1, Boys</h4>
                             </div>
                             <div className='row-1'>
-                                <div className='name-fs'>    <p style={{ fontWeight: "600", color: "#4338ca" }}>Dr. Saroj Mondal</p></div>
+                                <div className='name-fs'>    <p style={{ fontWeight: "600", color: "#4338ca" }}>Prof. Saroj Mondal</p></div>
                                 <h4>Warden, Hostel-2, Boys</h4>
                             </div>
                             <div className='row-1'>
-                                <div className='name-fs'>    <p style={{ fontWeight: "600", color: "#4338ca" }}>Dr. Hirnaya Deka</p></div>
+                                <div className='name-fs'>    <p style={{ fontWeight: "600", color: "#4338ca" }}>Prof. Hirnaya Deka</p></div>
                                 <h4>Warden, Hostel-2, Boys</h4>
                             </div>
                             <div className='row-1'>
-                                <div className='name-fs'>    <p style={{ fontWeight: "600", color: "#4338ca" }}>Dr. Rakesh Lingam</p></div>
+                                <div className='name-fs'>    <p style={{ fontWeight: "600", color: "#4338ca" }}>Prof. Rakesh Lingam</p></div>
                                 <h4>Warden, Hostel-2, Boys</h4>
                             </div>
                             <div className='row-1'>
-                                <div className='name-fs'>    <p style={{ fontWeight: "600", color: "#4338ca" }}>Dr. Mohana Rao Balaga</p></div>
+                                <div className='name-fs'>    <p style={{ fontWeight: "600", color: "#4338ca" }}>Prof. Mohana Rao Balaga</p></div>
                                 <h4>Warden, Hostel-2, Boys</h4>
                             </div>
                             <div className='row-1'>
@@ -81,40 +81,40 @@ export default function Hostels() {
                                 <div className='name-fs'>    <p style={{ fontWeight: "600", color: "#4338ca" }}>Prof. Nagaveni S</p></div>
                                 <h4>Warden, Hostel-1, Girls</h4>
                             </div>
-                            <div className='row-1'>
+                            {/* <div className='row-1'>
                                 <div className='name-fs'>    <p style={{ fontWeight: "600", color: "#4338ca" }}>Prof. Ambukkarasi Rajendran</p></div>
                                 <h4>Warden, Hostel-1, Girls</h4>
-                            </div>
+                            </div> */}
                             {/* <div className='row-1'>
-                                <div className='name-fs'>   <p style={{ fontWeight: "600", color: "#4338ca" }}>Dr. Rakesh Lingam</p></div>
+                                <div className='name-fs'>   <p style={{ fontWeight: "600", color: "#4338ca" }}>Prof. Rakesh Lingam</p></div>
                                 <h4>Warden, Hostel 1 (Asavari)</h4>
                             </div>
                             <div className='row-1'>
-                                <div className='name-fs'>   <p style={{ fontWeight: "600", color: "#4338ca" }}>Dr. Mohan Rao Balaga</p></div>
+                                <div className='name-fs'>   <p style={{ fontWeight: "600", color: "#4338ca" }}>Prof. Mohan Rao Balaga</p></div>
                                 <h4>Warden, Hostel 1 (Asavari)</h4>
                             </div>
                             <div className='row-1'>
-                                <div className='name-fs'>   <p style={{ fontWeight: "600", color: "#4338ca" }}>Dr. Dhriti Ranjan Dolai</p></div>
+                                <div className='name-fs'>   <p style={{ fontWeight: "600", color: "#4338ca" }}>Prof. Dhriti Ranjan Dolai</p></div>
                                 <h4>Warden, Hostel 2 (Bhairavi)</h4>
                             </div>
                             <div className='row-1'>
-                                <div className='name-fs'><p style={{ fontWeight: "600", color: "#4338ca" }}>Dr. Satyapriya Gupta</p></div>
+                                <div className='name-fs'><p style={{ fontWeight: "600", color: "#4338ca" }}>Prof. Satyapriya Gupta</p></div>
                                 <h4>Warden, Hostel 2 (Bhairavi)</h4>
                             </div>
                             <div className='row-1'>
-                                <div className='name-fs'>   <p style={{ fontWeight: "600", color: "#4338ca" }}>Dr. Dhriti Ranjan Dolai</p></div>
+                                <div className='name-fs'>   <p style={{ fontWeight: "600", color: "#4338ca" }}>Prof. Dhriti Ranjan Dolai</p></div>
                                 <h4>Warden, Hostel 3 (Abheri)</h4>
                             </div>
                             <div className='row-1'>
-                                <div className='name-fs'>   <p style={{ fontWeight: "600", color: "#4338ca" }}>Dr. Satyapriya Gupta</p></div>
+                                <div className='name-fs'>   <p style={{ fontWeight: "600", color: "#4338ca" }}>Prof. Satyapriya Gupta</p></div>
                                 <h4>Warden, Hostel 3 (Abheri)</h4>
                             </div>
                             <div className='row-1'>
-                                <div className='name-fs'>   <p style={{ fontWeight: "600", color: "#4338ca" }}>Dr. Rahul J Pandya</p></div>
+                                <div className='name-fs'>   <p style={{ fontWeight: "600", color: "#4338ca" }}>Prof. Rahul J Pandya</p></div>
                                 <h4>Warden, Hostel 4 (Behag)</h4>
                             </div>
                             <div className='row-1'>
-                                <div className='name-fs'>   <p style={{ fontWeight: "600", color: "#4338ca" }}>Dr. Surya Prakash R
+                                <div className='name-fs'>   <p style={{ fontWeight: "600", color: "#4338ca" }}>Prof. Surya Prakash R
 
                                 </p></div>
                                 <h4>Warden, T-7 Hostel 7 (Durga)

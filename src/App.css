@@ -46,7 +46,7 @@ html, body {overflow-x: hidden !important;width: 100vw !important;
   margin-left: 100px;
 }
 .link-li-p p{
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 .link-li-p p:hover{
   text-decoration: underline;

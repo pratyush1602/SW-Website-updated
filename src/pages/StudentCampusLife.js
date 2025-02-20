@@ -20,8 +20,9 @@ export default function StudentCampusLife() {
         <div className='hostel-paragraph' style={{ marginTop: "30px" }}>
         <div className='sub-header'>  <p style={{ marginBottom: "15px", borderLeft: "5px solid #312e81",color:"rgb(30, 64, 175)", paddingLeft: "20px"}} >Students Campus Life</p></div>
 
-          <p>Life on the campus is pretty cool. Hostels and student facilities are spread over two campuses. Transit campus is located within WALMI near the High Court building. The new 470 acres campus at Chikamaligwad is a green mini forest with its own flora and fauna. It affords jogging, cycling and walking.
-            Day time is consumed by fast paced academic activities in classes, laboratories. Evenings are devoted to sports, club activites or simply chit-chat with friends on the grass lawns.
+          <p>IIT Dharwad is located at Chikkamalligawad. The new 470 acres campus at Chikamaligawad has a green mini forest with its own flora and fauna. It affords jogging, cycling and walking.
+            Day time is consumed by fast paced academic activities in classes, laboratories. Evenings are devoted to sports and club activites. Facilities such as an indoor sports complex, a library, a night 
+            canteen and a general store are available for the students' convenience. 
           </p>
 
         </div>

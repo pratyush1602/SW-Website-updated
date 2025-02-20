@@ -19,8 +19,8 @@ export default function SWDivisionOffice() {
             <motion.div className='sw-division-office' initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
                 <div className='sw-division-office-1' style={{ display: "flex", flexDirection: "column", gap: "20px", flexWrap: "wrap" }}>
                     <div className='wrapper' style={{ display: "flex", gap: "20px", alignItems: "center", justifyContent: 'center', flexWrap: "wrap" }}>
-                        <div className='dean'>
-                            <div className='first-info' style={{ display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column", padding: "15px" }}>
+                        <div className='dean' style={{padding: "25px", height: "350px"}}>
+                            <div className='first-info' style={{ marginTop: "20px", display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column", padding: "15px" }}>
                                 <img style = {{ width: "120px", height: "auto"}} src={ramjee} alt='loading'></img>
                                 <a href='https://iitdh-my.sharepoint.com/:w:/g/personal/pradeepyammi_iitdh_ac_in/ETk5ATyitbNGsH3bi7wF4UIB_esJbA4yfOgWmWxwP1dr7Q?rtime=H4caIQHb20g'> <p className='name' style={{ color: "#4338ca" }}>Prof. Ramjee Repaka</p></a>
                                 <p className='designation' style={{ color: "rgb(51, 72, 120)", fontWeight: "600" }}>Dean, Student Welfare</p>
@@ -45,7 +45,7 @@ export default function SWDivisionOffice() {
                     </div>
 
                     <div className='wrapper' style={{ display: "flex", gap: "20px", alignItems: "center", justifyContent: 'center', flexWrap: "wrap" }}>
-                                    <div className='dean'>
+                                    <div className='dean' style={{padding: "25px", height: "350px"}}>
                                         <div className='first-info' style={{ display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column", padding: "15px" }}>
                                             <img style = {{ width: "120px", height: "auto"}} src={Ramesh} alt='loading'></img>
                                             <a href='#'> <p className='name' style={{ color: "#4338ca" }}>Prof. Surya Prakash Ramesh</p></a>
@@ -53,7 +53,7 @@ export default function SWDivisionOffice() {
                                             <p></p>
                                         </div>
                                     </div>
-                        <div className='dean'>
+                        <div className='dean' style={{padding: "25px", height: "350px"}}>
                             <div className='first-info' style={{ display: "flex", alignItems: "center", flexDirection: "column", padding: "15px" }}>
                                 <img style = {{ width: "120px", height: "auto"}} src ={Surya} alt='loading'></img>
                                 <p style={{ color: "#4338ca" }} className='name'>Prof. Surya Pratap Singh</p>
@@ -61,19 +61,19 @@ export default function SWDivisionOffice() {
                                 <p style={{ textAlign: "center" }} className='about-des'>Hostel management & Maintenance; Allocation, Rules &amp; Regulation</p>
                             </div>
                         </div>
-                        <div className='dean'>
+                        <div className='dean' style={{padding: "25px", height: "350px"}}>
                             <div className='first-info' style={{ display: "flex", alignItems: "center", flexDirection: "column", padding: "15px" }}>
                                 <img style = {{ width: "120px", height: "auto"}} src ={Rajesh} alt='loading'></img>
                                 <p style={{ color: "#4338ca" }} className='name'>Prof. Rajeshwara Rao M</p>
-                                <p style={{ color: "rgb(51, 72, 120)", fontWeight: "600" }} className='designation'>Associate Dean - Gymkhana, Sports, Clubs and Technology</p>
+                                <p style={{ color: "rgb(51, 72, 120)", fontWeight: "600",textAlign: "center" }} className='designation'>Associate Dean - Gymkhana, Sports, Clubs and Technology</p>
                                 <p style={{ textAlign: "center" }} className='about-des'>Students Technical &amp; Cultural Councils; Gymkhana Facilities; Sports, NSS,NSO,NCC</p>
                             </div>
                         </div>
-                        <div className='dean'>
+                        <div className='dean' style={{padding: "25px", height: "350px"}}>
                             <div className='first-info' style={{ display: "flex", alignItems: "center", flexDirection: "column", padding: "15px" }}>
                                 <img style = {{ width: "120px", height: "auto"}} src={ridhima} alt='loading'></img>
                                 <p style={{ color: "#4338ca" }} className='name'>Dr. Ridhima Tewari</p>
-                                <p style={{ color: "rgb(51, 72, 120)", fontWeight: "600" }} className='designation'>Associate Dean - Wellness & Female Students</p>
+                                <div style={{ color: "rgb(51, 72, 120)", fontWeight: "600",textAlign:"center", alignItems: "center",}} className='designation'>Associate Dean - Wellness & Female Students</div>
                                 <p style={{ textAlign: "center" }} className='about-des'>Wellness Centre, Health and Counselling facilities, Female Students Welfare.</p>
                             </div>
                         </div>
