@@ -19,7 +19,7 @@ const Sidebar = ({ children }) => {
                     {/* <div className='sidebar-wrap'> */}
                         <div className='logo'>
                         <NavLink to="/" className="logo-in">
-                        <img src={logo} alt='logo' style={{ height: "70px", width: "70px", borderRadius: "50%", margin: "10px", cursor: "pointer" }}></img>
+                        <img src={logo} alt='logo' style={{ height: "50px", width: "50px", borderRadius: "50%", margin: "5px", cursor: "pointer" }}></img>
                         </NavLink>
 
                         </div>

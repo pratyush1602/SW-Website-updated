@@ -88,7 +88,7 @@ export default function AdministrativeOffice() {
                                     <img src={janardanReddy} alt='loading' style={{ height: "100px", width: "100px", borderRadius: "50%" }}></img>
                                 </div>
                                 <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "1.5px" }}>
-                                    <div style={{ display: "flex", gap: "5px", flexWrap: "wrap" }}><p className='name' style={{ color: "#4338ca", display: "flex", justifyContent: "center", flexWrap: "wrap" }}>Shri. Janardhan Reddy S <p></p></p><p className='name' style={{ color: "#4338ca" }}> Reddy</p></div>
+                                    <div style={{ display: "flex", gap: "5px", flexWrap: "wrap" }}><p className='name' style={{ color: "#4338ca", display: "flex", justifyContent: "center", flexWrap: "wrap" }}>Shri. Janardhan Reddy S <p></p></p><p className='name' style={{ color: "#4338ca" }}> </p></div>
                                     <p className='des' style={{ marginTop: "5px" }}>Junior Assistant</p>
                                     {/* <p className='des'>Hostel Manager -2</p>
                                         <p className='des'>Member Of HCU</p> */}

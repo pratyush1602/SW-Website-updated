@@ -70,11 +70,11 @@ export default function Gymkhana() {
 
 
                         <motion.div variants={{ hidden: { opacity: 0, y: 75 }, visible: { opacity: "1", y: 0 } }} initial="hidden" animate="visible" transition={{ duration: 0.5, delay: 0.25 }} className='gymkhana-sub-1' onClick={() => scrollHandler(club1)} style={{ border: "3px solid #c084fc", padding: "10px 50px 50px 50px", cursor: "pointer", borderRadius: "5px", fontSize: "18px" }}>
-                            <p style={{ textAlign: "center", margin: "10px", fontWeight: "600", fontSize: "1.7rem", paddingBottom: "20px" }}>TECHNICAL BOARD</p>
+                            <p style={{ textAlign: "center", margin: "10px", fontWeight: "600", fontSize: "1.7rem", paddingBottom: "20px" }}>TECHNICAL COUNCIL</p>
                             <ul style={{ fontSize: "20px", position: "relative", top: "0", bottom: "0", fontWeight: "600" }}>
 
 
-                                <li style={{ marginBottom: "10px", fontSize: "1.5rem" }}> <a>Technical Club</a> </li>
+                                {/* <li style={{ marginBottom: "10px", fontSize: "1.5rem" }}> <a>Technical Club</a> </li> */}
 
                                 <li style={{ listStyleType: "none" }}><a></a></li>
                                 <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", fontSize: "1rem", fontWeight: "200", color: "#0284c7" }}><p>Click here for more</p>
@@ -84,13 +84,13 @@ export default function Gymkhana() {
 
                         </motion.div>
                         <motion.div variants={{ hidden: { opacity: 0, y: 75 }, visible: { opacity: "1", y: 0 } }} initial="hidden" animate="visible" transition={{ duration: 0.5, delay: 0.25 }} className='gymkhana-sub-1' onClick={() => scrollHandler(cultureClub)} style={{ border: "3px solid #c084fc", padding: "10px 50px 50px 50px", cursor: "pointer", borderRadius: "5px", fontSize: "18px" }}>
-                            <p style={{ textAlign: "center", margin: "10px", fontWeight: "600", fontSize: "1.7rem", paddingBottom: "20px" }}>CULTURE BOARD</p>
+                            <p style={{ textAlign: "center", margin: "10px", fontWeight: "600", fontSize: "1.7rem", paddingBottom: "20px" }}>CULTURAL COUNCIL</p>
 
                             <ul style={{ fontSize: "20px", fontWeight: "600", position: "relative", top: "0", bottom: "0" }}>
 
 
 
-                                <li style={{ marginBottom: "10px", fontSize: "1.5rem" }}> <a>Culture Club</a> </li>
+                                {/* <li style={{ marginBottom: "10px", fontSize: "1.5rem" }}> <a>Culture Club</a> </li> */}
                                 <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", fontSize: "1rem", fontWeight: "200", color: "#0284c7" }}><p>Click here for more</p></div>
                                 <FaArrowDownLong className='blink-shadow ' style={{ position: "absolute", left: "98%", top: "70%", backgroundColor: "#c084fc", padding: "5px 15px", borderRadius: "5px" }} />
                             </ul>
@@ -102,6 +102,7 @@ export default function Gymkhana() {
                                 <li style={{ marginBottom: "10px" }}> <a>NSO</a> </li>
 
                                 <li style={{ marginBottom: "10px" }}> <a>NSS</a> </li>
+                                <li style={{ marginBottom: "10px" }}> <a>NCC</a> </li>
                                 <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", fontSize: "1rem", fontWeight: "200", color: "#0284c7" }}><p>Click here for more</p></div>
                                 <FaArrowDownLong className='blink-shadow ' style={{ position: "absolute", left: "98%", top: "80%", backgroundColor: "#c084fc", padding: "6px 15px", borderRadius: "5px" }} />
                             </ul>
@@ -122,25 +123,25 @@ export default function Gymkhana() {
                                 <div ref={ref} className='general-secre-hostel' style={{ display: "flex", gap: "50px", flexWrap: "wrap" }}>
                                     <motion.div variants={{ hidden: { opacity: 0, y: 75 }, visible: { opacity: "1", y: 0 } }} initial="hidden" animate="visible" transition={{ duration: 0.5, delay: 0.25 }} style={{ display: "flex", flexDirection: "column", gap: "20px" }}>
                                         <div className='g-s'>
-                                            <p style={{ fontWeight: "600", color: "#4338ca" }}>Dr. Rajeswara Rao M</p>
+                                            <p style={{ fontWeight: "600", color: "#4338ca" }}>Prof. Rajeswara Rao M</p>
                                             <h4>Faculty-In-Charge, Students Welfare (Sports/NSS/NCC)</h4>
                                         </div>
                                         <div className='g-s'>
-                                            <p style={{ fontWeight: "600", color: "#4338ca" }}>Dr. Vigneshwara Raja P</p>
+                                            <p style={{ fontWeight: "600", color: "#4338ca" }}>Prof. Vigneshwara Raja P</p>
                                             <h4>Faculty-In-Charge, Students Welfare (Sports/NSS/NCC)</h4>
                                         </div>
                                         <div className='g-s'>
-                                            <p style={{ fontWeight: "600", color: "#4338ca" }}>Dr. Kavita Devi</p>
+                                            <p style={{ fontWeight: "600", color: "#4338ca" }}>Prof. Kavita Devi</p>
                                             <h4>Faculty-In-Charge, Students Welfare (Sports/NSS/NCC)</h4>
                                         </div>
                                     </motion.div>
                                     <motion.div variants={{ hidden: { opacity: 0, y: 75 }, visible: { opacity: "1", y: 0 } }} initial="hidden" animate="visible" transition={{ duration: 0.5, delay: 0.25 }} style={{ display: "flex", flexDirection: "column", gap: "20px" }}>
                                         <div className='g-s'>
-                                            <p style={{ fontWeight: "600", color: "#4338ca" }}>Dr. Surya Prakash Ramesh</p>
+                                            <p style={{ fontWeight: "600", color: "#4338ca" }}>Prof. Surya Prakash Ramesh</p>
                                             <h4>Faculty-In-Charge, Students Welfare (Culture & Events & Technical)</h4>
                                         </div>
                                         <div className='g-s'>
-                                            <p style={{ fontWeight: "600", color: "#4338ca" }}>Dr. Nagaveni S</p>
+                                            <p style={{ fontWeight: "600", color: "#4338ca" }}>Prof. Nagaveni S</p>
                                             <h4>Faculty-In-Charge, Students Welfare (Culture & Events & Technical)</h4>
                                         </div>
                                     </motion.div>
@@ -157,14 +158,14 @@ export default function Gymkhana() {
                             <div style={{ display: "flex", alignItems: "center", gap: "20px" }}>
                                 <img src={keerthiK} alt='loading' style={{ height: "100px", width: "100px", borderRadius: "50%" }}></img>
                                 <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "1.5px" }}>
-                                    <p style={{ fontWeight: "600", color: "#4338ca" }}>Dr Keerthi Kumar M</p>
+                                    <p style={{ fontWeight: "600", color: "#4338ca" }}>Dr. Keerthi Kumar M</p>
                                     <h4 style={{ marginTop: "5px" }}>Sports Officer</h4>
                                 </div>
                             </div>
                             <div style={{ display: "flex", alignItems: "center", gap: "20px" }}>
                                 <img src={raviSG} alt='loading' style={{ height: "100px", width: "100px", borderRadius: "50%" }}></img>
                                 <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "1.5px" }}>
-                                    <p style={{ fontWeight: "600", color: "#4338ca" }}>Ravi Shivaprakash</p>
+                                    <p style={{ fontWeight: "600", color: "#4338ca" }}>Shri Ravi Shivaprakash</p>
                                     <p style={{ fontWeight: "600", color: "#4338ca" }}>Ghalimath</p>
                                     <h4 style={{ marginTop: "5px" }}>Assistant Sports Officer</h4>
                                 </div>
@@ -173,7 +174,7 @@ export default function Gymkhana() {
                             <div style={{ display: "flex", alignItems: "center", gap: "20px" }}>
                                 <img src={GRamesh} alt="loading" style={{ height: "100px", width: "100px", borderRadius: "50%" }}></img>
                                 <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "1.5px" }}>
-                                    <p style={{ fontWeight: "600", color: "#4338ca" }}>G Ramesh</p>
+                                    <p style={{ fontWeight: "600", color: "#4338ca" }}>Shri G Ramesh</p>
                                     <h4 style={{ marginTop: "5px" }}>Assistant Sports Officer</h4>
                                 </div>
                             </div>
