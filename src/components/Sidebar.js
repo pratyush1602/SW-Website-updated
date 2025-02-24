@@ -206,7 +206,7 @@ const Sidebar = ({ children }) => {
                                 <div className='info2'>
                                     <h1 className='logo-1' style={{ color: "white", letterSpacing: "2.5px", fontWeight: "600", textAlign: "center" }}>STUDENT</h1>
                                     <h1 className='logo-1' style={{ color: "white", letterSpacing: "2.5px", fontWeight: "600", textAlign: "center" }}>WELFARE</h1>
-                                    <h1 className='logo-1' style={{ color: "white", letterSpacing: "2.5px", fontWeight: "600", textAlign: "center" }}>DIVISION</h1>
+                                    <h1 className='logo-1' style={{ color: "white", letterSpacing: "2.5px", fontWeight: "600", textAlign: "center" }}>OFFICE</h1>
                                 </div>
                             </div>
                             <div className="bars" onClick={toggle}>

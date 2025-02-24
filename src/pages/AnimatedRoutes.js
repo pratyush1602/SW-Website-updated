@@ -2,7 +2,7 @@ import React from 'react'
 import { useLocation, Routes, Route, Router } from 'react-router-dom';
 import Sidebar from "../components/Sidebar.js";
 import StudentDivisionOrgano from './StudentDivisionOrgano.js';
-import SWDivisionOffice from "./SWDivisionOffice.js";
+import DeansAssociateDeans from "./DeansAssociateDeans.js";
 import Home from "./Home.js";
 
 import AdministrativeOffice from "./AdministrativeOffice.js";
@@ -37,7 +37,7 @@ export default function AnimatedRoutes() {
                 {/* <AnimatePresence> */}
                     <Routes location={location} key={location.pathname}>
                         <Route path="/"  element={<Home />} />
-                        <Route path="/dean_associate_deans" element={<SWDivisionOffice />} />
+                        <Route path="/dean_associate_deans" element={<DeansAssociateDeans />} />
                         <Route path="/sw_division_organogram" element={<StudentDivisionOrgano />} />
 
                         <Route path="/administrative_office" element={<AdministrativeOffice />} />
