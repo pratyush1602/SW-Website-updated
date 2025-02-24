@@ -9,8 +9,8 @@ import GRamesh from './images/Ramesh - Ramesh G.png';
 // import ramjee from './images/ramjee.png';
 import Ramjee from './images/r1.jpeg';
 import amoldiwate from './images/amoldiwate.jpg';
-import Arun from "../Img/Arun_Verma.jpg";
-import Avinash from "../Img/IMG_20240115_154113 - AVINASH B.jpg";
+import Arun from "./images/Arun_Verma.jpg";
+import Avinash from "./images/IMG_20240115_154113 - AVINASH B.jpg";
 import RameshKumar from './images/RameshKumar.png';
 import { motion } from 'framer-motion';
 export default function AdministrativeOffice() {

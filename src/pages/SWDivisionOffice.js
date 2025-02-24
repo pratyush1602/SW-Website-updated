@@ -7,9 +7,9 @@ import GopalSP from './images/Gopal Parashari Pic - Gopal Sharan Parashari.jpg';
 import prahladJoshi from './images/Dr. Prahlad Joshi.jpg';
 import vcprakash from './images/vs prakash.jpg';
 import { NavLink } from 'react-router-dom';
-import Ramesh from '../Img/DSC_4417 copy - Surya Prakash Ramesh.jpg';
-import Rajesh from "../Img/rajesh.jpg"
-import Surya from "../Img/IMG_5363 - Surya Pratap Singh.jpeg";
+import Ramesh from './images/DSC_4417 copy - Surya Prakash Ramesh.jpg';
+import Rajesh from "./images/rajesh.jpg"
+import Surya from "./images/IMG_5363 - Surya Pratap Singh.jpeg";
 import sudheer from './images/sudheer_bio - Prof. Sudheer.jpg';
 import ramjee from './images/r1.jpeg';
 import { motion } from 'framer-motion';

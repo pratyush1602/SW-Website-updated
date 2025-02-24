@@ -10,10 +10,10 @@ import raviM from './images/RaviM.jpg';
 import raviSG from './images/Ravi - Ravi Ghalimath.jpg';
 import keerthiK from './images/Keerthi Kumar.jpeg';
 import GRamesh from './images/Ramesh - Ramesh G.png';
-import Ramesh from "../Img/DSC_4417 copy - Surya Prakash Ramesh.jpg"
-import Arun from "../Img/Arun_Verma.jpg";
-import Rajesh from "../Img/rajesh.jpg";
-import Avinash from "../Img/IMG_20240115_154113 - AVINASH B.jpg";
+import Ramesh from "./images/DSC_4417 copy - Surya Prakash Ramesh.jpg"
+import Arun from "./images/Arun_Verma.jpg";
+import Rajesh from "./images/rajesh.jpg";
+import Avinash from "./images/IMG_20240115_154113 - AVINASH B.jpg";
 import amoldiwate from './images/amoldiwate.jpg';
 import vcprakash from './images/vs prakash.jpg';
 import ridhima from './images/Ridhima_Photo - Ridhima Tewari.jpg'
