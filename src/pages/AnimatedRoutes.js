@@ -5,7 +5,7 @@ import StudentDivisionOrgano from './StudentDivisionOrgano.js';
 import DeansAssociateDeans from "./DeansAssociateDeans/DeansAssociateDeans.js";
 import Home from "./Home.js";
 
-import AdministrativeOffice from "./AdministrativeOffice.js";
+import AdministrativeOffice from "./AdministrativeOffice/AdministrativeOffice.js";
 import Hostels from "./Hostels.js";
 import MessAndCanteen from "./MessAndCanteen.js";
 import Gymkhana from "./Gymkhana.js";

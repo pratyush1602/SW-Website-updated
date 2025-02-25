@@ -4,7 +4,7 @@
 
 .custom-nav-image-wrapper {
     height: 70px;
-    margin: 1rem;
+    margin: 0.1rem 1rem 0.1rem 1rem;
 }
 
 .custom-nav-image {
@@ -33,7 +33,6 @@
 .nav-link:hover {
     color: inherit !important; /* Prevent Bootstrap hover color */
 }
-
 
 
 .navbar-toggler:focus {
