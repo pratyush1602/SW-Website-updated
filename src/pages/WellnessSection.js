@@ -4,9 +4,9 @@ import { LiaHospital } from 'react-icons/lia';
 import { IoIosArrowDown } from 'react-icons/io';
 import { SiGotomeeting } from 'react-icons/si';
 import { useRef } from 'react';
-import wellnesscentre from './images/wellnesscentre.jpg';
-import yourDost from './PdfFiles/YourDOST_steps_2023_07_19.pdf';
-import telemanasa from './PdfFiles/teleMANASA.pdf';
+import wellnesscentre from '../images/wellnesscentre.jpg';
+import yourDost from '../documents//YourDOST_steps_2023_07_19.pdf';
+import telemanasa from '../documents//teleMANASA.pdf';
 import { motion } from 'framer-motion';
 import Scrollevent from './Scrollerevent2';
 

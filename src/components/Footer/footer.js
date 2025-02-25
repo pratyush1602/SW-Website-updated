@@ -1,6 +1,5 @@
 import React from 'react';
 import './footer.css'; // Import the CSS file for custom styling
-import StudentActivities from './StudentActivities';
 import { Link } from 'react-router-dom';
 
 
@@ -34,7 +33,7 @@ const Footer = () => {
                         </li>
                         <li>
                         <p>
-                            <Link to="/student-activities" >
+                            <Link to="#" >
                             Student Activities
                             </Link>{" "}
 
@@ -42,7 +41,7 @@ const Footer = () => {
                         </li>
                         <li>
                         <p>
-                            <Link to="/rti" >
+                            <Link to="#" >
                             RTI
                             </Link>{" "}
                         </p>

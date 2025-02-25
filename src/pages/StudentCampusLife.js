@@ -1,15 +1,15 @@
 import React from 'react';
 import './StudentCampusLife.css';
-import sc1 from './images/studentcampus1.jpg';
-import sc2 from './images/homeimage5.jpg';
-import sc4 from './images/studentcampus4.jpg';
-import sc5 from './images/studentcampus5.png';
-import sc7 from './images/studentcampus.jpg';
-import sc8 from './images/studentcampuslife.jpg';
-import sc9 from './images/homeimage11.jpg'
-import sc10 from './images/homeimage4.jpg' 
-import sc11 from './images/homeimage9.jpg'
-import sc12 from './images/homeimage7.jpg';
+import sc1 from '../images/studentcampus1.jpg';
+import sc2 from '../images/homeimage5.jpg';
+import sc4 from '../images/studentcampus4.jpg';
+import sc5 from '../images/studentcampus5.png';
+import sc7 from '../images/studentcampus.jpg';
+import sc8 from '../images/studentcampuslife.jpg';
+import sc9 from '../images/homeimage11.jpg'
+import sc10 from '../images/homeimage4.jpg' 
+import sc11 from '../images/homeimage9.jpg'
+import sc12 from '../images/homeimage7.jpg';
 import { motion } from 'framer-motion';
 export default function StudentCampusLife() {
   return (

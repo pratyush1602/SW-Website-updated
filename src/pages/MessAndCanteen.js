@@ -1,9 +1,9 @@
 import React from 'react'
 import "./MessAndCanteen.css";
-import canteen1 from './images/canteen1.jpg';
-import canteen5 from './images/Mess-Canteen.jpg';
-import canteen7 from './images/Mess-Canteen2.jpg';
-import canteen8 from './images/Mess-Canteen3.jpg';
+import canteen1 from '../images/canteen1.jpg';
+import canteen5 from '../images/Mess-Canteen.jpg';
+import canteen7 from '../images/Mess-Canteen2.jpg';
+import canteen8 from '../images/Mess-Canteen3.jpg';
 import { motion } from 'framer-motion';
 export default function MessAndCanteen() {
     return (

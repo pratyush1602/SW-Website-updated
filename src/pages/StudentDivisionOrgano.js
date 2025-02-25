@@ -1,29 +1,29 @@
 import React from 'react';
 import "./StudentDivisionOrgano.css";
-import pradeepy from './images/PY Adj Prof - Pradeep_Yammiyavar_0.jpg';
-import prabhu from './images/Prabhu1 - Prabhu R.jpg';
-import gopalSP from './images/Gopal Parashari Pic - Gopal Sharan Parashari.jpg';
-import prahladJoshi from './images/Dr. Prahlad Joshi.jpg';
-import chetanKumar from './images/ChetanKumarM - Chetan Kumar M.jpg';
-import janardanReddy from './images/Janardhan Reddy S.jpg';
-import raviM from './images/RaviM.jpg';
-import raviSG from './images/Ravi - Ravi Ghalimath.jpg';
-import keerthiK from './images/Keerthi Kumar.jpeg';
-import GRamesh from './images/Ramesh - Ramesh G.png';
-import Ramesh from "./images/DSC_4417 copy - Surya Prakash Ramesh.jpg"
-import Arun from "./images/Arun_Verma.jpg";
-import Rajesh from "./images/rajesh.jpg";
-import Avinash from "./images/IMG_20240115_154113 - AVINASH B.jpg";
-import amoldiwate from './images/amoldiwate.jpg';
-import vcprakash from './images/vs prakash.jpg';
-import ridhima from './images/Ridhima_Photo - Ridhima Tewari.jpg'
+import pradeepy from '../images/PY Adj Prof - Pradeep_Yammiyavar_0.jpg';
+import prabhu from '../images/Prabhu1 - Prabhu R.jpg';
+import gopalSP from '../images/Gopal Parashari Pic - Gopal Sharan Parashari.jpg';
+import prahladJoshi from '../images/Dr. Prahlad Joshi.jpg';
+import chetanKumar from '../images/ChetanKumarM - Chetan Kumar M.jpg';
+import janardanReddy from '../images/Janardhan Reddy S.jpg';
+import raviM from '../images/RaviM.jpg';
+import raviSG from '../images/Ravi - Ravi Ghalimath.jpg';
+import keerthiK from '../images/Keerthi Kumar.jpeg';
+import GRamesh from '../images/Ramesh - Ramesh G.png';
+import Ramesh from "../images/DSC_4417 copy - Surya Prakash Ramesh.jpg"
+import Arun from "../images/Arun_Verma.jpg";
+import Rajesh from "../images/rajesh.jpg";
+import Avinash from "../images/IMG_20240115_154113 - AVINASH B.jpg";
+import amoldiwate from '../images/amoldiwate.jpg';
+import vcprakash from '../images/vs prakash.jpg';
+import ridhima from '../images/Ridhima_Photo - Ridhima Tewari.jpg'
 import { NavLink } from 'react-router-dom';
 import { FaArrowDownLong } from 'react-icons/fa6';
 import BackToTop from './BackToTop';
 import { FaArrowLeft } from 'react-icons/fa6';
-import tembe from './images/Tembe.png';
-import RameshKumar from './images/RameshKumar.png';
-import ramjee from './images/r1.jpeg';
+import tembe from '../images/Tembe.png';
+import RameshKumar from '../images/RameshKumar.png';
+import ramjee from '../images/r1.jpeg';
 import { motion } from 'framer-motion';
 export default function StudentDivisionOrgano() {
 

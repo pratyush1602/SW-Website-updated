@@ -1,13 +1,13 @@
 import React from 'react';
 import './Hostels.css';
-import hostel1 from './images/homeimage1.jpg';
-import hosteimage2 from './images/Hostel_2.jpg';
-import hostelimage from './images/Hostel_3.jpg';
-import hostelimage4 from './images/Hostel_5.jpg';
-import hostelimage5 from './images/Hostel_6.jpg';
-import hostelimage6 from './images/studentcampuslife.jpg';
-import hostelroom from './images/Hostel_Room (1).jpg';
-import hostelroom1 from './images/Hostel_Room (2).jpg';
+import hostel1 from '../images/homeimage1.jpg';
+import hosteimage2 from '../images/Hostel_2.jpg';
+import hostelimage from '../images/Hostel_3.jpg';
+import hostelimage4 from '../images/Hostel_5.jpg';
+import hostelimage5 from '../images/Hostel_6.jpg';
+import hostelimage6 from '../images/studentcampuslife.jpg';
+import hostelroom from '../images/Hostel_Room (1).jpg';
+import hostelroom1 from '../images/Hostel_Room (2).jpg';
 import { motion } from 'framer-motion';
 export default function Hostels() {
     return (

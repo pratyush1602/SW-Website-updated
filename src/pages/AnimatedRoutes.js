@@ -1,8 +1,8 @@
 import React from 'react'
 import { useLocation, Routes, Route, Router } from 'react-router-dom';
-import Sidebar from "../components/Sidebar.js";
+import Sidebar from "../components/Sidebar/Sidebar.js";
 import StudentDivisionOrgano from './StudentDivisionOrgano.js';
-import DeansAssociateDeans from "./DeansAssociateDeans.js";
+import DeansAssociateDeans from "./DeansAssociateDeans/DeansAssociateDeans.js";
 import Home from "./Home.js";
 
 import AdministrativeOffice from "./AdministrativeOffice.js";
@@ -18,8 +18,10 @@ import { Power3 } from 'gsap';
 import Others from "./Others.js";
 import { AnimatePresence } from 'framer-motion';
 
-import StudentActivities from '../components/StudentActivities.js';
-import Rti from '../components/Rti.js';
+// import StudentActivities from '../components/StudentActivities.js';
+// import Rti from '../components/Rti.js';
+                        /* <Route path="/student-activities" element={<StudentActivities />} /> */
+                        /* <Route path="/rti" element={<Rti/>}/> */
 
 import  Counselling from "./Counselling.js";
 
@@ -49,8 +51,6 @@ export default function AnimatedRoutes() {
 
 
                         <Route path="/others" element={<Others />} />
-                        <Route path="/student-activities" element={<StudentActivities />} />
-                        <Route path="/rti" element={<Rti/>}/>
                         <Route path="/counselling" element={<Counselling/>}/>
                     </Routes>
                 {/* </AnimatePresence> */}

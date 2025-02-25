@@ -1,17 +1,17 @@
 import React from 'react';
 import './AdministrativeOffice.css';
-import chetanKumar from './images/ChetanKumarM - Chetan Kumar M.jpg';
-import janardanReddy from './images/Janardhan Reddy S.jpg';
-import raviM from './images/RaviM.jpg';
-import raviSG from './images/Ravi - Ravi Ghalimath.jpg';
-import keerthiK from './images/Keerthi Kumar.jpeg';
-import GRamesh from './images/Ramesh - Ramesh G.png';
-// import ramjee from './images/ramjee.png';
-import Ramjee from './images/r1.jpeg';
-import amoldiwate from './images/amoldiwate.jpg';
-import Arun from "./images/Arun_Verma.jpg";
-import Avinash from "./images/IMG_20240115_154113 - AVINASH B.jpg";
-import RameshKumar from './images/RameshKumar.png';
+import chetanKumar from '../images/ChetanKumarM - Chetan Kumar M.jpg';
+import janardanReddy from '../images/Janardhan Reddy S.jpg';
+import raviM from '../images/RaviM.jpg';
+import raviSG from '../images/Ravi - Ravi Ghalimath.jpg';
+import keerthiK from '../images/Keerthi Kumar.jpeg';
+import GRamesh from '../images/Ramesh - Ramesh G.png';
+// import ramjee from '../images/ramjee.png';
+import Ramjee from '../images/r1.jpeg';
+import amoldiwate from '../images/amoldiwate.jpg';
+import Arun from "../images/Arun_Verma.jpg";
+import Avinash from "../images/IMG_20240115_154113 - AVINASH B.jpg";
+import RameshKumar from '../images/RameshKumar.png';
 import { motion } from 'framer-motion';
 export default function AdministrativeOffice() {
     return (

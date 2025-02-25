@@ -4,20 +4,20 @@ import Scrollevent from "./Scrollerevent";
 import "./Counselling.css";
 import { motion } from 'framer-motion';
 
-import yd from "./images/yourdost.png";
-import te from "./images/tele-manas-mental-health-service1.jpg"
+import yd from "../images/yourdost.png";
+import te from "../images/tele-manas-mental-health-service1.jpg"
 
-import Pasham from "./copy_of_mentor_photos/IMG_1245_-_Pasham_Pardeev_Narsi_Reddy.jpg"
-import Utkarsh from "./copy_of_mentor_photos/IMG_20240912_230600 - UTKARSH RAJ.jpg"
-import Rituraj from "./copy_of_mentor_photos/Rituraj_me23ms004 - Rituraj Kumar.jpg"
-import Jan from "./copy_of_mentor_photos/IMG_20241004_010834 - Janagesh R.jpg"
-import Juhi from "./copy_of_mentor_photos/IMG-20240907-WA0035 - JUHI KUMARI.jpg"
-import Jaswika from "./copy_of_mentor_photos/InShot_20241004_111245765 - MARYADA JASWIKA.jpg"
-import Meegada from "./copy_of_mentor_photos/IMG_20241005_113920 - MEEGADA SAI SINDHUJA.jpg"
-import Avikal from "./copy_of_mentor_photos/Photo - AVIKAL SRIVASTAVA.jpg"
-import Midhu from "./copy_of_mentor_photos/IMG20240907121652 - MIDDEPOGU MANVITHA.jpg"
+import Pasham from "../images/student-wellness-mentors/IMG_1245_-_Pasham_Pardeev_Narsi_Reddy.jpg"
+import Utkarsh from "../images/student-wellness-mentors/IMG_20240912_230600 - UTKARSH RAJ.jpg"
+import Rituraj from "../images/student-wellness-mentors/Rituraj_me23ms004 - Rituraj Kumar.jpg"
+import Jan from "../images/student-wellness-mentors/IMG_20241004_010834 - Janagesh R.jpg"
+import Juhi from "../images/student-wellness-mentors/IMG-20240907-WA0035 - JUHI KUMARI.jpg"
+import Jaswika from "../images/student-wellness-mentors/InShot_20241004_111245765 - MARYADA JASWIKA.jpg"
+import Meegada from "../images/student-wellness-mentors/IMG_20241005_113920 - MEEGADA SAI SINDHUJA.jpg"
+import Avikal from "../images/student-wellness-mentors/Photo - AVIKAL SRIVASTAVA.jpg"
+import Midhu from "../images/student-wellness-mentors/IMG20240907121652 - MIDDEPOGU MANVITHA.jpg"
 
-import Harsh from "./copy_of_mentor_photos/IMG20230514225607 - Harsh Vardhan Chowdhary.jpg"
+import Harsh from "../images/student-wellness-mentors/IMG20230514225607 - Harsh Vardhan Chowdhary.jpg"
 
 function Counselling() {
     return (
