@@ -26,27 +26,43 @@ const images = [
 const wardens = [
     {
         subTitle: 'Boys Hostel-1',
-        people: [
-            { name: 'Sudhir K. Sahoo', designation: '' },
-            { name: 'Subhash Mehto', designation: '' },
+        subSubTitles: [
+            {
+                subSubtitle: '',
+                people: [
+                    { name: 'Sudhir K. Sahoo', designation: '' },
+                    { name: 'Subhash Mehto', designation: '' },
+                ],
+            },
         ],
     },
     {
         subTitle: 'Boys Hostel-2',
-        people: [
-            { name: 'Saroj Mondal', designation: '' },
-            { name: 'Rakesh Lingam', designation: '' },
-            { name: 'Sushanta K. Sethi', designation: '' },
+        subSubTitles: [
+            {
+                subSubTitle: '',
+                people: [
+                    { name: 'Saroj Mondal', designation: '' },
+                    { name: 'Rakesh Lingam', designation: '' },
+                    { name: 'Sushanta K. Sethi', designation: '' },
+                ],
+            },
         ],
     },
     {
         subTitle: 'Girls Hostel-1',
-        people: [
-            { name: 'Ruma Ghosh', designation: '' },
-            { name: 'Shraddha Srivastava', designation: '' },
+        subSubTitles: [
+            {
+                subSubTitle: '',
+                people: [
+                    { name: 'Ruma Ghosh', designation: '' },
+                    { name: 'Shraddha Srivastava', designation: '' },
+                ],
+            },
         ],
     },
 ];
+
 
 
 export default function Hostels() {
@@ -100,35 +116,15 @@ export default function Hostels() {
                 </div>
 
                 <div className='d-flex flex-column align-items-center'>
-                    <div className='rounded custom-important-container p-5 row'>
+                    <div className='rounded custom-important-container pt-5 col-md-4 row'>
                         <div className='col-md-12 d-flex flex-column align-items-center text-center mb-5'>
-                            <h2 className='text-decoration-underline'><u>HOSTEL WARDENS</u></h2>
+                            <h2 className='text-decoration-underline'>HOSTEL WARDENS</h2>
                         </div>
 
-                        <div className='col-md-6 d-flex flex-column align-items-center text-center'>
+                        <div className='d-flex flex-column align-items-center text-center'>
                             <PeopleList
-                                mainTitle="Boys Hostel 1"
-                                subTitle=""
-                                subSubTitle=""
-                                items={wardens.filter(warden => warden.subTitle.startsWith('Boys Hostel-1'))}
-                            />
-                        </div>
-
-                        <div className='col-md-6 d-flex flex-column align-items-center text-center'>
-                            <PeopleList
-                                mainTitle="Boys Hostel 2"
-                                subTitle=""
-                                subSubTitle=""
-                                items={wardens.filter(warden => warden.subTitle.startsWith('Boys Hostel-2'))}
-                            />
-                        </div>
-
-                        <div className='col-md-6 d-flex flex-column align-items-center text-center'>
-                            <PeopleList
-                                mainTitle="Girls Hostel 1"
-                                subTitle=""
-                                subSubTitle=""
-                                items={wardens.filter(warden => warden.subTitle.startsWith('Girls Hostel-1'))}
+                                mainTitle=""
+                                items={wardens}
                             />
                         </div>
 
