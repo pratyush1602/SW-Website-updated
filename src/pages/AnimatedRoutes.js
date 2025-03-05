@@ -6,7 +6,7 @@ import DeansAssociateDeans from "./DeansAssociateDeans/DeansAssociateDeans.js";
 import Home from "./Home/Home.js";
 
 import AdministrativeOffice from "./AdministrativeOffice/AdministrativeOffice.js";
-import Hostels from "./Hostels.js";
+import Hostels from "./Hostels/Hostels.js";
 import MessAndCanteen from "./MessAndCanteen.js";
 import Gymkhana from "./Gymkhana.js";
 import GoToTop from "./GoToTop.js";

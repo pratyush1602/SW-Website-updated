@@ -56,8 +56,8 @@ export default function AdministrativeOffice() {
             </div>
 
             <div className='mt-5'>
-                <div>
-                    <p className='custom-sub-header fs-2 rounded'>About</p>
+                <div className='custom-sub-header fs-2 rounded'>
+                    <p> About </p>
                 </div>
                 <div className='custom-content text-left'>
                     <p className='fs-4'>

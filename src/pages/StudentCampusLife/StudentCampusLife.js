@@ -40,8 +40,8 @@ export default function StudentCampusLife() {
       <motion.div className='pb-5 pt-2' initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
         <h1 className='mb-2'>Life at IIT Dharwad</h1>
         <div className='mt-5'>
-          <div>
-              <p className='custom-sub-header fs-2 rounded'>Student Campus Life</p>
+          <div className='custom-sub-header fs-2 rounded'>
+              <p>Student Campus Life</p>
           </div>
           <div className='custom-content text-left fs-4'>
             <p>
