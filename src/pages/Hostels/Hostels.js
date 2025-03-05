@@ -1,6 +1,7 @@
 import React from 'react';
-import './Hostels.css';
+// import './Hostels.css';
 import ImageGrid from '../../components/ImageGrid/ImageGrid.js';
+import PeopleList from '../../components/PeopleList/PeopleList.js';
 import hostel1 from '../../images/homeimage1.jpg';
 import hostelimage2 from '../../images/Hostel_2.jpg';
 import hostelimage from '../../images/Hostel_3.jpg';
@@ -22,25 +23,30 @@ const images = [
     { src: hostelroom1, alt: 'Hostel Room Image 2' },
 ];
 
-const wardens = {
-    Boys: {
-        'Hostel-1': [
-            { name: 'Sudhir K. Sahoo' },
-            { name: 'Subhash Mehto' },
-        ],
-        'Hostel-2': [
-            { name: 'Saroj Mondal' },
-            { name: 'Rakesh Lingam' },
-            { name: 'Sushanta K. Sethi' },
+const wardens = [
+    {
+        subTitle: 'Boys Hostel-1',
+        people: [
+            { name: 'Sudhir K. Sahoo', designation: '' },
+            { name: 'Subhash Mehto', designation: '' },
         ],
     },
-    Girls: {
-        'Hostel-1': [
-            { name: 'Ruma Ghosh' },
-            { name: 'Shraddha Srivastava' },
+    {
+        subTitle: 'Boys Hostel-2',
+        people: [
+            { name: 'Saroj Mondal', designation: '' },
+            { name: 'Rakesh Lingam', designation: '' },
+            { name: 'Sushanta K. Sethi', designation: '' },
         ],
     },
-};
+    {
+        subTitle: 'Girls Hostel-1',
+        people: [
+            { name: 'Ruma Ghosh', designation: '' },
+            { name: 'Shraddha Srivastava', designation: '' },
+        ],
+    },
+];
 
 
 export default function Hostels() {
@@ -53,7 +59,7 @@ export default function Hostels() {
                     <div className='custom-sub-header fs-2 rounded'>
                         <p>Hostels</p>
                     </div>
-                    <div className='custom-content text-left fs-4'>
+                    <div className='custom-content text-start fs-4'>
                         <p>
                             IIT Dharwad being a fully residential institute, all students are mandatorily accommodated in hostels within the campus.
                             Girls have a separate section. Hostels are safe and under round the clock security supervision.
@@ -95,45 +101,37 @@ export default function Hostels() {
 
                 <div className='d-flex flex-column align-items-center'>
                     <div className='rounded custom-important-container p-5 row'>
-                        <div class='col-md-12 d-flex flex-column align-items-center text-center mb-3'>
-                            <h2 class='text-decoration-underline'><u>HOSTEL WARDENS</u></h2>
+                        <div className='col-md-12 d-flex flex-column align-items-center text-center mb-5'>
+                            <h2 className='text-decoration-underline'><u>HOSTEL WARDENS</u></h2>
                         </div>
 
                         <div className='col-md-6 d-flex flex-column align-items-center text-center'>
-                            <h3>Boys</h3>
-                            {Object.entries(wardens.Boys).map(([hostel, wardenList]) => (
-                                <div key={hostel} class Name='mb-5'>
-                                    <h4>{hostel}</h4>
-                                    <ul className='text-start'>
-                                        {wardenList.map((warden, index) => (
-                                            <li key={index}>
-                                                <h5 className='fs-6' style={{ fontWeight: "600", color: "#4338ca" }}>Prof. {warden.name}</h5>
-                                                {/*<h6>Warden, {hostel}</h6>*/}
-                                            </li>
-                                        ))}
-                                    </ul>
-                                </div>
-                            ))}
+                            <PeopleList
+                                mainTitle="Boys Hostel 1"
+                                subTitle=""
+                                subSubTitle=""
+                                items={wardens.filter(warden => warden.subTitle.startsWith('Boys Hostel-1'))}
+                            />
                         </div>
 
                         <div className='col-md-6 d-flex flex-column align-items-center text-center'>
-                            <h3>Girls</h3>
-                            {Object.entries(wardens.Girls).map(([hostel, wardenList]) => (
-                                <div key={hostel} className='mb-5'>
-                                    <h4>{hostel}</h4>
-                                    <ul className='text-start'>
-                                        {wardenList.map((warden, index) => (
-                                            <li key={index}>
-                                                <h5 className='fs-6' style={{ fontWeight: "600", color: "#4338ca" }}>Prof. {warden.name}</h5>
-                                                {/*<h6>Warden, {hostel}</h6>*/}
-                                            </li>
-                                        ))}
-                                    </ul>
-                                </div>
-                            ))}
+                            <PeopleList
+                                mainTitle="Boys Hostel 2"
+                                subTitle=""
+                                subSubTitle=""
+                                items={wardens.filter(warden => warden.subTitle.startsWith('Boys Hostel-2'))}
+                            />
                         </div>
 
-                        <div className='col-md-3'></div>
+                        <div className='col-md-6 d-flex flex-column align-items-center text-center'>
+                            <PeopleList
+                                mainTitle="Girls Hostel 1"
+                                subTitle=""
+                                subSubTitle=""
+                                items={wardens.filter(warden => warden.subTitle.startsWith('Girls Hostel-1'))}
+                            />
+                        </div>
+
                     </div>
                 </div>
 
