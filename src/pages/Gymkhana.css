@@ -82,7 +82,7 @@ img {
 }
 
 img:hover {
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+/*     box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px; */
     opacity: 0.9;
     cursor: pointer;
 }
@@ -164,7 +164,7 @@ img:hover {
         margin-top: 110px;
         margin-bottom: 50%;
         width: 100vw;
-       
+
         padding-right: 30px;
     }
     .t-fs-t p{
@@ -232,7 +232,7 @@ img:hover {
         font-size: 1.3rem;
     }
 
-   
+
 
     h3 {
         font-size: 1.5rem;

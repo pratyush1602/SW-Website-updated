@@ -9,6 +9,7 @@
     background-color: rgba(0, 0, 255, 0.1);
     border-bottom: 5px solid #86198f;
     margin-top: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
 }
 
 .custom-sub-header {

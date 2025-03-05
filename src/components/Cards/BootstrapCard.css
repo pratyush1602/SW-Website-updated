@@ -4,6 +4,7 @@
   padding:10px;
   background: rgba(80, 150, 200, 0.3);
   height: 80%;
+  width: 80%;
   border:none;
   transition: transform 0.5s, box-shadow 0.5s;
 }

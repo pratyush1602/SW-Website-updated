@@ -3,14 +3,14 @@ import { useLocation, Routes, Route, Router } from 'react-router-dom';
 import Sidebar from "../components/Sidebar/Sidebar.js";
 import StudentDivisionOrgano from './StudentDivisionOrgano.js';
 import DeansAssociateDeans from "./DeansAssociateDeans/DeansAssociateDeans.js";
-import Home from "./Home.js";
+import Home from "./Home/Home.js";
 
 import AdministrativeOffice from "./AdministrativeOffice/AdministrativeOffice.js";
 import Hostels from "./Hostels.js";
 import MessAndCanteen from "./MessAndCanteen.js";
 import Gymkhana from "./Gymkhana.js";
 import GoToTop from "./GoToTop.js";
-import StudentCampusLife from "./StudentCampusLife.js";
+import StudentCampusLife from "./StudentCampusLife/StudentCampusLife.js";
 import WellnessSection from "./WellnessSection.js";
 import {gsap} from 'gsap';
 import { Power3 } from 'gsap';
