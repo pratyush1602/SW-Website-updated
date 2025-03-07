@@ -2,8 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const ImageGrid = ({ images, width, height, columns }) => {
-    const columnClass = `col-md-3`;
-    // const columnClass = `col-md-${12 / columns}`;
+    const columnClass = columns ? `col-md-${12 / columns}` : 'col-md-3';
 
     return (
         <div className='row justify-content-center' style={{ margin: '2rem', gap: '2rem' }}>

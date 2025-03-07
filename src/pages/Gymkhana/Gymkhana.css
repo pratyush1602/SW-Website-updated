@@ -1,3 +1,42 @@
+.gymkhana-council-box {
+    border: 3px solid #c084fc;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 20px;
+    height: 100%;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.gymkhana-council-box:hover {
+    background-color: #c084fc55;
+    color: #000;
+}
+
+.gymkhana-council-box p {
+    text-align: center;
+    margin: 10px;
+    font-weight: 600;
+    font-size: 1.7rem;
+}
+
+.gymkhana-council-box ul {
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+}
+
+.gymkhana-council-box ul li {
+    margin-bottom: 10px;
+}
+
+.blink-shadow {
+    position: absolute;
+    background-color: #c084fc;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+/*================================================================*/
 .main-gymkhana {
     display: flex;
     flex-direction: column;

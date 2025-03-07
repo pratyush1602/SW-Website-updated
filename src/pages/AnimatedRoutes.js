@@ -8,7 +8,7 @@ import Home from "./Home/Home.js";
 import AdministrativeOffice from "./AdministrativeOffice/AdministrativeOffice.js";
 import Hostels from "./Hostels/Hostels.js";
 import MessAndCanteen from "./MessAndCanteen.js";
-import Gymkhana from "./Gymkhana.js";
+import Gymkhana from "./Gymkhana/Gymkhana.js";
 import GoToTop from "./GoToTop.js";
 import StudentCampusLife from "./StudentCampusLife/StudentCampusLife.js";
 import WellnessSection from "./WellnessSection.js";
