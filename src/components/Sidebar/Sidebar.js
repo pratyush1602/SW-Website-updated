@@ -18,7 +18,7 @@ const Sidebar = ({ children }) => {
         { path: "/hostels", label: "Hostels" },
         { path: "/mess_canteen", label: "Mess & Canteen" },
         { path: "/gymkhana", label: "Gymkhana" },
-        { path: "/wellness", label: "Health" },
+        { path: "/health", label: "Health" },
         { path: "/counselling", label: "Counselling" },
         // { path: "https://www.iitdh.ac.in/details", label: "Alumni Association" }
     ];

@@ -1,23 +1,23 @@
 import React from "react";
-import Scrollevent from "./Scrollerevent";
+import Scrollevent from "../../Scrollerevent";
 
 import "./Counselling.css";
 import { motion } from 'framer-motion';
 
-import yd from "../images/yourdost.png";
-import te from "../images/tele-manas-mental-health-service1.jpg"
+import yd from "../../../images/yourdost.png";
+import te from "../../../images/tele-manas-mental-health-service1.jpg"
 
-import Pasham from "../images/student-wellness-mentors/IMG_1245_-_Pasham_Pardeev_Narsi_Reddy.jpg"
-import Utkarsh from "../images/student-wellness-mentors/IMG_20240912_230600 - UTKARSH RAJ.jpg"
-import Rituraj from "../images/student-wellness-mentors/Rituraj_me23ms004 - Rituraj Kumar.jpg"
-import Jan from "../images/student-wellness-mentors/IMG_20241004_010834 - Janagesh R.jpg"
-import Juhi from "../images/student-wellness-mentors/IMG-20240907-WA0035 - JUHI KUMARI.jpg"
-import Jaswika from "../images/student-wellness-mentors/InShot_20241004_111245765 - MARYADA JASWIKA.jpg"
-import Meegada from "../images/student-wellness-mentors/IMG_20241005_113920 - MEEGADA SAI SINDHUJA.jpg"
-import Avikal from "../images/student-wellness-mentors/Photo - AVIKAL SRIVASTAVA.jpg"
-import Midhu from "../images/student-wellness-mentors/IMG20240907121652 - MIDDEPOGU MANVITHA.jpg"
+import Pasham from "../../../images/student-wellness-mentors/IMG_1245_-_Pasham_Pardeev_Narsi_Reddy.jpg"
+import Utkarsh from "../../../images/student-wellness-mentors/IMG_20240912_230600 - UTKARSH RAJ.jpg"
+import Rituraj from "../../../images/student-wellness-mentors/Rituraj_me23ms004 - Rituraj Kumar.jpg"
+import Jan from "../../../images/student-wellness-mentors/IMG_20241004_010834 - Janagesh R.jpg"
+import Juhi from "../../../images/student-wellness-mentors/IMG-20240907-WA0035 - JUHI KUMARI.jpg"
+import Jaswika from "../../../images/student-wellness-mentors/InShot_20241004_111245765 - MARYADA JASWIKA.jpg"
+import Meegada from "../../../images/student-wellness-mentors/IMG_20241005_113920 - MEEGADA SAI SINDHUJA.jpg"
+import Avikal from "../../../images/student-wellness-mentors/Photo - AVIKAL SRIVASTAVA.jpg"
+import Midhu from "../../../images/student-wellness-mentors/IMG20240907121652 - MIDDEPOGU MANVITHA.jpg"
 
-import Harsh from "../images/student-wellness-mentors/IMG20230514225607 - Harsh Vardhan Chowdhary.jpg"
+import Harsh from "../../../images/student-wellness-mentors/IMG20230514225607 - Harsh Vardhan Chowdhary.jpg"
 
 function Counselling() {
     return (
@@ -201,7 +201,7 @@ function Counselling() {
                                     <div className="name">Utkarsh Raj</div>
                                     <div className="email">cs23bt028@iitdh.ac.in</div>
                                 </div>
-                                
+
                             </div>
                             <div className="mentorsdata">
 

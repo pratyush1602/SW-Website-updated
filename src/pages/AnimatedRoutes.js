@@ -11,7 +11,8 @@ import MessAndCanteen from "./MessAndCanteen/MessAndCanteen.js";
 import Gymkhana from "./Gymkhana/Gymkhana.js";
 import GoToTop from "./GoToTop.js";
 import StudentCampusLife from "./StudentCampusLife/StudentCampusLife.js";
-import WellnessSection from "./WellnessSection.js";
+import Health from "./Wellness/Health/Health.js";
+import Counselling from "./Wellness/Counselling/Counselling.js";
 import {gsap} from 'gsap';
 import { Power3 } from 'gsap';
 
@@ -22,8 +23,6 @@ import { AnimatePresence } from 'framer-motion';
 // import Rti from '../components/Rti.js';
                         /* <Route path="/student-activities" element={<StudentActivities />} /> */
                         /* <Route path="/rti" element={<Rti/>}/> */
-
-import  Counselling from "./Counselling.js";
 
 
 export default function AnimatedRoutes() {
@@ -47,7 +46,7 @@ export default function AnimatedRoutes() {
                         <Route path="/mess_canteen" element={<MessAndCanteen />} />
                         <Route path="/gymkhana" element={<Gymkhana />} />
                         <Route path="/student_life" element={<StudentCampusLife />} />
-                        <Route path="/wellness" timeline={t1} ease={ease} element={<WellnessSection />} />
+                        <Route path="/health" timeline={t1} ease={ease} element={<Health />} />
 
 
                         <Route path="/others" element={<Others />} />
