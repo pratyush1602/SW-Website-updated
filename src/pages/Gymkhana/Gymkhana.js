@@ -10,9 +10,11 @@ import image1 from '../../images/gymkhana1.jpg';
 import image2 from '../../images/gymkhana2.jpg';
 import image3 from '../../images/gymkhana3.jpg';
 import image4 from '../../images/gymkhana4.jpg';
-import raviSG from '../../images/Ravi - Ravi Ghalimath.jpg';
-import keerthiK from '../../images/Keerthi Kumar.jpeg';
-import GRamesh from '../../images/Ramesh - Ramesh G.png';
+
+import RaviGhalimath from '../../images/staff/ravi-ghalimath.jpg';
+import KeerthiKumarM from '../../images/staff/keerthi-kumar-m.jpeg';
+import RameshG from '../../images/staff/ramesh-g.png';
+
 import image5 from '../../images/sport5.png';
 import techClub from '../../images/technical1.jpg';
 import sport1 from '../../images/sports1.jpg';
@@ -153,7 +155,7 @@ export default function Gymkhana() {
                             <div className="row pt-2 justify-content-center">
                                 <div className="col-md-4">
                                     <BootstrapCard
-                                        image={keerthiK}
+                                        image={KeerthiKumarM}
                                         name="Dr. Keerthi Kumar M"
                                         title="Sports Officer"
                                         link="#"
@@ -161,7 +163,7 @@ export default function Gymkhana() {
                                 </div>
                                 <div className="col-md-4">
                                     <BootstrapCard
-                                        image={raviSG}
+                                        image={RaviGhalimath}
                                         name="Shri Ravi Shivaprakash Ghalimath"
                                         title="Assistant Sports Officer"
                                         link="#"
@@ -169,7 +171,7 @@ export default function Gymkhana() {
                                 </div>
                                 <div className="col-md-4">
                                     <BootstrapCard
-                                        image={GRamesh}
+                                        image={RameshG}
                                         name="Shri G Ramesh"
                                         title="Assistant Sports Officer"
                                         link="#"

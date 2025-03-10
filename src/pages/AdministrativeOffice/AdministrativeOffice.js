@@ -1,11 +1,11 @@
 import React from 'react';
 import './AdministrativeOffice.css';
 import BootstrapCard from '../../components/Cards/BootstrapCard'; // Import your BootstrapCard component
-import Ramjee from '../../images/r1.jpeg';
-import Arun from "../../images/Arun_Verma.jpg";
-import amoldiwate from '../../images/amoldiwate.jpg';
-import Avinash from "../../images/IMG_20240115_154113 - AVINASH B.jpg";
-import janardanReddy from '../../images/Janardhan Reddy S.jpg';
+import RamjeeRepaka from '../../images/faculty/ramjee-repaka.jpeg';
+import ArunVerma from "../../images/staff/arun-verma.jpg";
+import AmolDiwate from '../../images/staff/amol-diwate.jpg';
+import Avinash from "../../images/staff/avinash-b.jpg";
+import JanardhanReddy from '../../images/staff/janardhan-reddy-s.jpg';
 import { motion } from 'framer-motion';
 
 export default function AdministrativeOffice() {
@@ -15,7 +15,7 @@ export default function AdministrativeOffice() {
             <div className='row rounded p-2 justify-content-center custom-important-container'>
                 <div className="col-md-12">
                     <BootstrapCard
-                        image={Ramjee}
+                        image={RamjeeRepaka}
                         name="Prof. Ramjee Repaka"
                         title="Dean, Student Welfare"
                         link="https://iitdh.ac.in/user-profile/ramjee-repaka"
@@ -23,7 +23,7 @@ export default function AdministrativeOffice() {
                 </div>
                 <div className="col-md-12">
                     <BootstrapCard
-                        image={Arun}
+                        image={ArunVerma}
                         name="Shri. Arun Verma"
                         title="Assistant Registrar, Student Welfare"
                         link="https://iitdh.ac.in/user-profile/arun-verma"
@@ -31,7 +31,7 @@ export default function AdministrativeOffice() {
                 </div>
                 <div className="col-md-3">
                     <BootstrapCard
-                        image={amoldiwate}
+                        image={AmolDiwate}
                         name="Shri. Amol Diwate"
                         title="Junior Superintendent"
                         link="https://iitdh.ac.in/user-profile/amol-diwate"
@@ -47,7 +47,7 @@ export default function AdministrativeOffice() {
                 </div>
                 <div className="col-md-3">
                     <BootstrapCard
-                        image={janardanReddy}
+                        image={JanardhanReddy}
                         name="Shri. Janardhan Reddy S"
                         title="Junior Assistant"
                         link="https://iitdh.ac.in/user-profile/janardhan-reddy"
