@@ -40,16 +40,14 @@ const facultyInCharges = [
             {
                 subSubTitle: 'Sports/NSS/NCC',
                 people: [
-                    { name: 'Prof. Rajeswara Rao M', designation: 'Faculty-In-Charge, Students Welfare (Sports/NSS/NCC)' },
-                    { name: 'Prof. Vigneshwara Raja P', designation: 'Faculty-In-Charge, Students Welfare (Sports/NSS/NCC)' },
-                    { name: 'Prof. Kavita Devi', designation: 'Faculty-In-Charge, Students Welfare (Sports/NSS/NCC)' },
+                    { name: 'Prof. Kavita Devi', designation: 'Faculty-In-Charge, Students Welfare, NSS' },
+                    { name: 'Prof. Vigneshwara Raja P', designation: 'Faculty-In-Charge, Students Welfare, NCC' },
                 ],
             },
             {
                 subSubTitle: 'Cultural & Technical Events',
                 people: [
                     { name: 'Prof. Nagaveni S', designation: 'Faculty-In-Charge, Students Welfare (Cultural & Technical)' },
-                    { name: 'Prof. Surya Prakash Ramesh', designation: 'Faculty-In-Charge, Students Welfare (Cultural & Technical)' },
                 ],
             },
         ],

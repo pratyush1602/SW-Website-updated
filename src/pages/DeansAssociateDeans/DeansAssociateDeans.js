@@ -11,8 +11,23 @@ import { motion } from 'framer-motion';
 
 export default function DeansAssociateDeans() {
     return (
-        <motion.div className="container text-center pb-5 pt-2" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
+        <motion.div className='pb-5 pt-2' initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
             <h1 className='mb-2'>Dean and Associate Deans</h1>
+
+            <div className='mt-5'>
+                <div className='custom-sub-header fs-2 rounded'>
+                    <p> About </p>
+                </div>
+                <div className='custom-content text-left'>
+                    <p className='fs-4'>
+                        The Deans and Associate Deans of the Students Welfare Office at IIT Dharwad play a crucial role in overseeing the holistic development of students, ensuring their well-being and personal growth.
+                        Each Dean and Associate Dean brings unique expertise to their roles, focusing on various aspects of student life, including socio-cultural activities, hostel management, wellness, and sports.
+                        Their collaborative efforts aim to enhance the overall student experience, making IIT Dharwad a nurturing and empowering place for all.
+                    </p>
+                </div>
+            </div>
+
+
             <div className="rounded custom-important-container">
                 <div className="row p-2 justify-content-center">
                     <div className="col-md-12">

@@ -6,9 +6,13 @@ import ImageGrid from '../../components/ImageGrid/ImageGrid.js';
 import BootstrapCard from '../../components/Cards/BootstrapCard.js';
 import {facultyInCharges, secretaries, clubSecretaries, imagesSports, imagesCultural, imagesTech, imagesSocial} from './GymkhanaData.js'
 
-import RaviGhalimath from '../../images/staff/ravi-ghalimath.jpg';
+import RaviGalimath from '../../images/staff/ravi-galimath.jpg';
 import KeerthiKumarM from '../../images/staff/keerthi-kumar-m.jpeg';
 import RameshG from '../../images/staff/ramesh-g.png';
+
+import KavitaDevi from '../../images/faculty/kavita-devi.jpg';
+import VigneshwaraRajaP from '../../images/faculty/vigneshwara-raja-p.jpg';
+import NagaveniS from '../../images/faculty/nagaveni-s.jpg';
 
 import { useRef } from 'react';
 import { FaArrowDownLong } from 'react-icons/fa6';
@@ -110,17 +114,45 @@ export default function Gymkhana() {
                 </div>
 
                 <div>
-                    <div className='rounded custom-important-container p-4 d-flex flex-column align-items-center'>
-                        <div className='rounded custom-important-container p-4 col-md-6'>
+                    <div className='rounded custom-important-container p-5 d-flex flex-column align-items-center'>
+                        <div className='rounded custom-important-container p-4'>
                             <h5>FACULTY IN CHARGES - GYMKHANA</h5>
                             <div style={{ width: "50px", height: "3.4px", backgroundColor: "#86198f", marginTop: "7px", marginBottom: "18px" }}></div>
 
-                            <div className='d-flex flex-column align-items-center'>
+                            {/*<div className='d-flex flex-column align-items-center'>
                                 <PeopleList
                                     mainTitle=""
                                     items={facultyInCharges}
                                 />
+                            </div>*/}
+
+                            <div className="row pt-2 justify-content-center">
+                                <div className="col-md-4">
+                                    <BootstrapCard
+                                        image={KavitaDevi}
+                                        name="Prof.Kavita Devi"
+                                        title="Faculty-In-Charge, Students Welfare, NSS"
+                                        link="https://www.iitdh.ac.in/user-profile/kavita-devi"
+                                    />
+                                </div>
+                                <div className="col-md-4">
+                                    <BootstrapCard
+                                        image={VigneshwaraRajaP}
+                                        name="Prof. Vigneshwara Raja P"
+                                        title="Faculty-In-Charge, Students Welfare, NCC"
+                                        link="https://www.iitdh.ac.in/user-profile/vigneshwara-raja-p"
+                                    />
+                                </div>
+                                <div className="col-md-4">
+                                    <BootstrapCard
+                                        image={NagaveniS}
+                                        name="Prof. Nagaveni S"
+                                        title="Faculty-In-Charge, Students Welfare, Cutural & Technical Affairs"
+                                        link="https://www.iitdh.ac.in/user-profile/nagaveni-s"
+                                    />
+                                </div>
                             </div>
+
                         </div>
 
                         <hr />
@@ -135,23 +167,23 @@ export default function Gymkhana() {
                                         image={KeerthiKumarM}
                                         name="Dr. Keerthi Kumar M"
                                         title="Sports Officer"
-                                        link="#"
+                                        link="https://www.iitdh.ac.in/user-profile/dr-keerthi-kumar-m"
                                     />
                                 </div>
                                 <div className="col-md-4">
                                     <BootstrapCard
-                                        image={RaviGhalimath}
-                                        name="Shri Ravi Shivaprakash Ghalimath"
+                                        image={RaviGalimath}
+                                        name="Shri Ravi Shivaprakash Galimath"
                                         title="Assistant Sports Officer"
-                                        link="#"
+                                        link="https://www.iitdh.ac.in/user-profile/ravi-shivaprakash-galimath"
                                     />
                                 </div>
                                 <div className="col-md-4">
                                     <BootstrapCard
                                         image={RameshG}
-                                        name="Shri G Ramesh"
+                                        name="Shri Gundaveni Ramesh"
                                         title="Assistant Sports Officer"
-                                        link="#"
+                                        link="https://www.iitdh.ac.in/user-profile/gundaveni-ramesh"
                                     />
                                 </div>
                             </div>
@@ -164,7 +196,7 @@ export default function Gymkhana() {
                 </div>
 
                 <div>
-                    <div className='rounded custom-important-container p-4 d-flex flex-column align-items-center'>
+                    <div className='rounded custom-important-container p-5 d-flex flex-column align-items-center'>
                         <div className='rounded custom-important-container p-4'>
                             <h5>STUDENT COUNCIL SECRETARIES</h5>
                             <div style={{ width: "50px", height: "3.4px", backgroundColor: "#86198f", marginTop: "7px", marginBottom: "18px" }}></div>

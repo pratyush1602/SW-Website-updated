@@ -7,7 +7,7 @@ import PrahladJoshi from '../images/faculty/prahlad-joshi.jpg';
 import ChetanKumarM from '../images/staff/chetan-kumar-m.jpg';
 import JanardanReddyS from '../images/staff/janardhan-reddy-s.jpg';
 import RaviM from '../images/staff/ravi-m.jpg';
-import RaviGhalimath from '../images/staff/ravi-ghalimath.jpg';
+import RaviGalimath from '../images/staff/ravi-galimath.jpg';
 import KeerthiKumarM from '../images/staff/keerthi-kumar-m.jpeg';
 import GRamesh from '../images/staff/ramesh-g.png';
 import SuryaPrakashRamesh from "../images/faculty/surya-prakash-ramesh.jpg"
@@ -161,10 +161,10 @@ export default function StudentDivisionOrgano() {
                             </div>
 
                             {/* <div style={{ display: "flex", alignItems: "center", gap: "20px" }}>
-                                <img src={RaviGhalimath} alt='loading' style={{ height: "100px", width: "100px", borderRadius: "50%" }}></img>
+                                <img src={RaviGalimath} alt='loading' style={{ height: "100px", width: "100px", borderRadius: "50%" }}></img>
                                 <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "1.5px" }}>
                                     <div className='name-fs'>   <p style={{ fontWeight: "600", color: "#4338ca" }}>Ravi Shivaprakash</p>
-                                        <p style={{ fontWeight: "600", color: "#4338ca" }}>Ghalimath</p></div>
+                                        <p style={{ fontWeight: "600", color: "#4338ca" }}>Galimath</p></div>
                                     <h4 style={{ marginTop: "5px" }}>Member Of HCU</h4>
                                 </div>
                             </div> */}
@@ -482,10 +482,10 @@ export default function StudentDivisionOrgano() {
 
                         <div className='information' style={{ marginTop: "20px", display: "flex", gap: "50px", flexWrap: "wrap" }}>
                             <div style={{ display: "flex", alignItems: "center", gap: "20px" }}>
-                                <img src={RaviGhalimath} alt='loading' style={{ height: "100px", width: "100px", borderRadius: "50%" }}></img>
+                                <img src={RaviGalimath} alt='loading' style={{ height: "100px", width: "100px", borderRadius: "50%" }}></img>
                                 <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "1.5px" }}>
                                     <p style={{ fontWeight: "600", color: "#4338ca" }}>Ravi Shivaprakash</p>
-                                    <p style={{ fontWeight: "600", color: "#4338ca" }}>Ghalimath</p>
+                                    <p style={{ fontWeight: "600", color: "#4338ca" }}>Galimath</p>
                                     <h4 style={{ marginTop: "5px" }}>Member Of HCU</h4>
                                 </div>
                             </div>
@@ -711,10 +711,10 @@ export default function StudentDivisionOrgano() {
                             </div>
                         </div>
                         <div style={{ display: "flex", alignItems: "center", gap: "20px" }}>
-                            <img src={RaviGhalimath} alt='loading' style={{ height: "100px", width: "100px", borderRadius: "50%" }}></img>
+                            <img src={RaviGalimath} alt='loading' style={{ height: "100px", width: "100px", borderRadius: "50%" }}></img>
                             <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "1.5px" }}>
                                 <p style={{ fontWeight: "600", color: "#4338ca" }}>Ravi Shivaprakash</p>
-                                <p style={{ fontWeight: "600", color: "#4338ca" }}>Ghalimath</p>
+                                <p style={{ fontWeight: "600", color: "#4338ca" }}>Galimath</p>
                                 <h4 style={{ marginTop: "5px" }}>Assistant Sports Officer</h4>
                             </div>
                         </div>

@@ -1,8 +1,18 @@
 import React from 'react';
 
 import ImageGrid from '../../components/ImageGrid/ImageGrid.js';
+import BootstrapCard from '../../components/Cards/BootstrapCard.js';
 import PeopleList from '../../components/PeopleList/PeopleList.js';
 import {images, wardens} from './HostelsData.js'
+
+import SarojMondal from '../../images/faculty/saroj-mondal.jpg';
+import SudhirKumarSahoo from '../../images/faculty/sudhir-kumar-sahoo.jpg';
+import SubhashMehto from '../../images/faculty/subhash-mehto.png';
+import RakeshLingam from '../../images/faculty/rakesh-lingam.jpg';
+import SushantaKumarSethi from '../../images/faculty/sushanta-kumar-sethi.jpg';
+import RumaGhosh from '../../images/faculty/ruma-ghosh.jpg';
+import ShraddhaSrivastava from '../../images/faculty/shraddha-srivastava.jpeg';
+
 
 import { motion } from 'framer-motion';
 
@@ -56,7 +66,7 @@ export default function Hostels() {
                     </div>
                 </div>
 
-                <div className='d-flex flex-column align-items-center'>
+                {/*<div className='d-flex flex-column align-items-center'>
                     <div className='rounded custom-important-container pt-5 col-md-4 row'>
                         <div className='col-md-12 d-flex flex-column align-items-center text-center mb-5'>
                             <h2 className='text-decoration-underline'>HOSTEL WARDENS</h2>
@@ -72,6 +82,87 @@ export default function Hostels() {
                             />
                         </div>
 
+                    </div>
+                </div>*/}
+
+                <div className='mt-5 custom-sub-header fs-2 rounded'>
+                    <p>Hostel Wardens</p>
+                </div>
+
+                <p className='custom-content text-start fs-4'>
+                    The Hostel Wardens at IIT Dharwad are responsible for ensuring the safety, well-being, and overall management of the hostel environment.
+                    They play a crucial role in cultivating a supportive community for students, addressing their needs, and promoting a positive living experience within the hostels.
+
+                </p>
+
+
+
+                <div className='d-flex flex-column align-items-center'>
+                    <div className="rounded custom-important-container w-75">
+
+                        <div className="row p-2 justify-content-center">
+                            <div className="col-md-6">
+                                <BootstrapCard
+                                    image={SudhirKumarSahoo}
+                                    name="Prof. Sudhir Kumar Sahoo"
+                                    title="Warden - Boys Hostel 1 PC"
+                                    link="https://iitdh.ac.in/node/1965"
+                                />
+                            </div>
+                            <div className="col-md-6">
+                                <BootstrapCard
+                                    image={SubhashMehto}
+                                    name="Prof. Subhash Mehto"
+                                    title="Warden - Boys Hostel 1 PC"
+                                    link="https://iitdh.ac.in/user-profile/subhash-mehto"
+                                />
+                            </div>
+                        </div>
+
+                        <div className="row p-2 justify-content-center">
+                            <div className="col-md-4">
+                                <BootstrapCard
+                                    image={SarojMondal}
+                                    name="Prof. Saroj Mondal"
+                                    title="Warden - Boys Hostel 2 PC"
+                                    link="https://iitdh.ac.in/user-profile/saroj-mondal"
+                                />
+                            </div>
+                            <div className="col-md-4">
+                                <BootstrapCard
+                                    image={RakeshLingam}
+                                    name="Rakesh Lingam"
+                                    title="Warden - Boys Hostel 2 PC"
+                                    link="https://www.iitdh.ac.in/user-profile/rakesh-lingam"
+                                />
+                            </div>
+                            <div className="col-md-4">
+                                <BootstrapCard
+                                    image={SushantaKumarSethi}
+                                    name="Prof. Sushanta Kumar Sethi"
+                                    title="Warden - Boys Hostel 2 PC"
+                                    link="https://www.iitdh.ac.in/user-profile/sushanta-kumar-sethi"
+                                />
+                            </div>
+                        </div>
+                        <div className="row justify-content-center">
+                            <div className="col-md-6">
+                                <BootstrapCard
+                                    image={RumaGhosh}
+                                    name="Prof. Ruma Ghosh"
+                                    title="Warden - Girls Hostel PC"
+                                    link="https://www.iitdh.ac.in/user-profile/ruma-ghosh"
+                                />
+                            </div>
+                            <div className="col-md-6">
+                                <BootstrapCard
+                                    image={ShraddhaSrivastava}
+                                    name="Prof. Shraddha Srivastava"
+                                    title="Warden - Girls Hostel PC"
+                                    link="https://www.iitdh.ac.in/user-profile/shraddha-srivastava"
+                                />
+                            </div>
+                        </div>
                     </div>
                 </div>
 
