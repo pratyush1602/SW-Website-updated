@@ -9,11 +9,6 @@ body {
     /* width: 100%; */
     /* float: left; */
 }
-h1 {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 2.5rem;
-}
 
 .scroll{
     margin-bottom:25px;
@@ -23,7 +18,7 @@ h1 {
 .box {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 20px; 
+    grid-gap: 20px;
 
     /* border: 2px solid red; */
     /* margin-bottom: 20px; */
@@ -141,35 +136,26 @@ h1 {
     /* border: 2px solid red; */
     /* height: 20px; */
 }
-.name{
-    font-weight: 600;
-    color: rgb(67, 56, 202);
-}
-.names{
-    font-size: 1rem;
-}
-.mentorsdata{
+.mentorsdata {
     display: flex;
-    /* border: 2px solid green; */
-    /* padding: 2px; */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    height: 100px; /* Set a fixed height for the container */
+}
+
+.mentorimg {
+    display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: space-evenly;
-}
-.mentorimg{
-    /* border: 2px solid black; */
-    
-    /* margin: auto; */
-    /* border-radius: 50%; */
-    /* height: 80px;
-    width: 80px; */
-    display: flex;
-    /* justify-content: center;
-    align-items: center; */
     overflow: hidden;
+    height: 70px; /* Set a fixed height for the image container */
+    width: 70px; /* Set a fixed width for the image container */
+    margin-right: 10px; /* Space between image and text */
 }
-.mentorimg img{
-    object-fit: cover;
-    height: 70px;
-    width: 70px;
-    border-radius: 50%;
+
+.mentorimg img {
+    object-fit: cover; /* Ensure the image covers the container */
+    height: 100%; /* Make the image fill the container */
+    width: 100%; /* Make the image fill the container */
+    border-radius: 50%; /* Optional: make the image circular */
 }

@@ -7,335 +7,187 @@ import { motion } from 'framer-motion';
 import yd from "../../../images/yourdost.png";
 import te from "../../../images/tele-manas-mental-health-service1.jpg"
 
-import Pasham from "../../../images/student-wellness-mentors/IMG_1245_-_Pasham_Pardeev_Narsi_Reddy.jpg"
-import Utkarsh from "../../../images/student-wellness-mentors/IMG_20240912_230600 - UTKARSH RAJ.jpg"
-import Rituraj from "../../../images/student-wellness-mentors/Rituraj_me23ms004 - Rituraj Kumar.jpg"
-import Jan from "../../../images/student-wellness-mentors/IMG_20241004_010834 - Janagesh R.jpg"
-import Juhi from "../../../images/student-wellness-mentors/IMG-20240907-WA0035 - JUHI KUMARI.jpg"
-import Jaswika from "../../../images/student-wellness-mentors/InShot_20241004_111245765 - MARYADA JASWIKA.jpg"
-import Meegada from "../../../images/student-wellness-mentors/IMG_20241005_113920 - MEEGADA SAI SINDHUJA.jpg"
-import Avikal from "../../../images/student-wellness-mentors/Photo - AVIKAL SRIVASTAVA.jpg"
-import Midhu from "../../../images/student-wellness-mentors/IMG20240907121652 - MIDDEPOGU MANVITHA.jpg"
+import mentorsData from './CounsellingMentorsData.js';
 
-import Harsh from "../../../images/student-wellness-mentors/IMG20230514225607 - Harsh Vardhan Chowdhary.jpg"
+import RajshekarK from '../../../images/faculty/rajshekar-k.jpg';
+import PradeepYammiyavar from '../../../images/faculty/pradeep-yammiyavar.jpg';
+import RidhimaTewari from '../../../images/faculty/ridhima-tewari.jpg';
+
+import BootstrapCard from '../../../components/Cards/BootstrapCard.js';
 
 function Counselling() {
     return (
-        <div className="main">
-            {/* <div className="nah"></div> */}
-            <div style={{ borderLeft: "5px solid #312e81", paddingLeft: "10px", fontSize: "1.5rem", fontWeight: "600", color: "rgb(30, 64, 175)" }}  >  Counselling</div>
-
-            {/* <div>
-                <h1>COUNSELLING CENTRE</h1>
-            </div> */}
-            <div className="scroll">
+        <motion.div className='pb-5 pt-2' initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
+            {/*<div className="scroll">
 
                 <Scrollevent />
+            </div>*/}
+
+            <h1 className='mb-2'>Wellness - Counselling</h1>
+
+            <div className='mt-5 custom-sub-header fs-2'>
+                <p>Counselling Center</p>
             </div>
 
-
-            <span style={{ fontSize: "1.3rem" }}>The Counselling Center at IIT DHARWAD provides assistance and counselling service to all residents of the campus.</span>
-
-
-            <p style={{ fontSize: "1.3rem" }}>There are two options available to anyone who wishes to seek counselling services:</p>
-            <div className="box">
-
-                <div className="outerbox">
-
-                    <div className="box2">
-                        <img src={yd} alt="yourdost" />
-                    </div>
-                    <div className="box3">
-                        <div className="yourdost">
-                            <a href="https://www.iitdh.ac.in/sites/default/files/2023-10/YourDOST_steps_2023_07_19.pdf">
-                                <strong style={{ fontSize: "20px" }}>YourDOST</strong>
-                            </a>
-                        </div>
-                        <div>
-                            IIT Dharwad in cooperation with YourDOST -- a professional online counselling service, provides a direct link to anyone at IIT Dharwad to contact them and seek their services without any charge.
-                        </div>
-                        <div className="btnyd">
-                            <a href="https://www.iitdh.ac.in/sites/default/files/2023-10/YourDOST_steps_2023_07_19.pdf"> Connect With YourDost</a>
-                        </div>
-                    </div>
-
-                </div>
-
-
-                <div className="outerbox">
-
-                    <div className="box4">
-                        <img src={te} alt=" Tele Manas" />
-                    </div>
-
-                    <div className="box5">
-                        <div className="telemanas">
-                            <a href="https://telemanas.mohfw.gov.in/home"> <strong style={{ fontSize: "20px" }}>TeleMANAS</strong></a>
-                        </div>
-                        <div>
-                            TeleMANAS works with a network of Hubli-Dharwad based mental health hospitals and institutions to provide counselling both in-person and over the telephone. Anyone can avail this service directly without having to go through the IIT DHARWAD counselling center.
-                        </div>
-                        <div className="btntele">
-                            <a href="https://telemanas.mohfw.gov.in/home"> Connect With TeleMANAS</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div className='counselling-outerbox'>
-                <div className='counselling' style={{ borderBottom: "5px solid #86198f" }}>
-                    <div className='facetoface'>     <h3 style={{ marginBottom: "12px", fontSize: "1.3rem" }} >FACE TO FACE COUNSELLING</h3>
-                        <div style={{ width: "50px", height: "3.4px", backgroundColor: "#86198f", marginTop: "1px", marginBottom: "18px" }}></div>
-                        <p>You may choose any counselor that you prefer, and book your appointment online using the links below.
-                            Upon being granted an appointment, you may directly approach the counselor without having to sign any registers at the Health Center.</p>
-
-                        <div style={{ marginTop: "40px" }}>
-
-                            <div style={{ display: "flex", gap: "300px", fontSize: "1.1rem" }}>
-
-                                <div style={{ display: "flex", flexDirection: "column", gap: "20px" }}>
-                                    <div className='g-s'>
-                                        <p style={{ fontWeight: "600", color: "#4338ca" }}>Prof. Pradeep Yammiyavar</p>
-                                        <h4>Pg.D.MH PhD</h4>
-                                    </div>
-                                </div>
-
-                                <div className="appt" style={{ marginTop: "5px" }}>
-                                    <a href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2kkN9_v0ypAzAi8gCHQc1JFwFz7JdGrz4Ytog55w2QRrGwzcmVdvaLiSLc2avZY0dsK6u6NEF8">BOOK APPOINTMENT</a>
-                                </div>
-                            </div>
-
-                            <div style={{ display: "flex", gap: "278px", marginTop: "10px", fontSize: "1.1rem" }}>
-
-                                <div style={{ display: "flex", flexDirection: "column", gap: "20px" }}>
-                                    <div className='g-s'>
-                                        <p style={{ fontWeight: "600", color: "#4338ca" }}>Ms. Vijayalakshmi Peri</p>
-                                        <h4>M.A. Counseling Psychology</h4>
-                                    </div>
-                                </div>
-
-                                <div className="appt" style={{ marginTop: "5px" }}>
-                                    <a href="https://yourdost.com/auth/sign-in?serviceId=1&next=https:%2F%2Fyourdost.com%2Fin-person-counselling%2Ff2f%2Fiitdh">BOOK APPOINTMENT</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <hr></hr>
-
-                </div>
+            <div className='custom-content text-start fs-4'>
+                <p>
+                    The Counselling Center at IIT DHARWAD provides assistance and counselling service to all residents of the campus.
+                    <br/>
+                    There are two options available to anyone who wishes to seek counselling services:
+                </p>
             </div>
 
-            <div className='counselling-outerbox'>
-                <div className='counselling' style={{ borderBottom: "5px solid #86198f" }}>
-                    <div className='facetoface'>     <h3 style={{ marginBottom: "10px", fontSize: "1.3rem" }} >COUNSELLING</h3>
-
-                        <div>
-                            <div className='alumni-fs-fs'>    <h3 style={{ marginTop: "20px", fontSize: "1.3rem" }} >ASSOCIATE DEAN, Health</h3></div>
-                            <div style={{ width: "50px", height: "3.4px", backgroundColor: "#86198f", marginTop: "10px", marginBottom: "18px" }}></div>
-                        </div>
-                        <div style={{ display: "flex", gap: "330px", fontSize: "1.1rem" }}>
-                            <div style={{ display: "flex", flexDirection: "column", gap: "20px" }}>
-                                <div className='g-s'>
-                                    <p style={{ fontWeight: "600", color: "#4338ca" }}>Prof. Ridhima Tewari</p>
-                                    <h4>Associate Dean, Students Welfare</h4>
-                                    <h4>adean.sww@iitdh.ac.in</h4>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div>
-                            <div className='alumni-fs-fs'>    <h3 style={{ marginTop: "18px", fontSize: "1.5rem" }} >FACULTY IN CHARGE</h3></div>
-                            <div style={{ width: "50px", height: "3.4px", backgroundColor: "#86198f", marginTop: "10px", marginBottom: "3px" }}></div>
-                        </div>
-                        <div style={{ marginTop: "15px" }}>
-
-                            <div style={{ display: "flex", gap: "300px", fontSize: "1.2rem" }}>
-
-                                <div style={{ display: "flex", flexDirection: "column", gap: "20px" }}>
-                                    <div className='g-s'>
-                                        <p style={{ fontWeight: "600", color: "#4338ca" }}>Prof. Pradeep Yammiyavar</p>
-                                        <h4>fic.sw.wellness@iitdh.ac.in</h4>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div style={{ display: "flex", gap: "278px", marginTop: "10px", fontSize: "1.2rem" }}>
-
-                                <div style={{ display: "flex", flexDirection: "column", gap: "20px" }}>
-                                    <div className='g-s'>
-                                        <p style={{ fontWeight: "600", color: "#4338ca" }}>Prof. Rajshekar K</p>
-                                        <h4>fic.sw.wellness@iitdh.ac.in</h4>
-                                    </div>
-                                </div>
+            <div className="container mt-5">
+                <div className="row mb-5 h-75">
+                    {/* YourDOST Card */}
+                    <div className="col-md-6">
+                        <div className="card p-5 w-75 h-100">
+                            <img src={yd} alt="YourDOST" className="card-img-top w-50 h-auto" />
+                            <div className="card-body">
+                                <h5 className="card-title">
+                                    <a href="https://www.iitdh.ac.in/sites/default/files/2023-10/YourDOST_steps_2023_07_19.pdf" className="text-decoration-none">
+                                        YourDOST
+                                    </a>
+                                </h5>
+                                <p className="card-text">
+                                    IIT Dharwad in cooperation with YourDOST -- a professional online counselling service, provides a direct link to anyone at IIT Dharwad to contact them and seek their services without any charge.
+                                </p>
+                                <a href="https://www.iitdh.ac.in/sites/default/files/2023-10/YourDOST_steps_2023_07_19.pdf" className="btn btn-primary">Connect With YourDOST</a>
                             </div>
                         </div>
                     </div>
-                    <hr></hr>
 
+                    {/* TeleMANAS Card */}
+                    <div className="col-md-6">
+                        <div className="card p-5 w-75 h-100">
+                            <img src={te} alt="TeleMANAS" className="card-img-top w-50 h-auto" />
+                            <div className="card-body">
+                                <h5 className="card-title">
+                                    <a href="https://telemanas.mohfw.gov.in/home" className="text-decoration-none">
+                                        TeleMANAS
+                                    </a>
+                                </h5>
+                                <p className="card-text">
+                                    TeleMANAS works with a network of Hubli-Dharwad based mental health hospitals and institutions to provide counselling both in-person and over the telephone.
+                                    Anyone can avail this service directly.
+                                </p>
+                                <a href="https://telemanas.mohfw.gov.in/home" className="btn btn-primary">Connect With TeleMANAS</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
 
-            <div className='counselling-outerbox'>
-                <div className='counselling' style={{ borderBottom: "5px solid #86198f" }}>
-                    <div className='facetoface'>     <h2 style={{ marginBottom: "20px", fontSize: "1.7rem" }} >Student Counselling Mentors</h2>
-                        <div className="name-box">
+            <div className='mt-5 custom-sub-header fs-2'>
+                <p>Face to Face Counselling</p>
+            </div>
 
-                            <div className="mentorsdata">
+            <div className='custom-content text-start fs-4'>
+                <p>
+                    You may choose any counselor that you prefer, and book your appointment online using the links below.
+                    Upon being granted an appointment, you may directly approach the counselor without having to sign any registers at the Health Center.
+                </p>
+            </div>
 
-                                <div className="mentorimg">
-                                    <img src={Pasham} alt="" />
+            <div className='d-flex flex-column align-items-center'>
+                <div className='custom-important-container p-5 w-50' style={{ borderBottom: "5px solid #86198f" }}>
+                    <div className="mt-4">
+                        {[
+                            {
+                                name: "Prof. Pradeep Yammiyavar",
+                                qualification: "Pg.D.MH PhD",
+                                appointmentLink: "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2kkN9_v0ypAzAi8gCHQc1JFwFz7JdGrz4Ytog55w2QRrGwzcmVdvaLiSLc2avZY0dsK6u6NEF8"
+                            },
+                            {
+                                name: "Ms. Vijayalakshmi Peri",
+                                qualification: "M.A. Counseling Psychology",
+                                appointmentLink: "https://yourdost.com/auth/sign-in?serviceId=1&next=https:%2F%2Fyourdost.com%2Fin-person-counselling%2Ff2f%2Fiitdh"
+                            }
+                        ].map((counselor, index) => (
+                            <div className="d-flex justify-content-between align-items-center mb-3" key={index}>
+                                <div className="g-s">
+                                    <p className="font-weight-bold" style={{ color: "#4338ca" }}>{counselor.name}</p>
+                                    <h4>{counselor.qualification}</h4>
                                 </div>
-                                <div className="names">
-                                    <div className="name">Pasham Pardeev Reddy</div>
-                                    <div className="email">220010040@iitdh.ac.in</div>
-                                </div>
-
-
-
-                            </div>
-                            <div className="mentorsdata">
-                            <div className="mentorimg">
-                                    <img src={Utkarsh} alt="" />
-                                </div>
-                                <div className="names">
-                                    <div className="name">Utkarsh Raj</div>
-                                    <div className="email">cs23bt028@iitdh.ac.in</div>
-                                </div>
-
-                            </div>
-                            <div className="mentorsdata">
-
-                                <div className="mentorimg">
-                                    <img src={Avikal} alt="" />
-                                </div>
-                                <div className="names">
-                                    <div className="name">Avikal Srivastava</div>
-                                    <div className="email">is23bm023@iitdh.ac.in</div>
-                                </div>
-
-                            </div>
-                            <div className="mentorsdata">
-                                <div className="mentorimg">
-                                    <img src={Midhu} alt="" />
-                                </div>
-
-                                <div className="names">
-                                    <div className="name">Middepogu Manvitha </div>
-                                    <div className="email">cs23bt061@iitdh.ac.in</div>
+                                <div className="appt">
+                                    <a href={counselor.appointmentLink} className="btn btn-link">BOOK APPOINTMENT</a>
                                 </div>
                             </div>
-                            <div className="mentorsdata">
+                        ))}
+                    </div>
+                </div>
+            </div>
 
-                                <div className="mentorimg">
-                                    <img src={Rituraj} alt="" />
+
+            <div className='mt-5 custom-sub-header fs-2'>
+                <p>Student Counselling Mentors</p>
+            </div>
+
+            <div className='custom-content text-start fs-4'>
+                <p className='text-start fs-4'>
+                    Our Student Counselling Mentors are dedicated individuals who provide support and guidance to their peers. They are trained to listen, empathize, and help students navigate their challenges. If you need someone to talk to or seek advice, feel free to reach out to any of our mentors listed below.
+                </p>
+            </div>
+
+
+            <div className='mt-5 custom-important-container p-5' style={{ borderBottom: "5px solid #86198f" }}>
+                <div className="row">
+                    {mentorsData.map((mentor, index) => (
+                        <div className="col-md-4" key={index}>
+                            <div className="card text-center">
+                                <div className="">
+                                    <img src={mentor.image} alt={mentor.name} className="card-img-top rounded-circle" style={{ height: '100px', width: '100px', objectFit: 'cover' }} />
                                 </div>
-                                <div className="names">
-                                    <div className="name">Rituraj Kumar</div>
-                                    <div className="email">me23ms004@iitdh.ac.in</div>
+                                <div className="card-body">
+                                    <h5 className="card-title">{mentor.name}</h5>
+                                    <p className="card-text">{mentor.email}</p>
                                 </div>
                             </div>
-                            <div className="mentorsdata">
+                        </div>
+                    ))}
+                </div>
+            </div>
 
-                                <div className="mentorimg">
-                                    <img src={Jaswika} alt="" />
-                                </div>
-                                <div className="names">
-                                    <div className="name">Jaswika Maryada</div>
-                                    <div className="email">cs23bt013@iitdh.ac.in </div>
-                                </div>
-                            </div>
-                            <div className="mentorsdata">
+            <div className='mt-5 custom-sub-header fs-2'>
+                <p>Associate Dean & Faculty in Charge</p>
+            </div>
 
-                                <div className="mentorimg">
-                                    <img src={Jan} alt="" />
-                                </div>
-                                <div className="names">
-                                    <div className="name">Janagesh R</div>
-                                    <div className="email">225100015@iitdh.ac.in</div>
-                                </div>
-                            </div>
-                            <div className="mentorsdata">
+            <div className='d-flex flex-column align-items-center'>
+                <div className="rounded custom-important-container w-50">
 
-                                <div className="mentorimg">
-                                    <img src={Harsh} alt="" />
-                                </div>
-                                <div className="names">
-                                    <div className="name">Harsh Vardhan Chowdhary</div>
-                                    <div className="email">210030013@iitdh.ac.in</div>
-                                </div>
-                            </div>
-                            <div className="mentorsdata">
-
-                                <div className="mentorimg">
-                                    <img src={Juhi} alt="" />
-                                </div>
-                                <div className="names">
-                                    <div className="name">Juhi Kumari </div>
-                                    <div className="email">mc23bt002@iitdh.ac.in</div>
-                                </div>
-                            </div>
-                            <div className="mentorsdata">
-
-                                <div className="mentorimg">
-                                    <img src={Meegada} alt="" />
-                                </div>
-                                <div className="names">
-                                    <div className="name">Meegada Sai Sindhuja </div>
-                                    <div className="email">me23bt027@iitdh.ac.in</div>
-                                </div>
-                            </div>
-                            <div className="mentorsdata">
-
-                                <div className="mentorimg">
-                                    <img src="" alt="" />
-                                </div>
-                                <div className="names">
-                                    <div className="name">Neeli Deekshith </div>
-                                    <div className="email">210020032@iitdh.ac.in</div>
-                                </div>
-                            </div>
-                            {/* <div className="names">
-                                <div className="name">Srihari K G</div>
-                                <div className="email">210030035@iitdh.ac.in</div>
-                            </div> */}
-                            {/* <div className="names">
-                                <div className="name">E.S.S.SANTOSH</div>
-                                <div className="email">220020021@iitdh.ac.in</div>
-                            </div> */}
-                            {/* <div className="names">
-                                <div className="name">Vedant Hemant Ghodke</div>
-                                <div className="email">220010061@iitdh.ac.in</div>
-                            </div> */}
-                            {/* <div className="names">
-                                <div className="name">Vidhi Kadam</div>
-                                <div className="email">me23bt043@iitdh.ac.in</div>
-                            </div> */}
-                            {/* <div className="names">
-                                <div className="name">D.GOUTHAMEE REDDY</div>
-                                <div className="email">ee23bt046@iitdh.ac.in</div>
-                            </div> */}
-                            {/* <div className="names">
-                                <div className="name">Prachi Prasoon</div>
-                                <div className="email">225100029@iitdh.ac.in</div>
-                            </div> */}
-
-
-
+                    <div className="row p-2 justify-content-center">
+                        <div className="col-md-12">
+                            <BootstrapCard
+                                image={RidhimaTewari}
+                                name="Prof. Ridhima Tewari"
+                                title="Associate Dean, Students Welfare, Wellness"
+                                link="https://www.iitdh.ac.in/node/1999"
+                                email="adean.sww@iitdh.ac.in"
+                            />
+                        </div>
+                        <div className="col-md-6">
+                            <BootstrapCard
+                                image={RajshekarK}
+                                name="Prof. Rajshekar K"
+                                title="Faculty-In-Charge, Students Welfare (Wellness)"
+                                link="https://www.iitdh.ac.in/user-profile/rajshekar-k"
+                                email="fic.sw.wellness@iitdh.ac.in"
+                            />
+                        </div>
+                        <div className="col-md-6">
+                            <BootstrapCard
+                                image={PradeepYammiyavar}
+                                name="Prof. Pradeep Yammiyavar"
+                                title="Faculty-In-Charge, Students Welfare (Wellness)"
+                                link="https://www.iitdh.ac.in/mode/2015"
+                                email="fic.sw.wellness@iitdh.ac.in"
+                            />
                         </div>
                     </div>
-                    <hr></hr>
-
                 </div>
-
-
-
-
-
-            </div >
-
-        </div>
-
-
+            </div>
+        </motion.div>
     )
 }
 
