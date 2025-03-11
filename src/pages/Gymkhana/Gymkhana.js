@@ -61,7 +61,7 @@ export default function Gymkhana() {
                 </div>
 
                 <div>
-                    <div className="row">
+                    <div className="row g-3">
                         <motion.div className="col-md-3" onClick={() => scrollHandler(sportsCouncil)}>
                             <div className='gymkhana-council-box'>
                                 <p>SPORTS COUNCIL</p>
@@ -130,9 +130,10 @@ export default function Gymkhana() {
                                 <div className="col-md-4">
                                     <BootstrapCard
                                         image={KavitaDevi}
-                                        name="Prof.Kavita Devi"
+                                        name="Prof. Kavita Devi"
                                         title="Faculty-In-Charge, Students Welfare, NSS"
                                         link="https://www.iitdh.ac.in/user-profile/kavita-devi"
+                                        email="fic.sw.nss@iitdh.ac.in"
                                     />
                                 </div>
                                 <div className="col-md-4">
@@ -141,14 +142,16 @@ export default function Gymkhana() {
                                         name="Prof. Vigneshwara Raja P"
                                         title="Faculty-In-Charge, Students Welfare, NCC"
                                         link="https://www.iitdh.ac.in/user-profile/vigneshwara-raja-p"
+                                        email="fic.sw.ncc@iitdh.ac.in"
                                     />
                                 </div>
                                 <div className="col-md-4">
                                     <BootstrapCard
                                         image={NagaveniS}
                                         name="Prof. Nagaveni S"
-                                        title="Faculty-In-Charge, Students Welfare, Cutural & Technical Affairs"
+                                        title="Faculty-In-Charge, Students Welfare, Cultural & Technical Affairs"
                                         link="https://www.iitdh.ac.in/user-profile/nagaveni-s"
+                                        email="fic.sw.tech@iitdh.ac.in & fic.sw.cultural@iitdh.ac.in"
                                     />
                                 </div>
                             </div>
@@ -157,7 +160,7 @@ export default function Gymkhana() {
 
                         <hr />
 
-                        <div className='rounded custom-important-container p-4'>
+                        <div className='rounded custom-important-container p-3'>
                             <h5>SPORTS OFFICERS</h5>
                             <div style={{ width: "50px", height: "3.4px", backgroundColor: "#86198f", marginTop: "7px", marginBottom: "18px" }}></div>
 
@@ -196,7 +199,7 @@ export default function Gymkhana() {
                 </div>
 
                 <div>
-                    <div className='rounded custom-important-container p-5 d-flex flex-column align-items-center'>
+                    <div className='rounded custom-important-container p-3 d-flex flex-column align-items-center'>
                         <div className='rounded custom-important-container p-4'>
                             <h5>STUDENT COUNCIL SECRETARIES</h5>
                             <div style={{ width: "50px", height: "3.4px", backgroundColor: "#86198f", marginTop: "7px", marginBottom: "18px" }}></div>

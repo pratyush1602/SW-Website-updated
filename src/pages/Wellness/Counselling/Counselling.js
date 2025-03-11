@@ -37,51 +37,49 @@ function Counselling() {
                 </p>
             </div>
 
-            <div className="container mb-5">
-                <div className="row">
-                    {/* YourDOST Card */}
-                    <div className="col-md-6">
-                        <div className="card pt-5 w-100 h-100">
-                            <img src={yd} alt="YourDOST" className="card-img-top w-50 h-auto" />
-                            <div className="card-body">
-                                <h5 className="card-title fs-4">
-                                    <a href="https://www.iitdh.ac.in/sites/default/files/2023-10/YourDOST_steps_2023_07_19.pdf" className="text-decoration-none">
-                                        YourDOST
-                                    </a>
-                                </h5>
-                                <br/>
-                                <p className="card-text fs-5">
-                                    IIT Dharwad in cooperation with YourDOST -- a professional online counselling service, provides a direct link to anyone at IIT Dharwad to contact them and seek their services without any charge.
-                                </p>
-                                <a href="https://www.iitdh.ac.in/sites/default/files/2023-10/YourDOST_steps_2023_07_19.pdf" className="btn btn-primary">Connect With YourDOST</a>
-                            </div>
+            <div className="row g-3 d-flex">
+                {/* YourDOST Card */}
+                <div className="col h-100">
+                    <div className="card w-100 h-100 p-3">
+                        <img src={yd} alt="YourDOST" className="card-img-top h-auto" />
+                        <div className="card-body">
+                            <h5 className="card-title fs-4">
+                                <a href="https://www.iitdh.ac.in/sites/default/files/2023-10/YourDOST_steps_2023_07_19.pdf" className="text-decoration-none">
+                                    YourDOST
+                                </a>
+                            </h5>
+                            <br/>
+                            <p className="card-text fs-5">
+                                IIT Dharwad in cooperation with YourDOST -- a professional online counselling service, provides a direct link to anyone at IIT Dharwad to contact them and seek their services without any charge.
+                            </p>
+                            <a href="https://www.iitdh.ac.in/sites/default/files/2023-10/YourDOST_steps_2023_07_19.pdf" className="btn btn-primary">Connect With YourDOST</a>
                         </div>
                     </div>
+                </div>
 
-                    {/* TeleMANAS Card */}
-                    <div className="col-md-6">
-                        <div className="card p-5 w-100 h-100">
-                            <img src={te} alt="TeleMANAS" className="card-img-top w-50 h-auto" />
-                            <div className="card-body">
-                                <h5 className="card-title fs-4">
-                                    <a href="https://telemanas.mohfw.gov.in/home" className="text-decoration-none">
-                                        TeleMANAS
-                                    </a>
-                                </h5>
-                                <br/>
-                                <p className="card-text fs-5">
-                                    TeleMANAS works with a network of Hubli-Dharwad based mental health hospitals and institutions to provide counselling both in-person and over the telephone.
-                                    Anyone can avail this service directly.
-                                </p>
-                                <a href="https://telemanas.mohfw.gov.in/home" className="btn btn-primary">Connect With TeleMANAS</a>
-                            </div>
+                {/* TeleMANAS Card */}
+                <div className="col h-100">
+                    <div className="card w-100 h-100 p-3">
+                        <img src={te} alt="TeleMANAS" className="card-img-top h-auto" />
+                        <div className="card-body">
+                            <h5 className="card-title fs-4">
+                                <a href="https://telemanas.mohfw.gov.in/home" className="text-decoration-none">
+                                    TeleMANAS
+                                </a>
+                            </h5>
+                            <br/>
+                            <p className="card-text fs-5">
+                                TeleMANAS works with a network of Hubli-Dharwad based mental health hospitals and institutions to provide counselling both in-person and over the telephone.
+                                Anyone can avail this service directly.
+                            </p>
+                            <a href="https://telemanas.mohfw.gov.in/home" className="btn btn-primary">Connect With TeleMANAS</a>
                         </div>
                     </div>
                 </div>
             </div>
 
 
-            <div className='mt-5 custom-sub-header fs-2'>
+            <div className='mt-1 custom-sub-header fs-2'>
                 <p>Face to Face Counselling</p>
             </div>
 
@@ -93,30 +91,43 @@ function Counselling() {
             </div>
 
             <div className='d-flex flex-column align-items-center'>
-                <div className='custom-important-container p-3 w-50' style={{ borderBottom: "5px solid #86198f" }}>
+                <div className='custom-important-container p-3' style={{ borderBottom: "5px solid #86198f" }}>
                     <div className="mt-4">
-                        {[
-                            {
-                                name: "Prof. Pradeep Yammiyavar",
-                                qualification: "Pg.D.MH PhD",
-                                appointmentLink: "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2kkN9_v0ypAzAi8gCHQc1JFwFz7JdGrz4Ytog55w2QRrGwzcmVdvaLiSLc2avZY0dsK6u6NEF8"
-                            },
-                            {
-                                name: "Ms. Vijayalakshmi Peri",
-                                qualification: "M.A. Counseling Psychology",
-                                appointmentLink: "https://yourdost.com/auth/sign-in?serviceId=1&next=https:%2F%2Fyourdost.com%2Fin-person-counselling%2Ff2f%2Fiitdh"
-                            }
-                        ].map((counselor, index) => (
-                            <div className="d-flex justify-content-between align-items-center mb-3" key={index}>
-                                <div className="g-s fs-3">
-                                    <p className="font-weight-bold" style={{ color: "#4338ca" }}>{counselor.name}</p>
-                                    <h4 className='fs-5'>{counselor.qualification}</h4>
-                                </div>
-                                <div className="appt">
-                                    <a href={counselor.appointmentLink} className="btn btn-link">BOOK APPOINTMENT</a>
-                                </div>
+                        {/* Counselor 1 */}
+                        <div className="d-flex justify-content-between align-items-center mb-3">
+                            <div className="g-s fs-3">
+                                <p className="font-weight-bold" style={{ color: "#4338ca" }}>
+                                    Prof. Pradeep Yammiyavar
+                                </p>
+                                <h4 className='fs-5'>Pg.D.MH PhD</h4>
                             </div>
-                        ))}
+                            <div className="appt">
+                                <a
+                                    href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2kkN9_v0ypAzAi8gCHQc1JFwFz7JdGrz4Ytog55w2QRrGwzcmVdvaLiSLc2avZY0dsK6u6NEF8"
+                                    className="btn btn-link"
+                                >
+                                    BOOK APPOINTMENT
+                                </a>
+                            </div>
+                        </div>
+
+                        {/* Counselor 2 */}
+                        <div className="d-flex justify-content-between align-items-center mb-3">
+                            <div className="g-s fs-3">
+                                <p className="font-weight-bold" style={{ color: "#4338ca" }}>
+                                    Ms. Vijayalakshmi Peri
+                                </p>
+                                <h4 className='fs-5'>M.A. Counseling Psychology</h4>
+                            </div>
+                            <div className="appt">
+                                <a
+                                    href="https://yourdost.com/auth/sign-in?serviceId=1&next=https:%2F%2Fyourdost.com%2Fin-person-counselling%2Ff2f%2Fiitdh"
+                                    className="btn btn-link"
+                                >
+                                    BOOK APPOINTMENT
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -133,8 +144,8 @@ function Counselling() {
             </div>
 
 
-            <div className='mt-5 custom-important-container p-5' style={{ borderBottom: "5px solid #86198f" }}>
-                <div className="row">
+            <div className='custom-important-container' style={{ borderBottom: "5px solid #86198f" }}>
+                <div className="row g-1">
                     {mentorsData.map((mentor, index) => (
                         <div className="col-md-4" key={index}>
                             <div className="card text-center">
@@ -156,7 +167,7 @@ function Counselling() {
             </div>
 
             <div className='d-flex flex-column align-items-center'>
-                <div className="rounded custom-important-container w-50">
+                <div className="rounded custom-important-container">
 
                     <div className="row p-2 justify-content-center">
                         <div className="col-md-12">

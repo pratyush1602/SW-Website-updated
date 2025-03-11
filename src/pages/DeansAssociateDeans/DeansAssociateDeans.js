@@ -36,6 +36,7 @@ export default function DeansAssociateDeans() {
                             name="Prof. Ramjee Repaka"
                             title="Dean, Student Welfare"
                             link="https://iitdh.ac.in/user-profile/ramjee-repaka"
+                            email="dean.sw@iitdh.ac.in"
                         />
                     </div>
                 </div>
@@ -46,6 +47,7 @@ export default function DeansAssociateDeans() {
                             name="Prof. Surya Prakash Ramesh"
                             title="Associate Dean, Socio-cultural activities"
                             link="https://www.iitdh.ac.in/user-profile/surya-prakash-r"
+                            email="adean.sw.sca@iitdh.ac.in"
                         />
                     </div>
                     <div className="col-md-3">
@@ -54,6 +56,7 @@ export default function DeansAssociateDeans() {
                             name="Prof. Surya Pratap Singh"
                             title="Associate Dean - Hostel and Mess"
                             link="https://www.iitdh.ac.in/user-profile/surya-pratap-singh"
+                            email="adean.sw.hostel@iitdh.ac.in"
                         />
                     </div>
                     <div className="col-md-3">
@@ -62,6 +65,7 @@ export default function DeansAssociateDeans() {
                             name="Prof. Rajeshwara Rao M"
                             title="Associate Dean - Gymkhana, Sports, Clubs and Technology"
                             link="https://www.iitdh.ac.in/user-profile/rajeswara-rao-m"
+                            email="adean.sw.gymkhana@iitdh.ac.in"
                         />
                     </div>
                 </div>
@@ -72,6 +76,7 @@ export default function DeansAssociateDeans() {
                             name="Prof. Ridhima Tewari"
                             title="Associate Dean - Wellness & Female Students"
                             link="https://www.iitdh.ac.in/node/1999"
+                            email="adean.sww@iitdh.ac.in"
                         />
                     </div>
                 </div>

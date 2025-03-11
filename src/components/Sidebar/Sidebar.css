@@ -23,7 +23,7 @@
     text-decoration: none; /* Remove underline */
 }
 .nav-link:hover {
-    color: #0ff !important; /* Color on hover */
+    color: #fff !important; /* Color on hover */
 }
 .nav-link:active,
 .nav-link:focus {

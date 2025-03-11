@@ -53,7 +53,7 @@ export default function WellnessSection() {
                         </p>
                     </div>
 
-                    <div className='mt-5 card custom-important-container text-center p-5' style={{ width: '50%', margin: 'auto' }}>
+                    <div className='mt-5 card custom-important-container text-center p-5'>
                         <img className='card-img-top img-fluid w-75 h-auto' src={wellnesscentre} alt="Wellness Centre" />
                         <div className='card-body'>
                             <p className='p1'>Ambulance No:</p>
@@ -83,7 +83,7 @@ export default function WellnessSection() {
                 </div>
 
                 <div className='d-flex flex-column align-items-center'>
-                    <div className="rounded custom-important-container w-50">
+                    <div className="rounded custom-important-container p-3">
 
                         <div className="row p-2 justify-content-center">
                             <div className="col-md-6">

@@ -34,6 +34,7 @@ export default function AdministrativeOffice() {
                         name="Prof. Ramjee Repaka"
                         title="Dean, Student Welfare"
                         link="https://iitdh.ac.in/user-profile/ramjee-repaka"
+                        email="dean.sw@iitdh.ac.in"
                     />
                 </div>
                 <div className="col-md-12">
@@ -42,6 +43,7 @@ export default function AdministrativeOffice() {
                         name="Shri. Arun Verma"
                         title="Assistant Registrar, Student Welfare"
                         link="https://iitdh.ac.in/user-profile/arun-verma"
+                        email="arsw@iitdh.ac.in"
                     />
                 </div>
                 <div className="col-md-3">
@@ -50,6 +52,7 @@ export default function AdministrativeOffice() {
                         name="Shri. Amol Diwate"
                         title="Junior Superintendent"
                         link="https://iitdh.ac.in/user-profile/amol-diwate"
+                        email="amoldiwate@iitdh.ac.in"
                     />
                 </div>
                 <div className="col-md-3">
@@ -58,6 +61,7 @@ export default function AdministrativeOffice() {
                         name="Shri. Avinash B"
                         title="Junior Assistant"
                         link="https://iitdh.ac.in/user-profile/avinash-b"
+                        email="avinashb@iitdh.ac.in"
                     />
                 </div>
                 <div className="col-md-3">
@@ -66,6 +70,7 @@ export default function AdministrativeOffice() {
                         name="Shri. Janardhan Reddy S"
                         title="Junior Assistant"
                         link="https://iitdh.ac.in/user-profile/janardhan-reddy"
+                        email="sjanardhanreddy@iitdh.ac.in"
                     />
                 </div>
             </div>

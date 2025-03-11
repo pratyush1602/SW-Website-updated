@@ -98,8 +98,10 @@ export default function Hostels() {
 
 
                 <div className='d-flex flex-column align-items-center'>
-                    <div className="rounded custom-important-container w-75">
-
+                    <div className="rounded custom-important-container p-5">
+                        <h3>
+                            Warden - Boys Hostel 1 PC
+                        </h3>
                         <div className="row p-2 justify-content-center">
                             <div className="col-md-6">
                                 <BootstrapCard
@@ -107,6 +109,7 @@ export default function Hostels() {
                                     name="Prof. Sudhir Kumar Sahoo"
                                     title="Warden - Boys Hostel 1 PC"
                                     link="https://iitdh.ac.in/node/1965"
+                                    email="warden-boys-hostel-1-pc@iitdh.ac.in"
                                 />
                             </div>
                             <div className="col-md-6">
@@ -115,9 +118,15 @@ export default function Hostels() {
                                     name="Prof. Subhash Mehto"
                                     title="Warden - Boys Hostel 1 PC"
                                     link="https://iitdh.ac.in/user-profile/subhash-mehto"
+                                    email="warden-boys-hostel-1-pc@iitdh.ac.in"
                                 />
                             </div>
                         </div>
+
+                        <hr/>
+                        <h3>
+                            Warden - Boys Hostel 2 PC
+                        </h3>
 
                         <div className="row p-2 justify-content-center">
                             <div className="col-md-4">
@@ -126,6 +135,7 @@ export default function Hostels() {
                                     name="Prof. Saroj Mondal"
                                     title="Warden - Boys Hostel 2 PC"
                                     link="https://iitdh.ac.in/user-profile/saroj-mondal"
+                                    email="warden-boys-hostel-2-pc@iitdh.ac.in"
                                 />
                             </div>
                             <div className="col-md-4">
@@ -134,6 +144,7 @@ export default function Hostels() {
                                     name="Rakesh Lingam"
                                     title="Warden - Boys Hostel 2 PC"
                                     link="https://www.iitdh.ac.in/user-profile/rakesh-lingam"
+                                    email="warden-boys-hostel-2-pc@iitdh.ac.in"
                                 />
                             </div>
                             <div className="col-md-4">
@@ -142,9 +153,16 @@ export default function Hostels() {
                                     name="Prof. Sushanta Kumar Sethi"
                                     title="Warden - Boys Hostel 2 PC"
                                     link="https://www.iitdh.ac.in/user-profile/sushanta-kumar-sethi"
+                                    email="warden-boys-hostel-2-pc@iitdh.ac.in"
                                 />
                             </div>
                         </div>
+
+                        <hr/>
+                        <h3>
+                            Warden - Girls Hostel 1 PC
+                        </h3>
+
                         <div className="row justify-content-center">
                             <div className="col-md-6">
                                 <BootstrapCard
@@ -152,6 +170,7 @@ export default function Hostels() {
                                     name="Prof. Ruma Ghosh"
                                     title="Warden - Girls Hostel PC"
                                     link="https://www.iitdh.ac.in/user-profile/ruma-ghosh"
+                                    email="warden-girls-hostel-1-pc@iitdh.ac.in"
                                 />
                             </div>
                             <div className="col-md-6">
@@ -160,11 +179,13 @@ export default function Hostels() {
                                     name="Prof. Shraddha Srivastava"
                                     title="Warden - Girls Hostel PC"
                                     link="https://www.iitdh.ac.in/user-profile/shraddha-srivastava"
+                                    email="warden-girls-hostel-1-pc@iitdh.ac.in"
                                 />
                             </div>
                         </div>
                     </div>
                 </div>
+
 
 
             </motion.div>

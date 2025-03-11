@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { FaBars, FaTimes } from "react-icons/fa";
 import { NavLink } from 'react-router-dom';
-import logo from '../../images/logo_black_final.png';
-// import logo from '../../images/logo-iit.jpg';
+// import logo from '../../images/logo_black_final.png';
+import logo from '../../images/logo-iit.jpg';
 import Footer from '../Footer/footer';
 import "./Sidebar.css"
 
@@ -35,11 +35,17 @@ const Sidebar = ({ children }) => {
                     <FaBars />
                 </button>*/}
 
+                <div>
+                    <a href="/" className='text-decoration-none text-white'> STUDENT WELFARE SECTION </a>
+                </div>
+
+                <div className="d-inline-block mx-3" style={{height: "30px", width: "1px", backgroundColor: "white"}}></div>
+
                 <div className="collapse navbar-collapse">
                     <ul className="navbar-nav mx-auto">
                         {links.map((link, index) => (
                             <li className="nav-item custom-item-navbar" key={index}>
-                                <NavLink to={link.path} className="nav-link fs-5">
+                                <NavLink to={link.path} className="nav-link" style={{fontSize: "1rem"}}>
                                     {link.label}
                                 </NavLink>
                             </li>
@@ -54,6 +60,12 @@ const Sidebar = ({ children }) => {
                     <button className="navbar-toggler" type="button" onClick={toggle}>
                         {isOpen ? <FaTimes style={{color: "white"}}/> : <FaBars style={{color: "white"}}/>}
                     </button>
+
+
+                    <div>
+                        <a href="/" className='text-decoration-none text-white'> STUDENT WELFARE SECTION </a>
+                    </div>
+
                     <NavLink to="/" className="navbar-brand custom-nav-image-wrapper">
                         <img src={logo} alt='logo' className="rounded custom-nav-image" />
                     </NavLink>
