@@ -37,19 +37,20 @@ function Counselling() {
                 </p>
             </div>
 
-            <div className="container mt-5">
-                <div className="row mb-5 h-75">
+            <div className="container mb-5">
+                <div className="row">
                     {/* YourDOST Card */}
                     <div className="col-md-6">
-                        <div className="card p-5 w-75 h-100">
+                        <div className="card pt-5 w-100 h-100">
                             <img src={yd} alt="YourDOST" className="card-img-top w-50 h-auto" />
                             <div className="card-body">
-                                <h5 className="card-title">
+                                <h5 className="card-title fs-4">
                                     <a href="https://www.iitdh.ac.in/sites/default/files/2023-10/YourDOST_steps_2023_07_19.pdf" className="text-decoration-none">
                                         YourDOST
                                     </a>
                                 </h5>
-                                <p className="card-text">
+                                <br/>
+                                <p className="card-text fs-5">
                                     IIT Dharwad in cooperation with YourDOST -- a professional online counselling service, provides a direct link to anyone at IIT Dharwad to contact them and seek their services without any charge.
                                 </p>
                                 <a href="https://www.iitdh.ac.in/sites/default/files/2023-10/YourDOST_steps_2023_07_19.pdf" className="btn btn-primary">Connect With YourDOST</a>
@@ -59,15 +60,16 @@ function Counselling() {
 
                     {/* TeleMANAS Card */}
                     <div className="col-md-6">
-                        <div className="card p-5 w-75 h-100">
+                        <div className="card p-5 w-100 h-100">
                             <img src={te} alt="TeleMANAS" className="card-img-top w-50 h-auto" />
                             <div className="card-body">
-                                <h5 className="card-title">
+                                <h5 className="card-title fs-4">
                                     <a href="https://telemanas.mohfw.gov.in/home" className="text-decoration-none">
                                         TeleMANAS
                                     </a>
                                 </h5>
-                                <p className="card-text">
+                                <br/>
+                                <p className="card-text fs-5">
                                     TeleMANAS works with a network of Hubli-Dharwad based mental health hospitals and institutions to provide counselling both in-person and over the telephone.
                                     Anyone can avail this service directly.
                                 </p>
@@ -91,7 +93,7 @@ function Counselling() {
             </div>
 
             <div className='d-flex flex-column align-items-center'>
-                <div className='custom-important-container p-5 w-50' style={{ borderBottom: "5px solid #86198f" }}>
+                <div className='custom-important-container p-3 w-50' style={{ borderBottom: "5px solid #86198f" }}>
                     <div className="mt-4">
                         {[
                             {
@@ -106,9 +108,9 @@ function Counselling() {
                             }
                         ].map((counselor, index) => (
                             <div className="d-flex justify-content-between align-items-center mb-3" key={index}>
-                                <div className="g-s">
+                                <div className="g-s fs-3">
                                     <p className="font-weight-bold" style={{ color: "#4338ca" }}>{counselor.name}</p>
-                                    <h4>{counselor.qualification}</h4>
+                                    <h4 className='fs-5'>{counselor.qualification}</h4>
                                 </div>
                                 <div className="appt">
                                     <a href={counselor.appointmentLink} className="btn btn-link">BOOK APPOINTMENT</a>

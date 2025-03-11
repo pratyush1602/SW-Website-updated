@@ -4,7 +4,7 @@ import './BootstrapCard.css'; // Import custom CSS for additional styling
 
 const BootstrapCard = ({ image, name, title, link, email }) => {
   return (
-    <div className="card text-center" style={{ width: '18rem' }}>
+    <div className="card text-center" style={{ width: '15vw' }}>
       <div className="card-body">
         <a href={link} style={{ textDecoration: 'none', color: 'inherit' }}>
           <img src={image} alt={name} className="rounded-circle card-img-top" />
