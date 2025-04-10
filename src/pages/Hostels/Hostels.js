@@ -26,7 +26,7 @@ export default function Hostels() {
                     <div className='custom-sub-header fs-2 rounded'>
                         <p>Hostels</p>
                     </div>
-                    <div className='custom-content text-start fs-4'>
+                    <div className='custom-content text-start fs-5'>
                         <p>
                             IIT Dharwad being a fully residential institute, all students are mandatorily accommodated in hostels within the campus.
                             Girls have a separate section. Hostels are safe and under round the clock security supervision.
@@ -89,7 +89,7 @@ export default function Hostels() {
                     <p>Hostel Wardens</p>
                 </div>
 
-                <p className='custom-content text-start fs-4'>
+                <p className='custom-content text-start fs-5'>
                     The Hostel Wardens at IIT Dharwad are responsible for ensuring the safety, well-being, and overall management of the hostel environment.
                     They play a crucial role in cultivating a supportive community for students, addressing their needs, and promoting a positive living experience within the hostels.
 

@@ -47,12 +47,12 @@ export default function Gymkhana() {
             <motion.div className='pb-5 pt-2' initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
                 <h1 className='mb-5'>Gymkhana</h1>
 
-                <div className='fs-2 mt-5'>
+                <div className='fs-2 mt-5 m-3'>
                     <p className='custom-sub-header'>About</p>
                 </div>
 
-                <div className='d-flex flex-column align-items-center'>
-                    <p className='fs-4' style={{ color: '#666666' }}>
+                <div className='d-flex flex-column align-items-center m-3'>
+                    <p className='fs-5' style={{ color: '#666666' }}>
                         The Gymkhana at IIT Dharwad serves as a vibrant hub for student life, promoting physical fitness, sportsmanship, and cultural engagement.
                         It is dedicated to fostering a sense of community among students through various athletic and recreational activities. The Gymkhana provides state-of-the-art facilities for outdoor and indoor sports, along with fitness programs that cater to diverse interests.
                         In addition to sports, it hosts cultural events and activities, encouraging students to explore their creative talents and collaborate with peers.
@@ -268,7 +268,7 @@ export default function Gymkhana() {
                         <p className='custom-sub-header' ref={sportsCouncil}>Sports Council</p>
                     </div>
 
-                    <p className='fs-4' style={{color: '#666666'}}>
+                    <p className='fs-5' style={{color: '#666666'}}>
                         The Sports Council is dedicated to fostering a vibrant and inclusive sports culture within the student community.
                         Its primary mission is to promote physical fitness, teamwork, and sportsmanship among students through a variety of athletic activities.
                         The council organizes events and competitions cater to diverse interests, ensuring that every student has the opportunity to participate and excel in their chosen sport.
@@ -281,7 +281,7 @@ export default function Gymkhana() {
                                 <div>
                                     <p className='custom-sub-header border-danger rounded fs-3'>Outdoor Games</p>
                                 </div>
-                                <div className='fs-4'>
+                                <div className='fs-5'>
                                     <ul>
                                         <li>Football</li>
                                         <li>Volleyball</li>
@@ -295,7 +295,7 @@ export default function Gymkhana() {
                                 <div>
                                     <p className='custom-sub-header border-danger rounded fs-3'>Indoor Games</p>
                                 </div>
-                                <div className='fs-4'>
+                                <div className='fs-5'>
                                     <ul>
                                         <li>Chess</li>
                                         <li>Carrom-Board</li>
@@ -309,7 +309,7 @@ export default function Gymkhana() {
                                 <div>
                                     <p className='custom-sub-header border-danger rounded fs-3'>Gym Activities</p>
                                 </div>
-                                <div className='fs-4'>
+                                <div className='fs-5'>
                                     <ul>
                                         <li>Powerlifting</li>
                                         <li>Weightlifting</li>
@@ -335,7 +335,7 @@ export default function Gymkhana() {
                         <p>Cultural Council</p>
                     </div>
 
-                    <p className='fs-4' style={{ color: '#666666' }}>
+                    <p className='fs-5' style={{ color: '#666666' }}>
                         The Cultural Council is dedicated to promoting artistic expression and cultural awareness within the student community.
                         It serves as a platform for students to explore their creative talents and engage in various cultural activities.
                         Through workshops, events, and performances, the council aims to foster a sense of community and appreciation for the arts,
@@ -348,7 +348,7 @@ export default function Gymkhana() {
                                 <div>
                                     <p className='custom-sub-header border-danger rounded fs-3'>Clubs and Activities</p>
                                 </div>
-                                <div className='fs-4'>
+                                <div className='fs-5'>
                                     <ul>
                                         <li>Dance</li>
                                         <li>Dramatics</li>
@@ -361,7 +361,7 @@ export default function Gymkhana() {
                                 <div>
                                     <p className='custom-sub-header border-danger rounded fs-3'>Clubs and Activities</p>
                                 </div>
-                                <div className='fs-4'>
+                                <div className='fs-5'>
                                     <ul>
                                         <li>Music</li>
                                         <li>Photography</li>
@@ -374,7 +374,7 @@ export default function Gymkhana() {
                                 <div>
                                     <p className='custom-sub-header border-danger rounded fs-3'>Other Events</p>
                                 </div>
-                                <div className='fs-4'>
+                                <div className='fs-5'>
                                     <ul>
                                         <li>???</li>
                                         <li>???</li>
@@ -400,7 +400,7 @@ export default function Gymkhana() {
                         <p>Technical Council</p>
                     </div>
 
-                    <p className='fs-4' style={{ color: '#666666' }}>
+                    <p className='fs-5' style={{ color: '#666666' }}>
                         The Technical Council serves as a student-led platform dedicated to nurturing and promoting students' technical interests.
                         Its primary objectives include facilitating and supporting various technical clubs in executing their projects, events, and other activities.
                         By providing guidance, resources, and assistance, the council enables students to explore, learn, and develop their skills in diverse technical domains.
@@ -413,7 +413,7 @@ export default function Gymkhana() {
                                 <div>
                                     <p className='custom-sub-header border-danger rounded fs-3'>Clubs and Activities</p>
                                 </div>
-                                <div className='fs-4'>
+                                <div className='fs-5'>
                                     <ul>
                                         <li>Artificial Intelligence</li>
                                         <li>Coding</li>
@@ -426,7 +426,7 @@ export default function Gymkhana() {
                                 <div>
                                     <p className='custom-sub-header border-danger rounded fs-3'>Clubs and Activities</p>
                                 </div>
-                                <div className='fs-4'>
+                                <div className='fs-5'>
                                     <ul>
                                         <li>Finance</li>
                                         <li>Motorsports</li>
@@ -439,7 +439,7 @@ export default function Gymkhana() {
                                 <div>
                                     <p className='custom-sub-header border-danger rounded fs-3'>Other Events</p>
                                 </div>
-                                <div className='fs-4'>
+                                <div className='fs-5'>
                                     <ul>
                                         <li>???</li>
                                         <li>???</li>
@@ -465,7 +465,7 @@ export default function Gymkhana() {
                         <p>Social Activities</p>
                     </div>
 
-                   <p className='fs-4' style={{ color: '#666666' }}>
+                   <p className='fs-5' style={{ color: '#666666' }}>
                         Social Activities play a vital role in fostering community engagement and social responsibility among students.
                         <br/>
                         - The National Service Scheme (NSS), conducted by the Ministry of Youth Affairs and Sports, encourages participation in community service, helping students develop empathy and civic duty.

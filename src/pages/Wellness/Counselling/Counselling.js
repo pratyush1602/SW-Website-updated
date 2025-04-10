@@ -169,8 +169,8 @@ function Counselling() {
             <div className='d-flex flex-column align-items-center'>
                 <div className="rounded custom-important-container">
 
-                    <div className="row p-2 justify-content-center">
-                        <div className="col-md-12">
+                    <div className="row p-5 justify-content-center">
+                        <div className="col-md-4">
                             <BootstrapCard
                                 image={RidhimaTewari}
                                 name="Prof. Ridhima Tewari"
@@ -179,7 +179,7 @@ function Counselling() {
                                 email="adean.sww@iitdh.ac.in"
                             />
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-4">
                             <BootstrapCard
                                 image={RajshekarK}
                                 name="Prof. Rajshekar K"
@@ -188,7 +188,7 @@ function Counselling() {
                                 email="fic.sw.wellness@iitdh.ac.in"
                             />
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-4">
                             <BootstrapCard
                                 image={PradeepYammiyavar}
                                 name="Prof. Pradeep Yammiyavar"

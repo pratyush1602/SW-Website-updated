@@ -15,12 +15,19 @@
 
 .custom-item-navbar {
     margin: 0.7rem;
+    flex: 1; /* Allow items to grow and take equal space */
+    white-space: nowrap; /* Prevent text from wrapping */
 }
 
 /* Override Bootstrap nav-link styles */
 .nav-link {
     color: #fff !important; /* Default color */
     text-decoration: none; /* Remove underline */
+    display: block; /* Make the link a block element */
+    width: 100%; /* Make the link take the full width of the li */
+    text-align: center; /* Center the text */
+    padding: 10px; /* Add padding for better spacing */
+
 }
 .nav-link:hover {
     color: #fff !important; /* Color on hover */

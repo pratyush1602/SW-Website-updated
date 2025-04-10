@@ -39,13 +39,13 @@ const Sidebar = ({ children }) => {
                     <a href="/" className='text-decoration-none text-white'> STUDENT WELFARE SECTION </a>
                 </div>
 
-                <div className="d-inline-block mx-3" style={{height: "30px", width: "1px", backgroundColor: "white"}}></div>
+                <div className="d-inline-block ms-3" style={{height: "30px", width: "1px", backgroundColor: "white"}}></div>
 
                 <div className="collapse navbar-collapse">
-                    <ul className="navbar-nav mx-auto">
+                    <ul className="navbar-nav w-100 me-3">
                         {links.map((link, index) => (
                             <li className="nav-item custom-item-navbar" key={index}>
-                                <NavLink to={link.path} className="nav-link" style={{fontSize: "1rem"}}>
+                                <NavLink to={link.path} className="nav-link" style={{fontSize: "1.1vw"}}>
                                     {link.label}
                                 </NavLink>
                             </li>

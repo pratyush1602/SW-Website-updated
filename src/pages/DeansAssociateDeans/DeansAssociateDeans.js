@@ -19,7 +19,7 @@ export default function DeansAssociateDeans() {
                     <p> About </p>
                 </div>
                 <div className='custom-content text-left'>
-                    <p className='fs-4'>
+                    <p className='fs-5'>
                         The Deans and Associate Deans of the Students Welfare Office at IIT Dharwad play a crucial role in overseeing the holistic development of students, ensuring their well-being and personal growth.
                         Each Dean and Associate Dean brings unique expertise to their roles, focusing on various aspects of student life, including socio-cultural activities, hostel management, wellness, and sports.
                         Their collaborative efforts aim to enhance the overall student experience, making IIT Dharwad a nurturing and empowering place for all.
@@ -68,9 +68,7 @@ export default function DeansAssociateDeans() {
                             email="adean.sw.gymkhana@iitdh.ac.in"
                         />
                     </div>
-                </div>
-                <div className="row justify-content-center">
-                    <div className="col-md-12">
+                    <div className="col-md-3">
                         <BootstrapCard
                             image={RidhimaTewari}
                             name="Prof. Ridhima Tewari"

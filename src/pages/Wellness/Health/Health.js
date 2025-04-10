@@ -5,6 +5,7 @@ import { IoIosArrowDown } from 'react-icons/io';
 import { SiGotomeeting } from 'react-icons/si';
 import { useRef } from 'react';
 
+import RajshekarK from '../../../images/faculty/rajshekar-k.jpg';
 import OmkarBembalge from '../../../images/faculty/omkar-basavaraj-bembalge.jpg';
 import RidhimaTewari from '../../../images/faculty/ridhima-tewari.jpg';
 
@@ -86,7 +87,7 @@ export default function WellnessSection() {
                     <div className="rounded custom-important-container p-3">
 
                         <div className="row p-2 justify-content-center">
-                            <div className="col-md-6">
+                            <div className="col-md-4">
                                 <BootstrapCard
                                     image={RidhimaTewari}
                                     name="Prof. Ridhima Tewari"
@@ -95,7 +96,16 @@ export default function WellnessSection() {
                                     email="adean.sww@iitdh.ac.in"
                                 />
                             </div>
-                            <div className="col-md-6">
+                             <div className="col-md-4">
+                            <BootstrapCard
+                                image={RajshekarK}
+                                name="Prof. Rajshekar K"
+                                title="Faculty-In-Charge, Students Welfare (Wellness)"
+                                link="https://www.iitdh.ac.in/user-profile/rajshekar-k"
+                                email="fic.sw.wellness@iitdh.ac.in"
+                            />
+                        </div>
+                            <div className="col-md-4">
                                 <BootstrapCard
                                     image={OmkarBembalge}
                                     name="Prof. Omkar Basavaraj Bembalge"

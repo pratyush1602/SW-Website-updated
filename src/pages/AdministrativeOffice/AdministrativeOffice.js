@@ -18,10 +18,10 @@ export default function AdministrativeOffice() {
                     <p> About </p>
                 </div>
                 <div className='custom-content text-left'>
-                    <p className='fs-4'>
+                    <p className='fs-5'>
                         The Student Welfare Administrative office Team at IIT Dharwad believes in all-round development of holistic personality of its students and ensures students' stay on campus is comfortable, fruitful, and happy. The SW Team is on duty 24 hours round the clock with Hostel Managers residing with the students in the Hostels.
                     </p>
-                    <p className='fs-4'>
+                    <p className='fs-5'>
                         IIT Dharwad practices gender equality, respects neurodivergence, and is a socially all-inclusive residential campus. The Campus buildings, including Hostels, are designed for accessibility by persons with disabilities (PWD).
                     </p>
                 </div>

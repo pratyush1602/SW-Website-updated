@@ -43,7 +43,7 @@ export default function StudentCampusLife() {
           <div className='custom-sub-header fs-2 rounded'>
               <p>Student Campus Life</p>
           </div>
-          <div className='custom-content text-left fs-4'>
+          <div className='custom-content text-left fs-5'>
             <p>
                 IIT Dharwad is located at Chikkamalligawad. The new 470-acre campus features a green mini forest with its own flora and fauna, providing opportunities for jogging, cycling, and walking.
                 Daytime is consumed by fast-paced academic activities in classes and laboratories, while evenings are devoted to sports and club activities.
