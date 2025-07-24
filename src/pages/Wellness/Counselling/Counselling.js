@@ -21,7 +21,7 @@ import BootstrapCard from '../../../components/Cards/BootstrapCard.js';
 
 function Counselling() {
     return (
-        <motion.div className='pb-5 pt-2' initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
+        <motion.div className='pb-5 pt-2 mx-0' initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} >
             {/*<div className="scroll">
 
                 <Scrollevent />
@@ -42,6 +42,10 @@ function Counselling() {
                     <br/>
                     There are two options available to anyone who wishes to seek counselling services:
                 </p>
+            </div>
+
+            <div className='mt-5 custom-sub-header border-danger fs-3'>
+                <p>1. Online Counselling</p>
             </div>
 
             <div className="row g-3 d-flex align-items-stretch">
@@ -85,14 +89,14 @@ function Counselling() {
                 </div>
             </div>
 
-            <div className='mt-5 custom-sub-header fs-2'>
-                <p>Face to Face Counselling</p>
+            <div className='mt-5 custom-sub-header border-danger fs-3'>
+                <p>2. Face to Face Counselling</p>
             </div>
 
             <div className='custom-content text-start fs-4'>
                 <p>
-                    You may choose any counselor that you prefer, and book your appointment online using the links below.
-                    Upon being granted an appointment, you may directly approach the counselor without having to sign any registers at the Health Center.
+                    You may choose any counsellor that you prefer. Book your appointment online by clicking on the profile/card of the preferred counsellor below.
+                    Upon being granted an appointment, you may directly approach the counsellor without having to sign any registers at the Health Center.
                 </p>
             </div>
 
@@ -143,7 +147,7 @@ function Counselling() {
                             image={PradeepYammiyavar}
                             name="Prof. Pradeep Yammiyavar"
                             /*(Self discovery, Personality profiling, and Guidance)*/
-                            title="Pg.D.MH PhD , Counselling Psychologist"
+                            title="Pg.D.MH PhD, Counselling Psychologist"
                             link=""
                             email="mailto:counselor1.karuna@iitdh.ac.in"
                         />
@@ -152,7 +156,7 @@ function Counselling() {
                         <BootstrapCard
                             image={VijayalakshmiPeri}
                             name="Vijayalakshmi Peri"
-                            title="M.A. Counseling Psychology, Counselling Psychologist"
+                            title="M.A. Counselling Psychology, Counselling Psychologist"
                             link="https://yourdost.com/auth/sign-in?serviceId=1&next=https:%2F%2Fyourdost.com%2Fin-person-counselling%2Ff2f%2Fiitdh"
                             email="mailto:counselor2.karuna@iitdh.ac.in"
                         />
@@ -182,12 +186,12 @@ function Counselling() {
 
 
             <div className='mt-5 custom-sub-header fs-2'>
-                <p>Student Counselling Mentors</p>
+                <p>Student Wellness Mentors</p>
             </div>
 
             <div className='custom-content text-start fs-4'>
                 <p className='text-start fs-4'>
-                    Our Student Counselling Mentors are dedicated individuals who provide support and guidance to their peers. They are trained to listen, empathize, and help students navigate their challenges. If you need someone to talk to or seek advice, feel free to reach out to any of our mentors listed below.
+                    Our Student Wellness Mentors are dedicated individuals who provide support and guidance to their peers. They are trained to listen, empathize, and help students navigate their challenges. If you need someone to talk to or seek advice, feel free to reach out to any of our mentors listed below.
                 </p>
             </div>
 
@@ -260,7 +264,7 @@ function Counselling() {
                                 name="Prof. Rajshekar K"
                                 title="Faculty-In-Charge, Students Welfare (Wellness)"
                                 link="https://www.iitdh.ac.in/user-profile/rajshekar-k"
-                                email="mailto:fic.sw.wellness@iitdh.ac.in"
+                                email="mailto:fic.counselling@iitdh.ac.in"
                             />
                         </div>
                         <div className="col-lg-4 col-md-6">

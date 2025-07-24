@@ -114,7 +114,7 @@ export default function Gymkhana() {
                 </div>
 
                 <div>
-                    <div className='rounded custom-important-container p-4 d-flex flex-column align-items-center'>
+                    <div className='d-flex flex-column align-items-center'>
                         <div className='rounded custom-important-container p-4'>
                             <h5>FACULTY IN CHARGES - GYMKHANA</h5>
                             <div style={{ width: "50px", height: "3.4px", backgroundColor: "#86198f", marginTop: "7px", marginBottom: "18px" }}></div>

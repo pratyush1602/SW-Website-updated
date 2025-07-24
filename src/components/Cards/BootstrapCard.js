@@ -3,7 +3,7 @@ import React from 'react';
 import './BootstrapCard.css'; // Import custom CSS for additional styling
 
 const BootstrapCard = ({ image, name, title, link, email }) => {
-  if (email.startsWith("mailto:")) {
+  if (email && email.startsWith("mailto:")) {
     email = email.substring(7);
   }
 

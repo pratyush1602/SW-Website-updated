@@ -54,11 +54,11 @@ export default function WellnessSection() {
                         </p>
                     </div>
 
-                    <div className='mt-5 card custom-important-container text-center p-5'>
-                        <img className='card-img-top img-fluid w-75 h-auto' src={wellnesscentre} alt="Wellness Centre" />
+                    <div className='mt-5 card custom-important-container text-center pt-5'>
+                        <img className='card-img-top w-75 h-auto' src={wellnesscentre} alt="Wellness Centre" />
                         <div className='card-body'>
-                            <p className='p1'>Ambulance No:</p>
-                            <p className='p2'>+91 81054 05107</p>
+                            <p className='fs-3'>Ambulance No:</p>
+                            <p className='fs-3'>+91 81054 05107</p>
                             <a href="https://maps.app.goo.gl/vLfZWxkLpektRyc16" className='btn btn-primary'>View in Map</a>
                         </div>
                     </div>
