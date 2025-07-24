@@ -15,8 +15,9 @@
 
 .custom-item-navbar {
     margin: 0.7rem;
-    flex: 1; /* Allow items to grow and take equal space */
+    flex: 0 0 auto; /* Allow items to grow and take equal space */
     white-space: nowrap; /* Prevent text from wrapping */
+    align-items: center;
 }
 
 /* Override Bootstrap nav-link styles */
@@ -27,18 +28,20 @@
     width: 100%; /* Make the link take the full width of the li */
     text-align: center; /* Center the text */
     padding: 10px; /* Add padding for better spacing */
+    font-weight: normal;
+    font-style: normal;
 
 }
-.nav-link:hover {
-    color: #fff !important; /* Color on hover */
-}
+
 .nav-link:active,
 .nav-link:focus {
-    color: #0ff !important; /* Color when clicked or focused */
+    color: #fff !important; /* Color when clicked or focused */
 }
+
 /* Optional: Remove the default Bootstrap hover effect */
 .nav-link:hover {
-    color: inherit !important; /* Prevent Bootstrap hover color */
+    color: #0ff !important; /* Prevent Bootstrap hover color */
+    background-color: #8e1b98;
 }
 
 

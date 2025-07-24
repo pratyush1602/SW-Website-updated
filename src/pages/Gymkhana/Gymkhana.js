@@ -61,8 +61,8 @@ export default function Gymkhana() {
                 </div>
 
                 <div>
-                    <div className="row g-3">
-                        <motion.div className="col-md-3" onClick={() => scrollHandler(sportsCouncil)}>
+                    <div className="row g-4">
+                        <motion.div className="col-lg-3" onClick={() => scrollHandler(sportsCouncil)}>
                             <div className='gymkhana-council-box'>
                                 <p>SPORTS COUNCIL</p>
                                 <ul>
@@ -73,7 +73,7 @@ export default function Gymkhana() {
                             </div>
                         </motion.div>
 
-                        <motion.div className="col-md-3" onClick={() => scrollHandler(techCouncil)}>
+                        <motion.div className="col-lg-3" onClick={() => scrollHandler(techCouncil)}>
                             <div className='gymkhana-council-box'>
                             <p>TECHNICAL COUNCIL</p>
                                 <ul>
@@ -84,7 +84,7 @@ export default function Gymkhana() {
                             </div>
                         </motion.div>
 
-                        <motion.div className="col-md-3" onClick={() => scrollHandler(culturalCouncil)}>
+                        <motion.div className="col-lg-3" onClick={() => scrollHandler(culturalCouncil)}>
                             <div className='gymkhana-council-box'>
                             <p>CULTURAL COUNCIL</p>
                                 <ul>
@@ -95,7 +95,7 @@ export default function Gymkhana() {
                             </div>
                         </motion.div>
 
-                        <motion.div className="col-md-3" onClick={() => scrollHandler(socialActivities)}>
+                        <motion.div className="col-lg-3" onClick={() => scrollHandler(socialActivities)}>
                             <div className='gymkhana-council-box'>
                             <p>SOCIAL ACTIVITIES</p>
                             <ul>
@@ -114,7 +114,7 @@ export default function Gymkhana() {
                 </div>
 
                 <div>
-                    <div className='rounded custom-important-container p-5 d-flex flex-column align-items-center'>
+                    <div className='rounded custom-important-container p-4 d-flex flex-column align-items-center'>
                         <div className='rounded custom-important-container p-4'>
                             <h5>FACULTY IN CHARGES - GYMKHANA</h5>
                             <div style={{ width: "50px", height: "3.4px", backgroundColor: "#86198f", marginTop: "7px", marginBottom: "18px" }}></div>
@@ -127,31 +127,31 @@ export default function Gymkhana() {
                             </div>*/}
 
                             <div className="row pt-2 justify-content-center">
-                                <div className="col-md-4">
+                                <div className="col-lg-4 col-md-12">
                                     <BootstrapCard
                                         image={KavitaDevi}
                                         name="Prof. Kavita Devi"
                                         title="Faculty-In-Charge, Students Welfare, NSS"
                                         link="https://www.iitdh.ac.in/user-profile/kavita-devi"
-                                        email="fic.sw.nss@iitdh.ac.in"
+                                        email="mailto:fic.sw.nss@iitdh.ac.in"
                                     />
                                 </div>
-                                <div className="col-md-4">
+                                <div className="col-lg-4 col-md-6">
                                     <BootstrapCard
                                         image={VigneshwaraRajaP}
                                         name="Prof. Vigneshwara Raja P"
                                         title="Faculty-In-Charge, Students Welfare, NCC"
                                         link="https://www.iitdh.ac.in/user-profile/vigneshwara-raja-p"
-                                        email="fic.sw.ncc@iitdh.ac.in"
+                                        email="mailto:fic.sw.ncc@iitdh.ac.in"
                                     />
                                 </div>
-                                <div className="col-md-4">
+                                <div className="col-lg-4 col-md-6">
                                     <BootstrapCard
                                         image={NagaveniS}
                                         name="Prof. Nagaveni S"
                                         title="Faculty-In-Charge, Students Welfare, Cultural & Technical Affairs"
                                         link="https://www.iitdh.ac.in/user-profile/nagaveni-s"
-                                        email="fic.sw.tech@iitdh.ac.in & fic.sw.cultural@iitdh.ac.in"
+                                        email="mailto:fic.sw.tech@iitdh.ac.in & fic.sw.cultural@iitdh.ac.in"
                                     />
                                 </div>
                             </div>
@@ -165,7 +165,7 @@ export default function Gymkhana() {
                             <div style={{ width: "50px", height: "3.4px", backgroundColor: "#86198f", marginTop: "7px", marginBottom: "18px" }}></div>
 
                             <div className="row pt-2 justify-content-center">
-                                <div className="col-md-4">
+                                <div className="col-lg-4 col-md-12">
                                     <BootstrapCard
                                         image={KeerthiKumarM}
                                         name="Dr. Keerthi Kumar M"
@@ -173,7 +173,7 @@ export default function Gymkhana() {
                                         link="https://www.iitdh.ac.in/user-profile/dr-keerthi-kumar-m"
                                     />
                                 </div>
-                                <div className="col-md-4">
+                                <div className="col-lg-4 col-md-6">
                                     <BootstrapCard
                                         image={RaviGalimath}
                                         name="Shri Ravi Shivaprakash Galimath"
@@ -181,7 +181,7 @@ export default function Gymkhana() {
                                         link="https://www.iitdh.ac.in/user-profile/ravi-shivaprakash-galimath"
                                     />
                                 </div>
-                                <div className="col-md-4">
+                                <div className="col-lg-4 col-md-6">
                                     <BootstrapCard
                                         image={RameshG}
                                         name="Shri Gundaveni Ramesh"
@@ -199,7 +199,7 @@ export default function Gymkhana() {
                 </div>
 
                 <div>
-                    <div className='rounded custom-important-container p-3 d-flex flex-column align-items-center'>
+                    {/*<div className='rounded custom-important-container p-3 d-flex flex-column align-items-center'>*/}
                         <div className='rounded custom-important-container p-4'>
                             <h5>STUDENT COUNCIL SECRETARIES</h5>
                             <div style={{ width: "50px", height: "3.4px", backgroundColor: "#86198f", marginTop: "7px", marginBottom: "18px" }}></div>
@@ -229,8 +229,6 @@ export default function Gymkhana() {
                             </div>
                         </div>
 
-                        <hr />
-
                         <div className='rounded custom-important-container p-4 w-100'>
                             <h5>CLUB SECRETARIES</h5>
                             <div style={{ width: "50px", height: "3.4px", backgroundColor: "#86198f", marginTop: "7px", marginBottom: "18px" }}></div>
@@ -259,7 +257,7 @@ export default function Gymkhana() {
 
                         <BackToTop />
 
-                    </div>
+                    {/*</div>*/}
                 </div>
 
                 <div className='mt-5'>
@@ -275,51 +273,48 @@ export default function Gymkhana() {
                         By providing resources, coaching, and support, the Sports Council aims to cultivate a spirit of healthy competition and camaraderie, empowering students to achieve their personal best while building lasting friendships and memories.
                     </p>
 
-                    <div className='d-flex flex-column align-items-center'>
-                        <div className='row w-75'>
-                            <div className='col-md-4 d-flex flex-column align-items-center'>
-                                <div>
-                                    <p className='custom-sub-header border-danger rounded fs-3'>Outdoor Games</p>
-                                </div>
-                                <div className='fs-5'>
-                                    <ul>
-                                        <li>Football</li>
-                                        <li>Volleyball</li>
-                                        <li>Cricket</li>
-                                        <li>Basketball</li>
-                                        <li>Swimming</li>
-                                    </ul>
-                                </div>
+                    <div className='row'>
+                        <div className='col-lg-4 col-md-6'>
+                            <div>
+                                <p className='custom-sub-header border-danger fs-3'>Outdoor Games</p>
                             </div>
-                            <div className='col-md-4 d-flex flex-column align-items-center'>
-                                <div>
-                                    <p className='custom-sub-header border-danger rounded fs-3'>Indoor Games</p>
-                                </div>
-                                <div className='fs-5'>
-                                    <ul>
-                                        <li>Chess</li>
-                                        <li>Carrom-Board</li>
-                                        <li>Badminton</li>
-                                        <li>Squash</li>
-                                        <li>Table tennis</li>
-                                    </ul>
-                                </div>
+                            <div className='fs-5'>
+                                <ul>
+                                    <li>Football</li>
+                                    <li>Volleyball</li>
+                                    <li>Cricket</li>
+                                    <li>Basketball</li>
+                                    <li>Swimming</li>
+                                </ul>
                             </div>
-                            <div className='col-md-4 d-flex flex-column align-items-center'>
-                                <div>
-                                    <p className='custom-sub-header border-danger rounded fs-3'>Gym Activities</p>
-                                </div>
-                                <div className='fs-5'>
-                                    <ul>
-                                        <li>Powerlifting</li>
-                                        <li>Weightlifting</li>
-                                        <li>Yoga</li>
-                                    </ul>
-                                </div>
+                        </div>
+                        <div className='col-lg-4 col-md-6'>
+                            <div>
+                                <p className='custom-sub-header border-danger fs-3'>Indoor Games</p>
+                            </div>
+                            <div className='fs-5'>
+                                <ul>
+                                    <li>Chess</li>
+                                    <li>Carrom-Board</li>
+                                    <li>Badminton</li>
+                                    <li>Squash</li>
+                                    <li>Table tennis</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div className='col-lg-4 col-md-4'>
+                            <div>
+                                <p className='custom-sub-header border-danger fs-3'>Gym Activities</p>
+                            </div>
+                            <div className='fs-5'>
+                                <ul>
+                                    <li>Powerlifting</li>
+                                    <li>Weightlifting</li>
+                                    <li>Yoga</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
-
 
                     <div className='image-block'>
                         <ImageGrid
@@ -342,49 +337,46 @@ export default function Gymkhana() {
                         encouraging students to collaborate and showcase their skills.
                     </p>
 
-                    <div className='d-flex flex-column align-items-center'>
-                        <div className='row w-75'>
-                            <div className='col-md-4 d-flex flex-column align-items-center'>
-                                <div>
-                                    <p className='custom-sub-header border-danger rounded fs-3'>Clubs and Activities</p>
-                                </div>
-                                <div className='fs-5'>
-                                    <ul>
-                                        <li>Dance</li>
-                                        <li>Dramatics</li>
-                                        <li>Fine Arts</li>
-                                        <li>Literary</li>
-                                    </ul>
-                                </div>
+                    <div className='row'>
+                        <div className='col-lg-4 col-md-6'>
+                            <div>
+                                <p className='custom-sub-header border-danger fs-3'>Clubs and Activities</p>
                             </div>
-                            <div className='col-md-4 d-flex flex-column align-items-center'>
-                                <div>
-                                    <p className='custom-sub-header border-danger rounded fs-3'>Clubs and Activities</p>
-                                </div>
-                                <div className='fs-5'>
-                                    <ul>
-                                        <li>Music</li>
-                                        <li>Photography</li>
-                                        <li>Quiz</li>
-                                        <li>Prabodhini</li>
-                                    </ul>
-                                </div>
+                            <div className='fs-5'>
+                                <ul>
+                                    <li>Sapphire - Dance Club</li>
+                                    <li>Dramatics Club</li>
+                                    <li>Aesthetica - Fine Arts Club</li>
+                                    <li>Eunoia - Literary Club</li>
+                                </ul>
                             </div>
-                            <div className='col-md-4 d-flex flex-column align-items-center'>
-                                <div>
-                                    <p className='custom-sub-header border-danger rounded fs-3'>Other Events</p>
-                                </div>
-                                <div className='fs-5'>
-                                    <ul>
-                                        <li>???</li>
-                                        <li>???</li>
-                                        <li>???</li>
-                                        <li>???</li>
-                                    </ul>
-                                </div>
+                        </div>
+                        <div className='col-lg-4 col-md-6'>
+                            <div>
+                                <p className='custom-sub-header border-danger fs-3'>Clubs and Activities</p>
+                            </div>
+                            <div className='fs-5'>
+                                <ul>
+                                    <li>Music Club</li>
+                                    <li>Focus - Photography Club</li>
+                                    <li>Quiz Club</li>
+                                    <li>Prabodhini - Spiritual Club</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div className='col-lg-4 col-md-4'>
+                            <div>
+                                <p className='custom-sub-header border-danger fs-3'>Other Events</p>
+                            </div>
+                            <div className='fs-5'>
+                                <ul>
+                                    <li>Inter IIT Cultural Meet</li>
+                                    <li>Harshtaal - Annual Cultural Fest</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
+
 
                     <div className='image-block'>
                         <ImageGrid
@@ -407,46 +399,42 @@ export default function Gymkhana() {
                         Ultimately, it aims to create an environment that encourages innovation,collaboration, and the pursuit of excellence in technical fields among the student body.
                     </p>
 
-                    <div className='d-flex flex-column align-items-center'>
-                        <div className='row w-75'>
-                            <div className='col-md-4 d-flex flex-column align-items-center'>
-                                <div>
-                                    <p className='custom-sub-header border-danger rounded fs-3'>Clubs and Activities</p>
-                                </div>
-                                <div className='fs-5'>
-                                    <ul>
-                                        <li>Artificial Intelligence</li>
-                                        <li>Coding</li>
-                                        <li>Space Data Science</li>
-                                        <li>Robotics</li>
-                                    </ul>
-                                </div>
+                    <div className='row'>
+                        <div className='col-lg-4 col-md-6'>
+                            <div>
+                                <p className='custom-sub-header border-danger fs-3'>Clubs and Activities</p>
                             </div>
-                            <div className='col-md-4 d-flex flex-column align-items-center'>
-                                <div>
-                                    <p className='custom-sub-header border-danger rounded fs-3'>Clubs and Activities</p>
-                                </div>
-                                <div className='fs-5'>
-                                    <ul>
-                                        <li>Finance</li>
-                                        <li>Motorsports</li>
-                                        <li>Design</li>
-                                        <li>???</li>
-                                    </ul>
-                                </div>
+                            <div className='fs-5'>
+                                <ul>
+                                    <li>Hardly Human - AI Club</li>
+                                    <li>Code Geass - Coding Club</li>
+                                    <li>Cosmosoc - Space Data Science</li>
+                                </ul>
                             </div>
-                            <div className='col-md-4 d-flex flex-column align-items-center'>
-                                <div>
-                                    <p className='custom-sub-header border-danger rounded fs-3'>Other Events</p>
-                                </div>
-                                <div className='fs-5'>
-                                    <ul>
-                                        <li>???</li>
-                                        <li>???</li>
-                                        <li>???</li>
-                                        <li>???</li>
-                                    </ul>
-                                </div>
+                        </div>
+                        <div className='col-lg-4 col-md-6'>
+                            <div>
+                                <p className='custom-sub-header border-danger fs-3'>Clubs and Activities</p>
+                            </div>
+                            <div className='fs-5'>
+                                <ul>
+                                    <li>Robotics Club</li>
+                                    <li>Insolvent - Finance Club</li>
+                                    <li>Ingene - Motorsports Club</li>
+                                    <li>Abhikalpa - Design Club</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div className='col-lg-4 col-md-4'>
+                            <div>
+                                <p className='custom-sub-header border-danger fs-3'>Other Events</p>
+                            </div>
+                            <div className='fs-5'>
+                                <ul>
+                                    <li>PARSEC - Annual Technical Fest</li>
+                                    <li>Summer of Innovation</li>
+                                    <li>Inter IIT Tech Meet</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -468,12 +456,14 @@ export default function Gymkhana() {
                    <p className='fs-5' style={{ color: '#666666' }}>
                         Social Activities play a vital role in fostering community engagement and social responsibility among students.
                         <br/>
-                        - The National Service Scheme (NSS), conducted by the Ministry of Youth Affairs and Sports, encourages participation in community service, helping students develop empathy and civic duty.
-                        <br/>
-                        - The National Sports Organization (NSO), also under the Ministry of Youth Affairs and Sports, promotes physical fitness and teamwork through sports, instilling discipline and a competitive spirit.
-                        <br/>
-                        - The National Cadet Corps (NCC), under the Ministry of Defence, provides military training and leadership development, empowering students to become responsible citizens.
-                        <br/>
+                        <ul>
+                            <li> The National Service Scheme (NSS), conducted by the Ministry of Youth Affairs and Sports, encourages participation in community service, helping students develop empathy and civic duty. </li>
+                            <br/>
+                            <li> The National Sports Organization (NSO), also under the Ministry of Youth Affairs and Sports, promotes physical fitness and teamwork through sports, instilling discipline and a competitive spirit. </li>
+                            <br/>
+                            <li> The National Cadet Corps (NCC), under the Ministry of Defence, provides military training and leadership development, empowering students to become responsible citizens. </li>
+                            <br/>
+                        </ul>
                             Together, these initiatives create an environment where students can thrive and make a meaningful impact.
                     </p>
 

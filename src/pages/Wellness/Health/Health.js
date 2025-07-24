@@ -87,31 +87,31 @@ export default function WellnessSection() {
                     <div className="rounded custom-important-container p-3">
 
                         <div className="row p-2 justify-content-center">
-                            <div className="col-md-4">
+                            <div className="col-lg-4 col-md-12">
                                 <BootstrapCard
                                     image={RidhimaTewari}
                                     name="Prof. Ridhima Tewari"
                                     title="Associate Dean, Students Welfare, Wellness"
                                     link="https://www.iitdh.ac.in/node/1999"
-                                    email="adean.sww@iitdh.ac.in"
+                                    email="mailto:adean.sww@iitdh.ac.in"
                                 />
                             </div>
-                             <div className="col-md-4">
+                             <div className="col-lg-4 col-md-6">
                             <BootstrapCard
                                 image={RajshekarK}
                                 name="Prof. Rajshekar K"
                                 title="Faculty-In-Charge, Students Welfare (Wellness)"
                                 link="https://www.iitdh.ac.in/user-profile/rajshekar-k"
-                                email="fic.sw.wellness@iitdh.ac.in"
+                                email="mailto:fic.sw.wellness@iitdh.ac.in"
                             />
                         </div>
-                            <div className="col-md-4">
+                            <div className="col-lg-4 col-md-6">
                                 <BootstrapCard
                                     image={OmkarBembalge}
                                     name="Prof. Omkar Basavaraj Bembalge"
                                     title="Faculty-In-Charge, Students Welfare (Health and Ambulance)"
                                     link="https://www.iitdh.ac.in/user-profile/omkar-baswaraj-bembalge"
-                                    email="fic.health@iitdh.ac.in"
+                                    email="mailto:fic.health@iitdh.ac.in"
                                 />
                             </div>
                         </div>

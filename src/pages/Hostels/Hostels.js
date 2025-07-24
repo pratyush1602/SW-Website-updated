@@ -23,7 +23,7 @@ export default function Hostels() {
                 <h1 className='mb-2'>Hostels</h1>
 
                 <div className='mt-5'>
-                    <div className='custom-sub-header fs-2 rounded'>
+                    <div className='custom-sub-header fs-2'>
                         <p>Hostels</p>
                     </div>
                     <div className='custom-content text-start fs-5'>
@@ -103,22 +103,22 @@ export default function Hostels() {
                             Warden - Boys Hostel 1 PC
                         </h3>
                         <div className="row p-2 justify-content-center">
-                            <div className="col-md-6">
+                            <div className="col-lg-6 col-md-6">
                                 <BootstrapCard
                                     image={SudhirKumarSahoo}
                                     name="Prof. Sudhir Kumar Sahoo"
                                     title="Warden - Boys Hostel 1 PC"
                                     link="https://iitdh.ac.in/node/1965"
-                                    email="warden-boys-hostel-1-pc@iitdh.ac.in"
+                                    email="mailto:warden-boys-hostel-1-pc@iitdh.ac.in"
                                 />
                             </div>
-                            <div className="col-md-6">
+                            <div className="col-lg-6 col-md-6">
                                 <BootstrapCard
                                     image={SubhashMehto}
                                     name="Prof. Subhash Mehto"
                                     title="Warden - Boys Hostel 1 PC"
                                     link="https://iitdh.ac.in/user-profile/subhash-mehto"
-                                    email="warden-boys-hostel-1-pc@iitdh.ac.in"
+                                    email="mailto:warden-boys-hostel-1-pc@iitdh.ac.in"
                                 />
                             </div>
                         </div>
@@ -129,31 +129,31 @@ export default function Hostels() {
                         </h3>
 
                         <div className="row p-2 justify-content-center">
-                            <div className="col-md-4">
+                            <div className="col-lg-4 col-md-6">
                                 <BootstrapCard
                                     image={SarojMondal}
                                     name="Prof. Saroj Mondal"
                                     title="Warden - Boys Hostel 2 PC"
                                     link="https://iitdh.ac.in/user-profile/saroj-mondal"
-                                    email="warden-boys-hostel-2-pc@iitdh.ac.in"
+                                    email="mailto:warden-boys-hostel-2-pc@iitdh.ac.in"
                                 />
                             </div>
-                            <div className="col-md-4">
+                            <div className="col-lg-4 col-md-6">
                                 <BootstrapCard
                                     image={RakeshLingam}
                                     name="Rakesh Lingam"
                                     title="Warden - Boys Hostel 2 PC"
                                     link="https://www.iitdh.ac.in/user-profile/rakesh-lingam"
-                                    email="warden-boys-hostel-2-pc@iitdh.ac.in"
+                                    email="mailto:warden-boys-hostel-2-pc@iitdh.ac.in"
                                 />
                             </div>
-                            <div className="col-md-4">
+                            <div className="col-lg-4 col-md-12">
                                 <BootstrapCard
                                     image={SushantaKumarSethi}
                                     name="Prof. Sushanta Kumar Sethi"
                                     title="Warden - Boys Hostel 2 PC"
                                     link="https://www.iitdh.ac.in/user-profile/sushanta-kumar-sethi"
-                                    email="warden-boys-hostel-2-pc@iitdh.ac.in"
+                                    email="mailto:warden-boys-hostel-2-pc@iitdh.ac.in"
                                 />
                             </div>
                         </div>
@@ -164,22 +164,22 @@ export default function Hostels() {
                         </h3>
 
                         <div className="row justify-content-center">
-                            <div className="col-md-6">
+                            <div className="col-lg-6 col-md-6">
                                 <BootstrapCard
                                     image={RumaGhosh}
                                     name="Prof. Ruma Ghosh"
                                     title="Warden - Girls Hostel PC"
                                     link="https://www.iitdh.ac.in/user-profile/ruma-ghosh"
-                                    email="warden-girls-hostel-1-pc@iitdh.ac.in"
+                                    email="mailto:warden-girls-hostel-1-pc@iitdh.ac.in"
                                 />
                             </div>
-                            <div className="col-md-6">
+                            <div className="col-lg-6 col-md-6">
                                 <BootstrapCard
                                     image={ShraddhaSrivastava}
                                     name="Prof. Shraddha Srivastava"
                                     title="Warden - Girls Hostel PC"
                                     link="https://www.iitdh.ac.in/user-profile/shraddha-srivastava"
-                                    email="warden-girls-hostel-1-pc@iitdh.ac.in"
+                                    email="mailto:warden-girls-hostel-1-pc@iitdh.ac.in"
                                 />
                             </div>
                         </div>

@@ -42,7 +42,7 @@ const Sidebar = ({ children }) => {
                 <div className="d-inline-block ms-3" style={{height: "30px", width: "1px", backgroundColor: "white"}}></div>
 
                 <div className="collapse navbar-collapse">
-                    <ul className="navbar-nav w-100 me-3">
+                    <ul className="navbar-nav w-100 me-3 justify-content-center">
                         {links.map((link, index) => (
                             <li className="nav-item custom-item-navbar" key={index}>
                                 <NavLink to={link.path} className="nav-link" style={{fontSize: "1.1vw"}}>
@@ -90,7 +90,7 @@ const Sidebar = ({ children }) => {
 
 
             {/* Main Content */}
-            {<div className="d-flex justify-content-center align-items-center p-3" style={{ height: '100%' }}>
+            {<div className="d-flex justify-content-center align-items-center" style={{ height: '100%' }}>
                 {/*<div className="topbar d-flex justify-content-between align-items-center">
                     <button className="btn btn-primary d-lg-none" onClick={toggle}>
                         {isOpen ? <FaTimes /> : <FaBars />}

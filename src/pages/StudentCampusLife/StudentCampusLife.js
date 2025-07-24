@@ -40,7 +40,7 @@ export default function StudentCampusLife() {
       <motion.div className='pb-5 pt-2' initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
         <h1 className='mb-2'>Life at IIT Dharwad</h1>
         <div className='mt-5'>
-          <div className='custom-sub-header fs-2 rounded'>
+          <div className='custom-sub-header fs-2'>
               <p>Student Campus Life</p>
           </div>
           <div className='custom-content text-left fs-5'>
@@ -60,7 +60,7 @@ export default function StudentCampusLife() {
                     images={images.slice(0,3)}
                     width="332px" // Adjustable width
                     height="250px" // Adjustable height
-                    // columns={4} // Adjustable number of columns
+                    columns={4} // Adjustable number of columns
                 />
             </div>
 
@@ -79,7 +79,7 @@ export default function StudentCampusLife() {
                     images={images.slice(3,6)}
                     width="332px" // Adjustable width
                     height="250px" // Adjustable height
-                    // columns={4} // Adjustable number of columns
+                    columns={4} // Adjustable number of columns
                 />
             </div>
 
@@ -98,7 +98,7 @@ export default function StudentCampusLife() {
                     images={images.slice(6,10)}
                     width="332px" // Adjustable width
                     height="250px" // Adjustable height
-                    // columns={4} // Adjustable number of columns
+                    columns={4} // Adjustable number of columns
                 />
             </div>
 

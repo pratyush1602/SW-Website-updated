@@ -15,7 +15,7 @@ export default function DeansAssociateDeans() {
             <h1 className='mb-2'>Dean and Associate Deans</h1>
 
             <div className='mt-5'>
-                <div className='custom-sub-header fs-2 rounded'>
+                <div className='custom-sub-header fs-2'>
                     <p> About </p>
                 </div>
                 <div className='custom-content text-left'>
@@ -30,7 +30,7 @@ export default function DeansAssociateDeans() {
 
             <div className="rounded custom-important-container">
                 <div className="row p-2 justify-content-center">
-                    <div className="col-md-12">
+                    <div className="col-lg-12">
                         <BootstrapCard
                             image={RamjeeRepaka}
                             name="Prof. Ramjee Repaka"
@@ -41,7 +41,7 @@ export default function DeansAssociateDeans() {
                     </div>
                 </div>
                 <div className="row justify-content-center">
-                    <div className="col-md-3">
+                    <div className="col-lg-3 col-md-6">
                         <BootstrapCard
                             image={SuryaPrakashRamesh}
                             name="Prof. Surya Prakash Ramesh"
@@ -50,7 +50,7 @@ export default function DeansAssociateDeans() {
                             email="adean.sw.sca@iitdh.ac.in"
                         />
                     </div>
-                    <div className="col-md-3">
+                    <div className="col-lg-3 col-md-6">
                         <BootstrapCard
                             image={SuryaPratapSingh}
                             name="Prof. Surya Pratap Singh"
@@ -59,7 +59,7 @@ export default function DeansAssociateDeans() {
                             email="adean.sw.hostel@iitdh.ac.in"
                         />
                     </div>
-                    <div className="col-md-3">
+                    <div className="col-lg-3 col-md-6">
                         <BootstrapCard
                             image={RajeshwaraRao}
                             name="Prof. Rajeshwara Rao M"
@@ -68,7 +68,7 @@ export default function DeansAssociateDeans() {
                             email="adean.sw.gymkhana@iitdh.ac.in"
                         />
                     </div>
-                    <div className="col-md-3">
+                    <div className="col-lg-3 col-md-6">
                         <BootstrapCard
                             image={RidhimaTewari}
                             name="Prof. Ridhima Tewari"

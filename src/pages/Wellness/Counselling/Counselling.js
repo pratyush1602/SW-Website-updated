@@ -6,12 +6,16 @@ import { motion } from 'framer-motion';
 
 import yd from "../../../images/yourdost.png";
 import te from "../../../images/tele-manas-mental-health-service1.jpg"
+import karuneMainLogo from "../../../images/counselling-centre/karune-main-logo.png"
 
 import mentorsData from './CounsellingMentorsData.js';
 
 import RajshekarK from '../../../images/faculty/rajshekar-k.jpg';
 import PradeepYammiyavar from '../../../images/faculty/pradeep-yammiyavar.jpg';
 import RidhimaTewari from '../../../images/faculty/ridhima-tewari.jpg';
+import VijayalakshmiPeri from "../../../images/counselling-centre/vijayalakshmi-peri.jpg"
+import DarshanaKishoreGandhi from "../../../images/counselling-centre/darshana-kishore-gandhi.jpg"
+import Navyashree from "../../../images/counselling-centre/navyashree.jpg"
 
 import BootstrapCard from '../../../components/Cards/BootstrapCard.js';
 
@@ -23,10 +27,13 @@ function Counselling() {
                 <Scrollevent />
             </div>*/}
 
-            <h1 className='mb-2'>Wellness - Counselling</h1>
+            <h1 className='mb-2'>Karune</h1>
+            <div className="d-flex flex-column">
+                <h2 className='mb-2 align-self-center'>Counselling Centre</h2>
+            </div>
 
-            <div className='mt-5 custom-sub-header fs-2'>
-                <p>Counselling Center</p>
+            <div className="d-flex flex-column">
+                <img src={karuneMainLogo} className='align-self-center bg-transparent' alt="Karune"/>
             </div>
 
             <div className='custom-content text-start fs-4'>
@@ -37,11 +44,11 @@ function Counselling() {
                 </p>
             </div>
 
-            <div className="row g-3 d-flex">
+            <div className="row g-3 d-flex align-items-stretch">
                 {/* YourDOST Card */}
-                <div className="col h-100">
+                <div className="col-lg-6">
                     <div className="card w-100 h-100 p-3">
-                        <img src={yd} alt="YourDOST" className="card-img-top h-auto" />
+                        <img src={yd} alt="YourDOST" className="card-img-top" style={{ width: '50%', height: 'auto' }}/>
                         <div className="card-body">
                             <h5 className="card-title fs-4">
                                 <a href="https://www.iitdh.ac.in/sites/default/files/2023-10/YourDOST_steps_2023_07_19.pdf" className="text-decoration-none">
@@ -58,9 +65,9 @@ function Counselling() {
                 </div>
 
                 {/* TeleMANAS Card */}
-                <div className="col h-100">
+                <div className="col-lg-6">
                     <div className="card w-100 h-100 p-3">
-                        <img src={te} alt="TeleMANAS" className="card-img-top h-auto" />
+                        <img src={te} alt="TeleMANAS" className="card-img-top" style={{ width: '50%', height: 'auto' }} />
                         <div className="card-body">
                             <h5 className="card-title fs-4">
                                 <a href="https://telemanas.mohfw.gov.in/home" className="text-decoration-none">
@@ -78,8 +85,7 @@ function Counselling() {
                 </div>
             </div>
 
-
-            <div className='mt-1 custom-sub-header fs-2'>
+            <div className='mt-5 custom-sub-header fs-2'>
                 <p>Face to Face Counselling</p>
             </div>
 
@@ -90,10 +96,9 @@ function Counselling() {
                 </p>
             </div>
 
-            <div className='d-flex flex-column align-items-center'>
+            {/*<div className='d-flex flex-column align-items-center'>
                 <div className='custom-important-container p-3' style={{ borderBottom: "5px solid #86198f" }}>
                     <div className="mt-4">
-                        {/* Counselor 1 */}
                         <div className="d-flex justify-content-between align-items-center mb-3">
                             <div className="g-s fs-3">
                                 <p className="font-weight-bold" style={{ color: "#4338ca" }}>
@@ -111,7 +116,6 @@ function Counselling() {
                             </div>
                         </div>
 
-                        {/* Counselor 2 */}
                         <div className="d-flex justify-content-between align-items-center mb-3">
                             <div className="g-s fs-3">
                                 <p className="font-weight-bold" style={{ color: "#4338ca" }}>
@@ -130,6 +134,50 @@ function Counselling() {
                         </div>
                     </div>
                 </div>
+            </div>*/}
+
+            <div className="rounded custom-important-container">
+                <div className="row justify-content-center">
+                    <div className="col-lg-3 col-md-6">
+                        <BootstrapCard
+                            image={PradeepYammiyavar}
+                            name="Prof. Pradeep Yammiyavar"
+                            /*(Self discovery, Personality profiling, and Guidance)*/
+                            title="Pg.D.MH PhD , Counselling Psychologist"
+                            link=""
+                            email="mailto:counselor1.karuna@iitdh.ac.in"
+                        />
+                    </div>
+                    <div className="col-lg-3 col-md-6">
+                        <BootstrapCard
+                            image={VijayalakshmiPeri}
+                            name="Vijayalakshmi Peri"
+                            title="M.A. Counseling Psychology, Counselling Psychologist"
+                            link="https://yourdost.com/auth/sign-in?serviceId=1&next=https:%2F%2Fyourdost.com%2Fin-person-counselling%2Ff2f%2Fiitdh"
+                            email="mailto:counselor2.karuna@iitdh.ac.in"
+                        />
+                    </div>
+                    <div className="col-lg-3 col-md-6">
+                        <BootstrapCard
+                            image={DarshanaKishoreGandhi}
+                            name="Darshana Kishore Gandhi"
+                            /*(CRR No.: A110099)*/
+                            title="M.Sc., M.Phil (Clin. Psych.), RCI Reg. Clinical Psychologist"
+                            link="https://calendar.app.google/zDd6wq2iUpymgHEs5"
+                            email="mailto:counselor3.karuna@iitdh.ac.in"
+                        />
+                    </div>
+                    <div className="col-lg-3 col-md-6">
+                        <BootstrapCard
+                            image={Navyashree}
+                            name="Navyashree"
+                            /*(Individual Counselling and therapy, Group Counselling, Family Counselling, Life Skills training)*/
+                            title="M.Sc in Clinical and Counselling Psychology, Counselling Psychologist"
+                            link="https://calendar.app.google/aWnmKkN7aaXXD21w8"
+                            email="mailto:counselor4.karuna@iitdh.ac.in"
+                        />
+                    </div>
+                </div>
             </div>
 
 
@@ -143,22 +191,49 @@ function Counselling() {
                 </p>
             </div>
 
-
             <div className='custom-important-container' style={{ borderBottom: "5px solid #86198f" }}>
                 <div className="row g-1">
-                    {mentorsData.map((mentor, index) => (
-                        <div className="col-md-4" key={index}>
-                            <div className="card text-center">
-                                <div className="">
-                                    <img src={mentor.image} alt={mentor.name} className="card-img-top rounded-circle" style={{ height: '100px', width: '100px', objectFit: 'cover' }} />
-                                </div>
-                                <div className="card-body">
-                                    <h5 className="card-title">{mentor.name}</h5>
-                                    <p className="card-text">{mentor.email}</p>
+                    {mentorsData.map((mentor, index) => {
+                        // Calculate the total number of mentors
+                        const totalMentors = mentorsData.length;
+                        // Determine the column classes based on the index
+                        let colClassLg = "col-lg-4"; // Default class for lg
+                        let colClassMd = "col-md-6"; // Default class for md
+
+                        if (totalMentors % 3 === 1) {
+                            if (index === totalMentors - 1) {
+                                colClassLg = "col-lg-12"; // Last item, remainder is 1 for lg
+                            }
+                        } else if (totalMentors % 3 === 2) {
+                            if (index === totalMentors - 1) {
+                                colClassLg = "col-lg-6"; // Last item, remainder is 2 for lg
+                            } else if (index === totalMentors - 2) {
+                                colClassLg = "col-lg-6"; // Second last item, remainder is 2 for lg
+                            }
+                        }
+
+                        if (totalMentors % 2 === 1) {
+                            if (index === totalMentors - 1) {
+                                colClassMd = "col-md-12"; // Last item, remainder is 1 for md
+                            }
+                        }
+
+
+
+                        return (
+                            <div className={`${colClassLg} ${colClassMd}`} key={index}>
+                                <div className="card text-center">
+                                    <div className="">
+                                        <img src={mentor.image} alt={mentor.name} className="card-img-top rounded-circle" style={{ height: '100px', width: '100px', objectFit: 'cover' }} />
+                                    </div>
+                                    <div className="card-body">
+                                        <h5 className="card-title">{mentor.name}</h5>
+                                        <p className="card-text">{mentor.email}</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    ))}
+                        );
+                    })}
                 </div>
             </div>
 
@@ -170,31 +245,31 @@ function Counselling() {
                 <div className="rounded custom-important-container">
 
                     <div className="row p-5 justify-content-center">
-                        <div className="col-md-4">
+                        <div className="col-lg-4 col-md-12">
                             <BootstrapCard
                                 image={RidhimaTewari}
                                 name="Prof. Ridhima Tewari"
                                 title="Associate Dean, Students Welfare, Wellness"
                                 link="https://www.iitdh.ac.in/node/1999"
-                                email="adean.sww@iitdh.ac.in"
+                                email="mailto:adean.sww@iitdh.ac.in"
                             />
                         </div>
-                        <div className="col-md-4">
+                        <div className="col-lg-4 col-md-6">
                             <BootstrapCard
                                 image={RajshekarK}
                                 name="Prof. Rajshekar K"
                                 title="Faculty-In-Charge, Students Welfare (Wellness)"
                                 link="https://www.iitdh.ac.in/user-profile/rajshekar-k"
-                                email="fic.sw.wellness@iitdh.ac.in"
+                                email="mailto:fic.sw.wellness@iitdh.ac.in"
                             />
                         </div>
-                        <div className="col-md-4">
+                        <div className="col-lg-4 col-md-6">
                             <BootstrapCard
                                 image={PradeepYammiyavar}
                                 name="Prof. Pradeep Yammiyavar"
                                 title="Faculty-In-Charge, Students Welfare (Wellness)"
                                 link="https://www.iitdh.ac.in/mode/2015"
-                                email="fic.sw.wellness@iitdh.ac.in"
+                                email="mailto:fic.sw.wellness@iitdh.ac.in"
                             />
                         </div>
                     </div>
