@@ -45,7 +45,16 @@ export default function Gymkhana() {
     return (
         <>
             <motion.div className='pb-5 pt-2' initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
-                <h1 className='mb-5'>Gymkhana</h1>
+
+                <div className="d-flex flex-column">
+                    <hr className="w-50 border-3 align-self-center"/>
+                </div>
+
+                <h1 className='mb-2'>Gymkhana</h1>
+
+                <div className="d-flex flex-column">
+                    <hr className="w-50 border-3 align-self-center"/>
+                </div>
 
                 <div className='fs-2 mt-5 m-3'>
                     <p className='custom-sub-header'>About</p>
@@ -132,7 +141,7 @@ export default function Gymkhana() {
                                         image={KavitaDevi}
                                         name="Prof. Kavita Devi"
                                         title="Faculty-In-Charge, Students Welfare, NSS"
-                                        link="https://www.iitdh.ac.in/user-profile/kavita-devi"
+                                        moreInfoHTML="<a href='https://www.iitdh.ac.in/user-profile/kavita-devi'>Prof. Kavita Devi's Homepage</a>"
                                         email="mailto:fic.sw.nss@iitdh.ac.in"
                                     />
                                 </div>
@@ -141,7 +150,7 @@ export default function Gymkhana() {
                                         image={VigneshwaraRajaP}
                                         name="Prof. Vigneshwara Raja P"
                                         title="Faculty-In-Charge, Students Welfare, NCC"
-                                        link="https://www.iitdh.ac.in/user-profile/vigneshwara-raja-p"
+                                        moreInfoHTML="<a href='https://www.iitdh.ac.in/user-profile/vigneshwara-raja-p'>Prof. Vigneshwara Raja P's Homepage</a>"
                                         email="mailto:fic.sw.ncc@iitdh.ac.in"
                                     />
                                 </div>
@@ -150,8 +159,8 @@ export default function Gymkhana() {
                                         image={NagaveniS}
                                         name="Prof. Nagaveni S"
                                         title="Faculty-In-Charge, Students Welfare, Cultural & Technical Affairs"
-                                        link="https://www.iitdh.ac.in/user-profile/nagaveni-s"
-                                        email="mailto:fic.sw.tech@iitdh.ac.in & fic.sw.cultural@iitdh.ac.in"
+                                        moreInfoHTML="<a href='https://www.iitdh.ac.in/user-profile/nagaveni-s'>Prof. Nagaveni S's Homepage</a>"
+                                        email="mailto:fic.sw.tech@iitdh.ac.in,fic.sw.cultural@iitdh.ac.in"
                                     />
                                 </div>
                             </div>
@@ -170,7 +179,7 @@ export default function Gymkhana() {
                                         image={KeerthiKumarM}
                                         name="Dr. Keerthi Kumar M"
                                         title="Sports Officer"
-                                        link="https://www.iitdh.ac.in/user-profile/dr-keerthi-kumar-m"
+                                        moreInfoHTML="<a href='https://www.iitdh.ac.in/user-profile/dr-keerthi-kumar-m'>Dr. Keerthi Kumar M's Homepage</a>"
                                     />
                                 </div>
                                 <div className="col-lg-4 col-md-6">
@@ -178,7 +187,7 @@ export default function Gymkhana() {
                                         image={RaviGalimath}
                                         name="Shri Ravi Shivaprakash Galimath"
                                         title="Assistant Sports Officer"
-                                        link="https://www.iitdh.ac.in/user-profile/ravi-shivaprakash-galimath"
+                                        moreInfoHTML="<a href='https://www.iitdh.ac.in/user-profile/ravi-shivaprakash-galimath'>Shri Ravi Shivaprakash Galimath's Homepage</a>"
                                     />
                                 </div>
                                 <div className="col-lg-4 col-md-6">
@@ -186,7 +195,7 @@ export default function Gymkhana() {
                                         image={RameshG}
                                         name="Shri Gundaveni Ramesh"
                                         title="Assistant Sports Officer"
-                                        link="https://www.iitdh.ac.in/user-profile/gundaveni-ramesh"
+                                        moreInfoHTML="<a href='https://www.iitdh.ac.in/user-profile/gundaveni-ramesh'>Shri Gundaveni Ramesh's Homepage</a>"
                                     />
                                 </div>
                             </div>

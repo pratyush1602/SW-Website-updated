@@ -10,6 +10,64 @@ import Avikal from "../../../images/student-wellness-mentors/Photo - AVIKAL SRIV
 import Midhu from "../../../images/student-wellness-mentors/IMG20240907121652 - MIDDEPOGU MANVITHA.jpg"
 import Harsh from "../../../images/student-wellness-mentors/IMG20230514225607 - Harsh Vardhan Chowdhary.jpg"
 
+// const mentorsData = [
+//   {
+//     name: "Pasham Pardeev Reddy",
+//     email: "220010040@iitdh.ac.in",
+//     image: Pasham, // Make sure to import the image at the top of your file
+//   },
+//   {
+//     name: "Utkarsh Raj",
+//     email: "cs23bt028@iitdh.ac.in",
+//     image: Utkarsh,
+//   },
+//   {
+//     name: "Avikal Srivastava",
+//     email: "is23bm023@iitdh.ac.in",
+//     image: Avikal,
+//   },
+//   {
+//     name: "Middepogu Manvitha",
+//     email: "cs23bt061@iitdh.ac.in",
+//     image: Midhu,
+//   },
+//   {
+//     name: "Rituraj Kumar",
+//     email: "me23ms004@iitdh.ac.in",
+//     image: Rituraj,
+//   },
+//   {
+//     name: "Jaswika Maryada",
+//     email: "cs23bt013@iitdh.ac.in",
+//     image: Jaswika,
+//   },
+//   {
+//     name: "Janagesh R",
+//     email: "225100015@iitdh.ac.in",
+//     image: Jan,
+//   },
+//   {
+//     name: "Harsh Vardhan Chowdhary",
+//     email: "210030013@iitdh.ac.in",
+//     image: Harsh,
+//   },
+//   {
+//     name: "Juhi Kumari",
+//     email: "mc23bt002@iitdh.ac.in",
+//     image: Juhi,
+//   },
+//   {
+//     name: "Meegada Sai Sindhuja",
+//     email: "me23bt027@iitdh.ac.in",
+//     image: Meegada,
+//   },
+//   {
+//     name: "Neeli Deekshith",
+//     email: "210020032@iitdh.ac.in",
+//     image: "https://creazilla-store.fra1.digitaloceanspaces.com/icons/3205460/person-circle-icon-md.png", // Add the image path if available
+//   },
+// ];
+
 const mentorsData = [
   {
     name: "Pasham Pardeev Reddy",
@@ -17,19 +75,19 @@ const mentorsData = [
     image: Pasham, // Make sure to import the image at the top of your file
   },
   {
+    name: "Prachi Prasoon",
+    email: "225100029@iitdh.ac.in",
+    image: "https://creazilla-store.fra1.digitaloceanspaces.com/icons/3205460/person-circle-icon-md.png", // Default image
+  },
+  {
+    name: "E.S.S. Santosh",
+    email: "220020021@iitdh.ac.in",
+    image: "https://creazilla-store.fra1.digitaloceanspaces.com/icons/3205460/person-circle-icon-md.png", // Default image
+  },
+  {
     name: "Utkarsh Raj",
     email: "cs23bt028@iitdh.ac.in",
     image: Utkarsh,
-  },
-  {
-    name: "Avikal Srivastava",
-    email: "is23bm023@iitdh.ac.in",
-    image: Avikal,
-  },
-  {
-    name: "Middepogu Manvitha",
-    email: "cs23bt061@iitdh.ac.in",
-    image: Midhu,
   },
   {
     name: "Rituraj Kumar",
@@ -37,9 +95,9 @@ const mentorsData = [
     image: Rituraj,
   },
   {
-    name: "Jaswika Maryada",
-    email: "cs23bt013@iitdh.ac.in",
-    image: Jaswika,
+    name: "Middepogu Manvitha",
+    email: "cs23bt061@iitdh.ac.in",
+    image: Midhu,
   },
   {
     name: "Janagesh R",
@@ -47,25 +105,61 @@ const mentorsData = [
     image: Jan,
   },
   {
-    name: "Harsh Vardhan Chowdhary",
-    email: "210030013@iitdh.ac.in",
-    image: Harsh,
-  },
-  {
     name: "Juhi Kumari",
     email: "mc23bt002@iitdh.ac.in",
     image: Juhi,
   },
   {
-    name: "Meegada Sai Sindhuja",
+    name: "Vedant Hemant Ghodke",
+    email: "220010061@iitdh.ac.in",
+    image: "https://creazilla-store.fra1.digitaloceanspaces.com/icons/3205460/person-circle-icon-md.png", // Default image
+  },
+  {
+    name: "M. Sai Sindhuja",
     email: "me23bt027@iitdh.ac.in",
     image: Meegada,
   },
   {
-    name: "Neeli Deekshith",
-    email: "210020032@iitdh.ac.in",
-    image: "https://creazilla-store.fra1.digitaloceanspaces.com/icons/3205460/person-circle-icon-md.png", // Add the image path if available
+    name: "M. Jaswika",
+    email: "cs23bt013@iitdh.ac.in",
+    image: Jaswika,
+  },
+  {
+    name: "Mayank Sharma",
+    email: "ep23bt009@iitdh.ac.in",
+    image: "https://creazilla-store.fra1.digitaloceanspaces.com/icons/3205460/person-circle-icon-md.png", // Default image
+  },
+  {
+    name: "D. Gouthamee Reddy",
+    email: "ee23bt046@iitdh.ac.in",
+    image: "https://creazilla-store.fra1.digitaloceanspaces.com/icons/3205460/person-circle-icon-md.png", // Default image
+  },
+  {
+    name: "Vidhi",
+    email: "me23bt043@iitdh.ac.in",
+    image: "https://creazilla-store.fra1.digitaloceanspaces.com/icons/3205460/person-circle-icon-md.png", // Default image
+  },
+  {
+    name: "Pooja Ramesh",
+    email: "220020044@iitdh.ac.in",
+    image: "https://creazilla-store.fra1.digitaloceanspaces.com/icons/3205460/person-circle-icon-md.png", // Default image
+  },
+  {
+    name: "Avikal Srivastava",
+    email: "is23bm023@iitdh.ac.in",
+    image: Avikal,
+  },
+  {
+    name: "Ayush Mallick",
+    email: "220010008@iitdh.ac.in",
+    image: "https://creazilla-store.fra1.digitaloceanspaces.com/icons/3205460/person-circle-icon-md.png", // Default image
+  },
+  {
+    name: "Lavanya Jayant Shende",
+    email: "220120022@iitdh.ac.in",
+    image: "https://creazilla-store.fra1.digitaloceanspaces.com/icons/3205460/person-circle-icon-md.png", // Default image
   },
 ];
+
 
 export default mentorsData;

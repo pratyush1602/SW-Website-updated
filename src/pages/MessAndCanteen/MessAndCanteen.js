@@ -8,10 +8,18 @@ export default function MessAndCanteen() {
     return (
         <>
             <motion.div className='pb-5 pt-2' initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
-                <h1 className='mb-2'>Mess</h1>
+                <div className="d-flex flex-column">
+                    <hr className="w-50 border-3 align-self-center"/>
+                </div>
+
+                <h1 className='mb-2'>Mess & Canteen</h1>
+
+                <div className="d-flex flex-column">
+                    <hr className="w-50 border-3 align-self-center"/>
+                </div>
 
                 <div className='fs-2 mt-5'>
-                    <p className='custom-sub-header'>Hostels</p>
+                    <p className='custom-sub-header'>Mess</p>
                 </div>
                 <div>
                     <div className='custom-content text-start fs-5'>

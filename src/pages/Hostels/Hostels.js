@@ -20,7 +20,16 @@ export default function Hostels() {
     return (
         <>
             <motion.div className='pb-5 pt-2' initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
+
+                <div className="d-flex flex-column">
+                    <hr className="w-50 border-3 align-self-center"/>
+                </div>
+
                 <h1 className='mb-2'>Hostels</h1>
+
+                <div className="d-flex flex-column">
+                    <hr className="w-50 border-3 align-self-center"/>
+                </div>
 
                 <div className='mt-5'>
                     <div className='custom-sub-header fs-2'>
@@ -108,7 +117,7 @@ export default function Hostels() {
                                     image={SudhirKumarSahoo}
                                     name="Prof. Sudhir Kumar Sahoo"
                                     title="Warden - Boys Hostel 1 PC"
-                                    link="https://iitdh.ac.in/node/1965"
+                                    moreInfoHTML="<a href='https://iitdh.ac.in/node/1965'>Prof. Sudhir Kumar Sahoo's Homepage</a>"
                                     email="mailto:warden-boys-hostel-1-pc@iitdh.ac.in"
                                 />
                             </div>
@@ -117,7 +126,7 @@ export default function Hostels() {
                                     image={SubhashMehto}
                                     name="Prof. Subhash Mehto"
                                     title="Warden - Boys Hostel 1 PC"
-                                    link="https://iitdh.ac.in/user-profile/subhash-mehto"
+                                    moreInfoHTML="<a href='https://iitdh.ac.in/user-profile/subhash-mehto'>Prof. Subhash Mehto's Homepage</a>"
                                     email="mailto:warden-boys-hostel-1-pc@iitdh.ac.in"
                                 />
                             </div>
@@ -134,7 +143,7 @@ export default function Hostels() {
                                     image={SarojMondal}
                                     name="Prof. Saroj Mondal"
                                     title="Warden - Boys Hostel 2 PC"
-                                    link="https://iitdh.ac.in/user-profile/saroj-mondal"
+                                    moreInfoHTML="<a href='https://iitdh.ac.in/user-profile/saroj-mondal'>Prof. Saroj Mondal's Homepage</a>"
                                     email="mailto:warden-boys-hostel-2-pc@iitdh.ac.in"
                                 />
                             </div>
@@ -143,7 +152,7 @@ export default function Hostels() {
                                     image={RakeshLingam}
                                     name="Rakesh Lingam"
                                     title="Warden - Boys Hostel 2 PC"
-                                    link="https://www.iitdh.ac.in/user-profile/rakesh-lingam"
+                                    moreInfoHTML="<a href='https://www.iitdh.ac.in/user-profile/rakesh-lingam'>Rakesh Lingam's Homepage</a>"
                                     email="mailto:warden-boys-hostel-2-pc@iitdh.ac.in"
                                 />
                             </div>
@@ -152,7 +161,7 @@ export default function Hostels() {
                                     image={SushantaKumarSethi}
                                     name="Prof. Sushanta Kumar Sethi"
                                     title="Warden - Boys Hostel 2 PC"
-                                    link="https://www.iitdh.ac.in/user-profile/sushanta-kumar-sethi"
+                                    moreInfoHTML="<a href='https://www.iitdh.ac.in/user-profile/sushanta-kumar-sethi'>Prof. Sushanta Kumar Sethi's Homepage</a>"
                                     email="mailto:warden-boys-hostel-2-pc@iitdh.ac.in"
                                 />
                             </div>
@@ -169,7 +178,7 @@ export default function Hostels() {
                                     image={RumaGhosh}
                                     name="Prof. Ruma Ghosh"
                                     title="Warden - Girls Hostel PC"
-                                    link="https://www.iitdh.ac.in/user-profile/ruma-ghosh"
+                                    moreInfoHTML="<a href='https://www.iitdh.ac.in/user-profile/ruma-ghosh'>Prof. Ruma Ghosh's Homepage</a>"
                                     email="mailto:warden-girls-hostel-1-pc@iitdh.ac.in"
                                 />
                             </div>
@@ -178,16 +187,13 @@ export default function Hostels() {
                                     image={ShraddhaSrivastava}
                                     name="Prof. Shraddha Srivastava"
                                     title="Warden - Girls Hostel PC"
-                                    link="https://www.iitdh.ac.in/user-profile/shraddha-srivastava"
+                                    moreInfoHTML="<a href='https://www.iitdh.ac.in/user-profile/shraddha-srivastava'>Prof. Shraddha Srivastava's Homepage</a>"
                                     email="mailto:warden-girls-hostel-1-pc@iitdh.ac.in"
                                 />
                             </div>
                         </div>
                     </div>
                 </div>
-
-
-
             </motion.div>
         </>
     )

@@ -11,7 +11,16 @@ import { motion } from 'framer-motion';
 export default function AdministrativeOffice() {
     return (
         <motion.div className='pb-5 pt-2' initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
+
+            <div className="d-flex flex-column">
+                <hr className="w-50 border-3 align-self-center"/>
+            </div>
+
             <h1 className='mb-2'>Student Welfare Administrative Office</h1>
+
+            <div className="d-flex flex-column">
+                <hr className="w-50 border-3 align-self-center"/>
+            </div>
 
             <div className='mt-5'>
                 <div className='custom-sub-header fs-2'>
@@ -35,7 +44,7 @@ export default function AdministrativeOffice() {
                         image={RamjeeRepaka}
                         name="Prof. Ramjee Repaka"
                         title="Dean, Student Welfare"
-                        link="https://iitdh.ac.in/user-profile/ramjee-repaka"
+                        moreInfoHTML="<a href='https://iitdh.ac.in/user-profile/ramjee-repaka'>Prof. Ramjee Repaka's Homepage</a>"
                         email="mailto:dean.sw@iitdh.ac.in"
                     />
                 </div>
@@ -44,7 +53,7 @@ export default function AdministrativeOffice() {
                         image={ArunVerma}
                         name="Shri. Arun Verma"
                         title="Assistant Registrar, Student Welfare"
-                        link="https://iitdh.ac.in/user-profile/arun-verma"
+                        moreInfoHTML="<a href='https://iitdh.ac.in/user-profile/arun-verma'>Shri. Arun Verma's Homepage</a>"
                         email="mailto:arsw@iitdh.ac.in"
                     />
                 </div>
@@ -55,7 +64,7 @@ export default function AdministrativeOffice() {
                         image={AmolDiwate}
                         name="Shri. Amol Diwate"
                         title="Junior Superintendent"
-                        link="https://iitdh.ac.in/user-profile/amol-diwate"
+                        moreInfoHTML="<a href='https://iitdh.ac.in/user-profile/amol-diwate'>Shri. Amol Diwate's Homepage</a>"
                         email="mailto:amoldiwate@iitdh.ac.in"
                     />
                 </div>
@@ -64,7 +73,7 @@ export default function AdministrativeOffice() {
                         image={Avinash}
                         name="Shri. Avinash B"
                         title="Junior Assistant"
-                        link="https://iitdh.ac.in/user-profile/avinash-b"
+                        moreInfoHTML="<a href='https://iitdh.ac.in/user-profile/avinash-b'>Shri. Avinash B's Homepage</a>"
                         email="mailto:avinashb@iitdh.ac.in"
                     />
                 </div>
@@ -73,7 +82,7 @@ export default function AdministrativeOffice() {
                         image={JanardhanReddy}
                         name="Shri. Janardhan Reddy S"
                         title="Junior Assistant"
-                        link="https://iitdh.ac.in/user-profile/janardhan-reddy"
+                        moreInfoHTML="<a href='https://iitdh.ac.in/user-profile/janardhan-reddy'>Shri. Janardhan Reddy S's Homepage</a>"
                         email="mailto:sjanardhanreddy@iitdh.ac.in"
                     />
                 </div>

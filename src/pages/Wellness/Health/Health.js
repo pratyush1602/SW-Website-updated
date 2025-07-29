@@ -12,8 +12,6 @@ import RidhimaTewari from '../../../images/faculty/ridhima-tewari.jpg';
 import BootstrapCard from '../../../components/Cards/BootstrapCard.js';
 
 import wellnesscentre from '../../../images/wellnesscentre.jpg';
-import yourDost from '../../../documents//YourDOST_steps_2023_07_19.pdf';
-import telemanasa from '../../../documents//teleMANASA.pdf';
 import { motion } from 'framer-motion';
 import Scrollevent from '../../Scrollerevent2';
 
@@ -39,7 +37,15 @@ export default function WellnessSection() {
     return (
         <>
             <motion.div className='pb-5 pt-2' initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
-                <h1 className='mb-2'>Wellness - Health</h1>
+                <div className="d-flex flex-column">
+                    <hr className="w-50 border-3 align-self-center"/>
+                </div>
+
+                <h1 className='mb-2'>Wellness & Health</h1>
+
+                <div className="d-flex flex-column">
+                    <hr className="w-50 border-3 align-self-center"/>
+                </div>
 
                 <div className='mt-5'>
                     <div className='custom-sub-header fs-2'>
@@ -85,32 +91,31 @@ export default function WellnessSection() {
 
                 <div className='d-flex flex-column align-items-center'>
                     <div className="rounded custom-important-container p-3">
-
                         <div className="row p-2 justify-content-center">
                             <div className="col-lg-4 col-md-12">
                                 <BootstrapCard
                                     image={RidhimaTewari}
                                     name="Prof. Ridhima Tewari"
                                     title="Associate Dean, Students Welfare, Wellness"
-                                    link="https://www.iitdh.ac.in/node/1999"
+                                    moreInfoHTML="<a href='https://www.iitdh.ac.in/node/1999'>Prof. Ridhima Tewari's Homepage</a>"
                                     email="mailto:adean.sww@iitdh.ac.in"
                                 />
                             </div>
-                             <div className="col-lg-4 col-md-6">
-                            <BootstrapCard
-                                image={RajshekarK}
-                                name="Prof. Rajshekar K"
-                                title="Faculty-In-Charge, Students Welfare (Wellness)"
-                                link="https://www.iitdh.ac.in/user-profile/rajshekar-k"
-                                email="mailto:fic.sw.wellness@iitdh.ac.in"
-                            />
-                        </div>
+                            <div className="col-lg-4 col-md-6">
+                                <BootstrapCard
+                                    image={RajshekarK}
+                                    name="Prof. Rajshekar K"
+                                    title="Faculty-In-Charge, Students Welfare (Wellness)"
+                                    moreInfoHTML="<a href='https://www.iitdh.ac.in/user-profile/rajshekar-k'>Prof. Rajshekar K's Homepage</a>"
+                                    email="mailto:fic.sw.wellness@iitdh.ac.in"
+                                />
+                            </div>
                             <div className="col-lg-4 col-md-6">
                                 <BootstrapCard
                                     image={OmkarBembalge}
                                     name="Prof. Omkar Basavaraj Bembalge"
                                     title="Faculty-In-Charge, Students Welfare (Health and Ambulance)"
-                                    link="https://www.iitdh.ac.in/user-profile/omkar-baswaraj-bembalge"
+                                    moreInfoHTML="<a href='https://www.iitdh.ac.in/user-profile/omkar-baswaraj-bembalge'>Prof. Omkar Basavaraj Bembalge's Homepage</a>"
                                     email="mailto:fic.health@iitdh.ac.in"
                                 />
                             </div>

@@ -27,18 +27,25 @@ function Counselling() {
                 <Scrollevent />
             </div>*/}
 
-            <h1 className='mb-2'>Karune</h1>
             <div className="d-flex flex-column">
-                <h2 className='mb-2 align-self-center'>Counselling Centre</h2>
+                <hr className="w-50 border-3 align-self-center"/>
+            </div>
+
+            <h1 className='mb-2'>Counselling Centre</h1>
+
+            <div className="d-flex flex-column">
+                <hr className="w-50 border-3 align-self-center"/>
             </div>
 
             <div className="d-flex flex-column">
                 <img src={karuneMainLogo} className='align-self-center bg-transparent' alt="Karune"/>
             </div>
 
-            <div className='custom-content text-start fs-4'>
+            <div className='custom-content text-start mt-5 fs-4'>
                 <p>
-                    The Counselling Center at IIT DHARWAD provides assistance and counselling service to all residents of the campus.
+                    The Counselling Center at IIT DHARWAD provides assistance and counselling service to all members of the institute.
+                    <br/>
+                    Our dedicated team of professionals is committed to supporting the mental health and well-being of students, faculty, and staff. We offer a safe and confidential environment where individuals can discuss their concerns and receive guidance tailored to their needs.
                     <br/>
                     There are two options available to anyone who wishes to seek counselling services:
                 </p>
@@ -146,9 +153,12 @@ function Counselling() {
                         <BootstrapCard
                             image={PradeepYammiyavar}
                             name="Prof. Pradeep Yammiyavar"
-                            /*(Self discovery, Personality profiling, and Guidance)*/
                             title="Pg.D.MH PhD, Counselling Psychologist"
-                            link=""
+                            moreInfoHTML={`
+                                <b> More Info </b> <br>
+                                <a href='https://calendar.app.google/cvPDEDBCr3XAFdXx5'>Book an appointment</a> <br>
+                                Counselling Psychologist (Self discovery, Personality profiling, and Guidance)
+                            `}
                             email="mailto:counselor1.karuna@iitdh.ac.in"
                         />
                     </div>
@@ -157,7 +167,10 @@ function Counselling() {
                             image={VijayalakshmiPeri}
                             name="Vijayalakshmi Peri"
                             title="M.A. Counselling Psychology, Counselling Psychologist"
-                            link="https://yourdost.com/auth/sign-in?serviceId=1&next=https:%2F%2Fyourdost.com%2Fin-person-counselling%2Ff2f%2Fiitdh"
+                            moreInfoHTML={`
+                                <b> More Info </b> <br>
+                                <a href='https://yourdost.com/auth/sign-in?serviceId=1&next=https:%2F%2Fyourdost.com%2Fin-person-counselling%2Ff2f%2Fiitdh'>Book an appointment</a>
+                            `}
                             email="mailto:counselor2.karuna@iitdh.ac.in"
                         />
                     </div>
@@ -165,9 +178,13 @@ function Counselling() {
                         <BootstrapCard
                             image={DarshanaKishoreGandhi}
                             name="Darshana Kishore Gandhi"
-                            /*(CRR No.: A110099)*/
                             title="M.Sc., M.Phil (Clin. Psych.), RCI Reg. Clinical Psychologist"
-                            link="https://calendar.app.google/zDd6wq2iUpymgHEs5"
+                            moreInfoHTML={`
+                                <b> More Info </b> <br>
+                                <a href='https://calendar.app.google/zDd6wq2iUpymgHEs5'>Book an appointment</a> <br>
+                                <a href='/documents/a-note-from-darshana.pdf'>A Note from the Counsellor</a> <br>
+                                (CRR No.: A110099)
+                            `}
                             email="mailto:counselor3.karuna@iitdh.ac.in"
                         />
                     </div>
@@ -175,14 +192,19 @@ function Counselling() {
                         <BootstrapCard
                             image={Navyashree}
                             name="Navyashree"
-                            /*(Individual Counselling and therapy, Group Counselling, Family Counselling, Life Skills training)*/
                             title="M.Sc in Clinical and Counselling Psychology, Counselling Psychologist"
-                            link="https://calendar.app.google/aWnmKkN7aaXXD21w8"
+                            moreInfoHTML={`
+                                <b> More Info </b> <br>
+                                <a href='https://calendar.app.google/aWnmKkN7aaXXD21w8'>Book an appointment</a> <br>
+                                Counselling Psychologist (Individual Counselling and therapy, Group Counselling, Family Counselling, Life Skills training)
+                            `}
                             email="mailto:counselor4.karuna@iitdh.ac.in"
                         />
                     </div>
+
                 </div>
             </div>
+
 
 
             <div className='mt-5 custom-sub-header fs-2'>
@@ -247,14 +269,13 @@ function Counselling() {
 
             <div className='d-flex flex-column align-items-center'>
                 <div className="rounded custom-important-container">
-
                     <div className="row p-5 justify-content-center">
                         <div className="col-lg-4 col-md-12">
                             <BootstrapCard
                                 image={RidhimaTewari}
                                 name="Prof. Ridhima Tewari"
                                 title="Associate Dean, Students Welfare, Wellness"
-                                link="https://www.iitdh.ac.in/node/1999"
+                                moreInfoHTML="<a href='https://www.iitdh.ac.in/node/1999'>Prof. Ridhima Tewari's Homepage</a>"
                                 email="mailto:adean.sww@iitdh.ac.in"
                             />
                         </div>
@@ -263,7 +284,7 @@ function Counselling() {
                                 image={RajshekarK}
                                 name="Prof. Rajshekar K"
                                 title="Faculty-In-Charge, Students Welfare (Wellness)"
-                                link="https://www.iitdh.ac.in/user-profile/rajshekar-k"
+                                moreInfoHTML="<a href='https://www.iitdh.ac.in/user-profile/rajshekar-k'>Prof. Rajshekar K's Homepage</a>"
                                 email="mailto:fic.counselling@iitdh.ac.in"
                             />
                         </div>
@@ -272,8 +293,8 @@ function Counselling() {
                                 image={PradeepYammiyavar}
                                 name="Prof. Pradeep Yammiyavar"
                                 title="Faculty-In-Charge, Students Welfare (Wellness)"
-                                link="https://www.iitdh.ac.in/mode/2015"
-                                email="mailto:fic.sw.wellness@iitdh.ac.in"
+                                moreInfoHTML="<a href='https://www.iitdh.ac.in/mode/2015'>Prof. Pradeep Yammiyavar's Homepage</a>"
+                                email="mailto:fic.counselling@iitdh.ac.in"
                             />
                         </div>
                     </div>
