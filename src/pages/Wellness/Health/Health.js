@@ -97,7 +97,7 @@ export default function WellnessSection() {
                                     image={RidhimaTewari}
                                     name="Prof. Ridhima Tewari"
                                     title="Associate Dean, Students Welfare, Wellness"
-                                    moreInfoHTML="<a href='https://www.iitdh.ac.in/node/1999'>Prof. Ridhima Tewari's Homepage</a>"
+                                    moreInfoHTML="<a href='https://www.iitdh.ac.in/user-profile/ridhima-tewari'>Prof. Ridhima Tewari's Homepage</a>"
                                     email="mailto:adean.sww@iitdh.ac.in"
                                 />
                             </div>

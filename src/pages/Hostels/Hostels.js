@@ -117,7 +117,7 @@ export default function Hostels() {
                                     image={SudhirKumarSahoo}
                                     name="Prof. Sudhir Kumar Sahoo"
                                     title="Warden - Boys Hostel 1 PC"
-                                    moreInfoHTML="<a href='https://iitdh.ac.in/node/1965'>Prof. Sudhir Kumar Sahoo's Homepage</a>"
+                                    moreInfoHTML="<a href='https://www.iitdh.ac.in/user-profile/sudhir-kumar-sahoo'>Prof. Sudhir Kumar Sahoo's Homepage</a>"
                                     email="mailto:warden-boys-hostel-1-pc@iitdh.ac.in"
                                 />
                             </div>

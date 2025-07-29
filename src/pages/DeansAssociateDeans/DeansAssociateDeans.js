@@ -82,7 +82,7 @@ export default function DeansAssociateDeans() {
                             image={RidhimaTewari}
                             name="Prof. Ridhima Tewari"
                             title="Associate Dean - Wellness & Female Students"
-                            moreInfoHTML="<a href='https://www.iitdh.ac.in/node/1999'>Prof. Ridhima Tewari's Homepage</a>"
+                            moreInfoHTML="<a href='https://www.iitdh.ac.in/user-profile/ridhima-tewari'>Prof. Ridhima Tewari's Homepage</a>"
                             email="mailto:adean.sww@iitdh.ac.in"
                         />
                     </div>

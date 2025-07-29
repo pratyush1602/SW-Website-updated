@@ -275,7 +275,7 @@ function Counselling() {
                                 image={RidhimaTewari}
                                 name="Prof. Ridhima Tewari"
                                 title="Associate Dean, Students Welfare, Wellness"
-                                moreInfoHTML="<a href='https://www.iitdh.ac.in/node/1999'>Prof. Ridhima Tewari's Homepage</a>"
+                                moreInfoHTML="<a href='https://www.iitdh.ac.in/user-profile/ridhima-tewari'>Prof. Ridhima Tewari's Homepage</a>"
                                 email="mailto:adean.sww@iitdh.ac.in"
                             />
                         </div>
@@ -293,7 +293,7 @@ function Counselling() {
                                 image={PradeepYammiyavar}
                                 name="Prof. Pradeep Yammiyavar"
                                 title="Faculty-In-Charge, Students Welfare (Wellness)"
-                                moreInfoHTML="<a href='https://www.iitdh.ac.in/mode/2015'>Prof. Pradeep Yammiyavar's Homepage</a>"
+                                moreInfoHTML="<a href='https://www.iitdh.ac.in/user-profile/pradeep-gururaj-yammiyavar'>Prof. Pradeep Yammiyavar's Homepage</a>"
                                 email="mailto:fic.counselling@iitdh.ac.in"
                             />
                         </div>
