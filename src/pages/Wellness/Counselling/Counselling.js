@@ -283,7 +283,7 @@ function Counselling() {
                             <BootstrapCard
                                 image={RajshekarK}
                                 name="Prof. Rajshekar K"
-                                title="Faculty-In-Charge, Students Welfare (Wellness)"
+                                title="Faculty-In-Charge, Counselling"
                                 moreInfoHTML="<a href='https://www.iitdh.ac.in/user-profile/rajshekar-k'>Prof. Rajshekar K's Homepage</a>"
                                 email="mailto:fic.counselling@iitdh.ac.in"
                             />
@@ -292,7 +292,7 @@ function Counselling() {
                             <BootstrapCard
                                 image={PradeepYammiyavar}
                                 name="Prof. Pradeep Yammiyavar"
-                                title="Faculty-In-Charge, Students Welfare (Wellness)"
+                                title="Faculty-In-Charge, Counselling"
                                 moreInfoHTML="<a href='https://www.iitdh.ac.in/user-profile/pradeep-gururaj-yammiyavar'>Prof. Pradeep Yammiyavar's Homepage</a>"
                                 email="mailto:fic.counselling@iitdh.ac.in"
                             />

@@ -105,9 +105,9 @@ export default function WellnessSection() {
                                 <BootstrapCard
                                     image={RajshekarK}
                                     name="Prof. Rajshekar K"
-                                    title="Faculty-In-Charge, Students Welfare (Wellness)"
+                                    title="Faculty-In-Charge, Counselling"
                                     moreInfoHTML="<a href='https://www.iitdh.ac.in/user-profile/rajshekar-k'>Prof. Rajshekar K's Homepage</a>"
-                                    email="mailto:fic.sw.wellness@iitdh.ac.in"
+                                    email="mailto:fic.counselling@iitdh.ac.in"
                                 />
                             </div>
                             <div className="col-lg-4 col-md-6">
