@@ -21,17 +21,17 @@ const mentorsData = [
   {
     name: "Pasham Pardeev Narsi Reddy",
     email: "220010040@iitdh.ac.in",
-    image: Pasham, // Make sure to import the image at the top of your file
+    image: Pardeev, // Make sure to import the image at the top of your file
   },
   {
     name: "Prachi Prasoon",
     email: "225100029@iitdh.ac.in",
-    image: Prachi, // Default image
+    image: Prachi,
   },
   {
     name: "E.S.S. Santosh",
     email: "220020021@iitdh.ac.in",
-    image: Santosh, // Default image
+    image: Santosh,
   },
   {
     name: "Utkarsh Raj",
@@ -61,7 +61,7 @@ const mentorsData = [
   {
     name: "Vedant Hemant Ghodke",
     email: "220010061@iitdh.ac.in",
-    image: Vedant, // Default image
+    image: Vedant,
   },
   {
     name: "M. Sai Sindhuja",
@@ -76,17 +76,17 @@ const mentorsData = [
   {
     name: "Mayank Sharma",
     email: "ep23bt009@iitdh.ac.in",
-    image: Mayank, // Default image
+    image: "https://creazilla-store.fra1.digitaloceanspaces.com/icons/3205460/person-circle-icon-md.png", // Default image
   },
   {
     name: "D. Gouthamee Reddy",
     email: "ee23bt046@iitdh.ac.in",
-    image: Gouthamee, // Default image
+    image: Gouthamee,
   },
   {
     name: "Vidhi",
     email: "me23bt043@iitdh.ac.in",
-    image: Vidhi, // Default image
+    image: Vidhi,
   },
   {
     name: "Pooja Ramesh",
