@@ -1,88 +1,37 @@
 // src/mentorsData.js
-import Pasham from "../../../images/student-wellness-mentors/IMG_1245_-_Pasham_Pardeev_Narsi_Reddy.jpg"
-import Utkarsh from "../../../images/student-wellness-mentors/IMG_20240912_230600 - UTKARSH RAJ.jpg"
-import Rituraj from "../../../images/student-wellness-mentors/Rituraj_me23ms004 - Rituraj Kumar.jpg"
-import Jan from "../../../images/student-wellness-mentors/IMG_20241004_010834 - Janagesh R.jpg"
-import Juhi from "../../../images/student-wellness-mentors/IMG-20240907-WA0035 - JUHI KUMARI.jpg"
-import Jaswika from "../../../images/student-wellness-mentors/InShot_20241004_111245765 - MARYADA JASWIKA.jpg"
-import Meegada from "../../../images/student-wellness-mentors/IMG_20241005_113920 - MEEGADA SAI SINDHUJA.jpg"
-import Avikal from "../../../images/student-wellness-mentors/Photo - AVIKAL SRIVASTAVA.jpg"
-import Midhu from "../../../images/student-wellness-mentors/IMG20240907121652 - MIDDEPOGU MANVITHA.jpg"
-import Harsh from "../../../images/student-wellness-mentors/IMG20230514225607 - Harsh Vardhan Chowdhary.jpg"
-
-// const mentorsData = [
-//   {
-//     name: "Pasham Pardeev Reddy",
-//     email: "220010040@iitdh.ac.in",
-//     image: Pasham, // Make sure to import the image at the top of your file
-//   },
-//   {
-//     name: "Utkarsh Raj",
-//     email: "cs23bt028@iitdh.ac.in",
-//     image: Utkarsh,
-//   },
-//   {
-//     name: "Avikal Srivastava",
-//     email: "is23bm023@iitdh.ac.in",
-//     image: Avikal,
-//   },
-//   {
-//     name: "Middepogu Manvitha",
-//     email: "cs23bt061@iitdh.ac.in",
-//     image: Midhu,
-//   },
-//   {
-//     name: "Rituraj Kumar",
-//     email: "me23ms004@iitdh.ac.in",
-//     image: Rituraj,
-//   },
-//   {
-//     name: "Jaswika Maryada",
-//     email: "cs23bt013@iitdh.ac.in",
-//     image: Jaswika,
-//   },
-//   {
-//     name: "Janagesh R",
-//     email: "225100015@iitdh.ac.in",
-//     image: Jan,
-//   },
-//   {
-//     name: "Harsh Vardhan Chowdhary",
-//     email: "210030013@iitdh.ac.in",
-//     image: Harsh,
-//   },
-//   {
-//     name: "Juhi Kumari",
-//     email: "mc23bt002@iitdh.ac.in",
-//     image: Juhi,
-//   },
-//   {
-//     name: "Meegada Sai Sindhuja",
-//     email: "me23bt027@iitdh.ac.in",
-//     image: Meegada,
-//   },
-//   {
-//     name: "Neeli Deekshith",
-//     email: "210020032@iitdh.ac.in",
-//     image: "https://creazilla-store.fra1.digitaloceanspaces.com/icons/3205460/person-circle-icon-md.png", // Add the image path if available
-//   },
-// ];
+import Avikal from "../../../images/student-wellness-mentors/avikal-srivastava.jpg"
+import Gouthamee from "../../../images/student-wellness-mentors/dumpala-gouthamee-reddy.jpg"
+import Santosh from "../../../images/student-wellness-mentors/e-s-s-santosh.jpg"
+import Harsh from "../../../images/student-wellness-mentors/harsh-vardhan-chowdhary.jpg"
+import Jan from "../../../images/student-wellness-mentors/janagesh-r.jpg"
+import Juhi from "../../../images/student-wellness-mentors/juhi-kumari.jpg"
+import Jaswika from "../../../images/student-wellness-mentors/maryada-jaswika.jpg"
+import Meegada from "../../../images/student-wellness-mentors/meegada-sai-sindhuja.jpg"
+import Midhu from "../../../images/student-wellness-mentors/middepogu-manvitha.jpg"
+import Deekshith from "../../../images/student-wellness-mentors/neeli-deekshith.jpg"
+import Pardeev from "../../../images/student-wellness-mentors/pardeev.jpg"
+import Prachi from "../../../images/student-wellness-mentors/prachi-prasoon.jpg"
+import Rituraj from "../../../images/student-wellness-mentors/rituraj-kumar.jpg"
+import Srihari from "../../../images/student-wellness-mentors/srihari-k-g.jpg"
+import Utkarsh from "../../../images/student-wellness-mentors/utkarsh-raj.jpg"
+import Vedant from "../../../images/student-wellness-mentors/vedant-hemant-ghodke.jpg"
+import Vidhi from "../../../images/student-wellness-mentors/vidhi-kadam.jpg"
 
 const mentorsData = [
   {
-    name: "Pasham Pardeev Reddy",
+    name: "Pasham Pardeev Narsi Reddy",
     email: "220010040@iitdh.ac.in",
     image: Pasham, // Make sure to import the image at the top of your file
   },
   {
     name: "Prachi Prasoon",
     email: "225100029@iitdh.ac.in",
-    image: "https://creazilla-store.fra1.digitaloceanspaces.com/icons/3205460/person-circle-icon-md.png", // Default image
+    image: Prachi, // Default image
   },
   {
     name: "E.S.S. Santosh",
     email: "220020021@iitdh.ac.in",
-    image: "https://creazilla-store.fra1.digitaloceanspaces.com/icons/3205460/person-circle-icon-md.png", // Default image
+    image: Santosh, // Default image
   },
   {
     name: "Utkarsh Raj",
@@ -112,7 +61,7 @@ const mentorsData = [
   {
     name: "Vedant Hemant Ghodke",
     email: "220010061@iitdh.ac.in",
-    image: "https://creazilla-store.fra1.digitaloceanspaces.com/icons/3205460/person-circle-icon-md.png", // Default image
+    image: Vedant, // Default image
   },
   {
     name: "M. Sai Sindhuja",
@@ -127,17 +76,17 @@ const mentorsData = [
   {
     name: "Mayank Sharma",
     email: "ep23bt009@iitdh.ac.in",
-    image: "https://creazilla-store.fra1.digitaloceanspaces.com/icons/3205460/person-circle-icon-md.png", // Default image
+    image: Mayank, // Default image
   },
   {
     name: "D. Gouthamee Reddy",
     email: "ee23bt046@iitdh.ac.in",
-    image: "https://creazilla-store.fra1.digitaloceanspaces.com/icons/3205460/person-circle-icon-md.png", // Default image
+    image: Gouthamee, // Default image
   },
   {
     name: "Vidhi",
     email: "me23bt043@iitdh.ac.in",
-    image: "https://creazilla-store.fra1.digitaloceanspaces.com/icons/3205460/person-circle-icon-md.png", // Default image
+    image: Vidhi, // Default image
   },
   {
     name: "Pooja Ramesh",
